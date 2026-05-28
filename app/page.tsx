@@ -313,7 +313,10 @@ export default function ShaharLandingPage() {
           </div>
 
           <div className="space-y-7 text-lg leading-9 text-[#5F4A35]">
-            
+
+            <h3 className="text-2xl font-serif text-[#3E3023] mb-6 text-center">
+              הכשרות ותחומי התמחות
+            </h3>
 
             <div className="grid sm:grid-cols-2 gap-4 pt-5">
               {credentials.map((item) => (
