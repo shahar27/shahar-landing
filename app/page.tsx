@@ -24,12 +24,12 @@ const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל ש
 const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
 
 const painCards = [
-  "את מתפקדת, אבל בפנים מרגישה שאין לך אוויר.",
-  "הראש שלך ממשיך לעבוד גם כשכל מה שאת רוצה זה רגע שקט.",
-  "את מבינה הרבה דברים בשכל, אבל הגוף עדיין נשאר דרוך.",
-  "את רגילה להיות חזקה בשביל כולם, גם כשמשהו בתוכך כבר מבקש להניח.",
-  "את מרגישה שהתגובות שלך לפעמים גדולות יותר ממה שהתכוונת.",
-  "את יודעת שיש בך יותר חיים, יותר שמחה ויותר חופש ממה שאת מצליחה להרגיש כרגע.",
+  "אתם מתפקדים, אבל בפנים מרגישים שאין לכם אוויר.",
+  "הראש ממשיך לעבוד גם כשכל מה שאתם רוצים זה רגע שקט.",
+  "אתם מבינים הרבה דברים בשכל, אבל הגוף עדיין נשאר דרוך.",
+  "אתם רגילים להיות חזקים בשביל כולם, גם כשמשהו בתוככם כבר מבקש להניח.",
+  "אתם מרגישים שהתגובות שלכם לפעמים גדולות יותר ממה שהתכוונתם.",
+  "אתם יודעים שיש בכם יותר חיים, יותר שמחה ויותר חופש ממה שאתם מצליחים להרגיש כרגע.",
 ];
 
 const approachItems = [
@@ -148,13 +148,13 @@ export default function ShaharLandingPage() {
           className="max-w-3xl relative z-10 text-center lg:text-right"
         >
           <h1 className="text-3xl md:text-5xl lg:text-[4.2rem] leading-[1.15] font-serif text-[#3E3023] max-w-2xl">
-            אפשר להפסיק לחיות כאילו צריך להחזיק הכול לבד.
+            מאחורי כל דפוס הישרדות יש אדם שמנסה להרגיש בטוח בעולם.
           </h1>
           <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl">
             אני מלווה אנשים שרוצים להבין מה באמת קורה להם מבפנים - ולחזור להרגיש יותר שקט, בחירה, חיבור וחיים בתוך הגוף שלהם.
           </p>
           <p className="mt-5 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl">
-            העבודה שלי משלבת בין עולמות המחקר, הפסיכולוגיה, מערכת העצבים, הגוף והתודעה - מתוך הבנה שאי אפשר להבין בני אדם דרך החשיבה בלבד.
+            העבודה שלי משלבת בין עולמות המדע, הפסיכולוגיה, מערכת העצבים, הגוף והתודעה - מתוך הבנה שאי אפשר להבין בני אדם דרך החשיבה בלבד.
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -186,9 +186,9 @@ export default function ShaharLandingPage() {
       <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
-            אולי את לא צריכה שמישהו יגיד לך מה לעשות.
+            זה לא עוזר לך להמשיך לקבל עצות מה נכון לעשות
             <br />
-            אולי את צריכה שמישהו סוף סוף יבין מה קורה לך בגוף.
+            כי ברגע האמת הגוף שלך פועל באופן אוטומטי. 
           </h2>
           <p className="mt-7 text-lg leading-9 text-[#5F4A35] max-w-3xl mx-auto">
             הרבה מהכאב שאנחנו סוחבים בבגרות לא נוצר מתוך חולשה, אלא מתוך מנגנונים שפעם ניסו להגן עלינו. הגוף זוכר. מערכת העצבים מגיבה. ולפעמים הגוף מספר את הסיפור עוד לפני שהמילים מצליחות.
@@ -280,7 +280,7 @@ export default function ShaharLandingPage() {
 
           <div className="space-y-7 text-lg leading-9 text-[#5F4A35]">
             <p>
-              הדרך שלי משלבת בין חשיבה מדויקת, חקירה של דפוסים ומערכות, לבין הקשבה עמוקה לגוף, לרגש, לאינטואיציה ולמה שלא תמיד נאמר במילים.
+              הדרך שלי משלבת בין ידע מחקרי, הבנה של דפוסים ומערכות, לבין הקשבה עמוקה לגוף, לרגש, לאינטואיציה ולמה שלא תמיד נאמר במילים.
             </p>
             <p>
               מאחורי חשיבת יתר יש לעיתים ניסיון להרגיש בטוחים. מאחורי שליטה יש פחד לאבד יציבות. מאחורי ביקורת יש בושה. ומאחורי הרבה מאוד בעיות התנהגות יש מערכת עצבים שחיה יותר מדי זמן בדריכות.
@@ -313,7 +313,7 @@ export default function ShaharLandingPage() {
           <p className="text-[#9C7A4B] mb-4">איך זה עובד</p>
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">תהליך עדין. עמוק. מאוד מעשי.</h2>
           <p className="mt-7 text-lg leading-9 text-[#5F4A35] max-w-3xl mx-auto">
-            זה לא תהליך שבו אני אומרת לך מי את או מה את צריכה לעשות. זה תהליך שבו אנחנו מקשיבות יחד למה שהמערכת שלך כבר מנסה לומר - ומתחילות ליצור שם יותר בהירות, חופש וביטחון.
+            זה לא תהליך שבו אני אומרת מי אתם או מה אתם צריכים לעשות. זה תהליך שבו אנחנו מקשיבים יחד למה שהמערכת שלך כבר מנסה לומר - ומתחילים ליצור שם יותר בהירות, חופש וביטחון.
           </p>
         </div>
 
@@ -333,9 +333,9 @@ export default function ShaharLandingPage() {
         <div className="max-w-4xl mx-auto text-center">
           <ShieldCheck className="mx-auto text-[#9C7A4B] mb-6" size={38} />
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
-            המטרה היא לא להפוך אותך למישהי אחרת.
+            המטרה היא לא להפוך אותך לאדם אחר.
             <br />
-            המטרה היא להחזיר אותך לעצמך.
+            אלא להחזיר אותך לעצמך.
           </h2>
           <p className="mt-7 text-lg leading-9 text-[#5F4A35]">
             יותר שקט בגוף. יותר בחירה מול הילדים. פחות מלחמה פנימית. פחות חיים מתוך הישרדות. יותר יכולת להיות בקשר, להרגיש, לנשום, להגיב אחרת - ולחיות מתוך מקום שהוא באמת שלך.
@@ -347,11 +347,11 @@ export default function ShaharLandingPage() {
       <section id="contact" className="px-6 md:px-14 lg:px-24 py-28">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
-            אם משהו כאן נגע בך, אפשר להתחיל בשיחה אחת פשוטה.
+            אם משהו כאן נגע בך, אפשר להתחיל בשיחה לבדיקת התאמה.
           </h2>
 
           <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
-            לא צריך לדעת להסביר הכול. לא צריך להגיע מסודרת. מספיק להרגיש שיש משהו בתוכך שמבקש דרך אחרת.
+            לא צריך לדעת להסביר הכול. לא צריך להגיע מסודרים. מספיק להרגיש שיש משהו בתוכך שמבקש דרך אחרת.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -360,7 +360,7 @@ export default function ShaharLandingPage() {
               className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
             >
               <MessageCircle size={20} />
-              שלחי לי הודעה בוואטסאפ
+              שלח/י לי הודעה בוואטסאפ
             </a>
 
             <a
@@ -368,7 +368,7 @@ export default function ShaharLandingPage() {
               className="inline-flex items-center justify-center gap-2 rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/40 transition"
             >
               <Phone size={18} />
-              התקשרי אליי
+              התקשר/י אליי
             </a>
           </div>
 
