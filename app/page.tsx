@@ -24,7 +24,7 @@ const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל ש
 const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
 
 const painCards = [
-  "את מתפקדת, אבל בפנים מרגישה שאין לך באמת אוויר.",
+  "את מתפקדת, אבל בפנים מרגישה שאין לך אוויר.",
   "הראש שלך ממשיך לעבוד גם כשכל מה שאת רוצה זה רגע שקט.",
   "את מבינה הרבה דברים בשכל, אבל הגוף עדיין נשאר דרוך.",
   "את רגילה להיות חזקה בשביל כולם, גם כשמשהו בתוכך כבר מבקש להניח.",
@@ -128,11 +128,11 @@ export default function ShaharLandingPage() {
           </div>
 
           <a href="#top" className="shrink-0 md:mr-8">
-            <div className="w-32 h-32 md:w-40 md:h-40">
+            <div className="w-32 h-32 md:w-40 md:h-40 overflow-hidden">
               <img
                 src="/logo-placeholder.png"
                 alt="הלוגו של שחר"
-                className="w-full h-full object-contain hover:scale-105 transition duration-500"
+                className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
               />
             </div>
           </a>
