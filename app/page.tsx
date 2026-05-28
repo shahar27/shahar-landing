@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { FormEvent } from "react";
 import { motion } from "framer-motion";
 import {
   ArrowLeft,
@@ -19,7 +19,7 @@ import {
 
 const WHATSAPP_NUMBER = "972525460444"; // TODO: להחליף למספר שלך בפורמט בינלאומי, בלי + ובלי מקפים
 const PHONE_NUMBER = "052-5460444"; // TODO: להחליף לטלפון שלך
-const EMAIL = "shahar24t@gmail.com"; // TODO: להחליף למייל שלך
+const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל שלך
 const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
 
 const painCards = [
@@ -86,6 +86,20 @@ const processSteps = [
 ];
 
 export default function ShaharLandingPage() {
+    const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const name = String(formData.get("name") || "").trim();
+    const phone = String(formData.get("phone") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+
+    const whatsappMessage = encodeURIComponent(
+      `היי שחר, אשמח לשוחח איתך.\n\nשם: ${name}\nטלפון: ${phone}\nמה חשוב לי שתדעי: ${message}`
+    );
+
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`, "_blank");
+  }
   return (
     <main dir="rtl" className="min-h-screen bg-[#F8F3E8] text-[#4B3A2A] font-sans overflow-hidden">
       {/* Floating WhatsApp */}
@@ -328,37 +342,76 @@ export default function ShaharLandingPage() {
       {/* Contact */}
       <section id="contact" className="px-6 md:px-14 lg:px-24 py-28">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">אם משהו כאן נגע בך, אפשר להתחיל בשיחה אחת פשוטה.</h2>
+          <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
+            אם משהו כאן נגע בך, אפשר להתחיל בשיחה אחת פשוטה.
+          </h2>
+
           <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
             לא צריך לדעת להסביר הכול. לא צריך להגיע מסודרת. מספיק להרגיש שיש משהו בתוכך שמבקש דרך אחרת.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition">
+            <a
+              href={`https://wa.me/${WHATSAPP_NUMBER}`}
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
+            >
               <MessageCircle size={20} />
               שלחי לי הודעה בוואטסאפ
             </a>
-            <a href={`tel:${PHONE_NUMBER}`} className="inline-flex items-center justify-center gap-2 rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/40 transition">
+
+            <a
+              href={`tel:${PHONE_NUMBER}`}
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/40 transition"
+            >
               <Phone size={18} />
               התקשרי אליי
             </a>
           </div>
 
-          <form className="mt-12 grid gap-4 text-right bg-white/45 border border-[#9C7A4B]/15 rounded-[2rem] p-6 md:p-8 shadow-sm">
-            <input className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]" placeholder="שם מלא" />
-            <input className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]" placeholder="טלפון" />
-            <textarea className="rounded-[1.5rem] px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] min-h-32" placeholder="מה חשוב לי שתדעי?" />
-            <button type="button" className="rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition">
-              שליחת פרטים
+          <form
+            onSubmit={handleContactSubmit}
+            className="mt-12 grid gap-4 text-right bg-white/45 border border-[#9C7A4B]/15 rounded-[2rem] p-6 md:p-8 shadow-sm"
+          >
+            <input
+              name="name"
+              required
+              className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]"
+              placeholder="שם מלא"
+            />
+
+            <input
+              name="phone"
+              required
+              className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]"
+              placeholder="טלפון"
+            />
+
+            <textarea
+              name="message"
+              className="rounded-[1.5rem] px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] min-h-32"
+              placeholder="מה חשוב לי שתדעי?"
+            />
+
+            <button
+              type="submit"
+              className="rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
+            >
+              שליחת פרטים בוואטסאפ
             </button>
+
             <p className="text-center text-sm text-[#7A654D] leading-7">
               אפשר גם לפנות ישירות: {PHONE_NUMBER} · {EMAIL}
             </p>
           </form>
 
           <div className="mt-10 flex items-center justify-center gap-5 text-[#9C7A4B] text-sm">
-            <a href={`mailto:${EMAIL}`} className="inline-flex items-center gap-2 hover:underline"><Mail size={16} /> מייל</a>
-            <a href={INSTAGRAM} className="hover:underline">אינסטגרם</a>
+            <a href={`mailto:${EMAIL}`} className="inline-flex items-center gap-2 hover:underline">
+              <Mail size={16} /> מייל
+            </a>
+
+            <a href={INSTAGRAM} className="hover:underline">
+              אינסטגרם
+            </a>
           </div>
         </div>
       </section>
