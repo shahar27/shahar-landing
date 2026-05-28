@@ -215,12 +215,13 @@ export default function ShaharLandingPage() {
                 key={index}
                 className="w-full rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm flex flex-col items-start gap-4"
               >
+                <div className="flex justify-center mb-6">
                 <img
                   src="/brain-icon.png"
                   alt=""
-                  className="w-7 h-7 opacity-70 object-contain"
+                  className="w-12 h-12 opacity-70 object-contain"
                 />
-                <p className="text-lg leading-8">{item}</p>
+              </div>
               </div>
             ))}
           </div>
