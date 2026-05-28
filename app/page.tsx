@@ -128,14 +128,17 @@ export default function ShaharLandingPage() {
           </div>
 
           <a href="#top" className="shrink-0 md:mr-8">
-            <img
-              src="/logo-placeholder.png"
-              alt="הלוגו של שחר"
-              className="w-full h-full object-contain hover:scale-105 transition duration-500"
-            />
+            <div className="w-32 h-32 md:w-40 md:h-40">
+              <img
+                src="/logo-placeholder.png"
+                alt="הלוגו של שחר"
+                className="w-full h-full object-contain hover:scale-105 transition duration-500"
+              />
+            </div>
           </a>
-        </div>
-      </header>
+
+          </div>
+          </header>
 
       {/* Hero */}
       <section id="top" className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 md:px-10 lg:px-20 pt-10 md:pt-32 pb-16">        <motion.div
