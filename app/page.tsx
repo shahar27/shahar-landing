@@ -189,7 +189,7 @@ export default function ShaharLandingPage() {
           <img
             src="/calm-space.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-45 scale-[1.02]"
+            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.02]"
           />
 
           <div className="absolute inset-0 bg-[#F8F3E8]/35 backdrop-blur-[1px]" />
@@ -257,7 +257,7 @@ export default function ShaharLandingPage() {
           <img
             src="/soft-home.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-40 scale-[1.02]"
+            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.02]"
           />
 
           <div className="absolute inset-0 bg-[#F8F3E8]/40 backdrop-blur-[1px]" />
@@ -377,7 +377,7 @@ export default function ShaharLandingPage() {
           <img
             src="/nature-light.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-35 scale-[1.03]"
+            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.03]"
           />
 
           <div className="absolute inset-0 bg-[#F8F3E8]/45 backdrop-blur-[1px]" />
