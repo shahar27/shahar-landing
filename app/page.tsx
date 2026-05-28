@@ -1,6 +1,7 @@
 "use client";
 
 import React, { FormEvent } from "react";
+
 import { motion } from "framer-motion";
 import {
   ArrowLeft,
@@ -130,7 +131,7 @@ export default function ShaharLandingPage() {
             <img
               src="/logo-placeholder.png"
               alt="הלוגו של שחר"
-              className="w-32 h-32 md:w-36 md:h-36 object-contain"
+              className="w-full h-full object-contain hover:scale-105 transition duration-500"
             />
           </a>
         </div>
@@ -409,7 +410,27 @@ export default function ShaharLandingPage() {
               <Mail size={16} /> מייל
             </a>
 
-            <a href={INSTAGRAM} className="hover:underline">
+            <a
+              href={INSTAGRAM}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 hover:opacity-80 transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
               אינסטגרם
             </a>
           </div>
