@@ -91,7 +91,7 @@ export default function ShaharLandingPage() {
       {/* Floating WhatsApp */}
       <a
         href={`https://wa.me/${WHATSAPP_NUMBER}`}
-        className="fixed bottom-5 left-5 z-50 flex items-center gap-2 rounded-full bg-[#9C7A4B] px-5 py-3 text-[#F8F3E8] shadow-lg hover:scale-105 transition-transform"
+        className="fixed bottom-3 left-3 md:bottom-5 md:left-5 z-50 flex items-center gap-2 rounded-full bg-[#9C7A4B] px-5 py-3 text-[#F8F3E8] shadow-lg hover:scale-105 transition-transform"
       >
         <MessageCircle size={20} />
         שלחי הודעה
@@ -99,10 +99,10 @@ export default function ShaharLandingPage() {
 
       {/* Header */}
       <header className="absolute top-0 right-0 left-0 z-40 px-6 md:px-12 lg:px-20 py-5">
-        <div className="mx-auto max-w-7xl flex items-start justify-between">
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
 
           <div className="flex-1 pt-10">
-            <p className="text-sm md:text-base tracking-[0.22em] leading-8 text-[#9C7A4B] text-right">
+            <p className="text-[11px] md:text-base tracking-[0.12em] leading-7 md:leading-8 text-[#9C7A4B] text-center md:text-right">
               B.Sc במדעי המחשב | MASTER NLP | מדריכת הורים (ADHD ODD) |
               <br />
               מאמנת אישית, זוגית ומשפחתית מיודעת טראומה
@@ -121,14 +121,14 @@ export default function ShaharLandingPage() {
       </header>
 
       {/* Hero */}
-      <section id="top" className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 md:px-10 lg:px-20 pt-32 pb-16">        
+      <section id="top" className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 md:px-10 lg:px-20 pt-44 md:pt-32 pb-16">        
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
-          className="max-w-3xl relative z-10"
+          className="max-w-3xl relative z-10 text-center lg:text-right"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-[4.2rem] leading-[1.15] font-serif text-[#3E3023] max-w-2xl">
+          <h1 className="text-3xl md:text-5xl lg:text-[4.2rem] leading-[1.15] font-serif text-[#3E3023] max-w-2xl">
             אפשר להפסיק לחיות כאילו צריך להחזיק הכול לבד.
           </h1>
           <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl">
@@ -138,7 +138,7 @@ export default function ShaharLandingPage() {
             העבודה שלי משלבת בין עולמות המחקר, הפסיכולוגיה, מערכת העצבים, הגוף והתודעה - מתוך הבנה שאי אפשר להבין בני אדם דרך החשיבה בלבד.
           </p>
 
-          <div className="mt-9 flex flex-col sm:flex-row gap-4">
+          <div className="mt-9 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <a className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition" href="#contact">
               אני רוצה לדבר איתך <ArrowLeft size={18} />
             </a>
