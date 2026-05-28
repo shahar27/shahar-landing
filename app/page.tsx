@@ -183,16 +183,18 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Atmosphere Image */}
-      <section className="px-6 md:px-14 lg:px-24 py-6">
-        <div className="relative overflow-hidden rounded-[3rem] h-[240px] md:h-[320px] shadow-sm">
+      <section className="px-6 md:px-14 lg:px-24 py-8">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
 
           <img
             src="/calm-space.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.02]"
+            className="absolute inset-0 w-full h-full object-cover opacity-80 scale-[1.01]"
           />
 
-          <div className="absolute inset-0 bg-[#F8F3E8]/35 backdrop-blur-[1px]" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#F8F3E8]/35 via-[#F8F3E8]/10 to-transparent" />
+
+          <div className="absolute inset-0 ring-1 ring-inset ring-[#9C7A4B]/10 rounded-[2.5rem]" />
         </div>
       </section>
 
@@ -261,16 +263,18 @@ export default function ShaharLandingPage() {
         </div>
       </section>
       {/* Atmosphere Image */}
-      <section className="px-6 md:px-14 lg:px-24 py-6">
-        <div className="relative overflow-hidden rounded-[3rem] h-[220px] md:h-[300px] shadow-sm">
+      <section className="px-6 md:px-14 lg:px-24 py-8">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
 
           <img
             src="/soft-home.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.02]"
+            className="absolute inset-0 w-full h-full object-cover opacity-80 scale-[1.01]"
           />
 
-          <div className="absolute inset-0 bg-[#F8F3E8]/40 backdrop-blur-[1px]" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#F8F3E8]/35 via-[#F8F3E8]/10 to-transparent" />
+
+          <div className="absolute inset-0 ring-1 ring-inset ring-[#9C7A4B]/10 rounded-[2.5rem]" />
         </div>
       </section>
 
@@ -381,16 +385,18 @@ export default function ShaharLandingPage() {
         </div>
       </section>
       {/* Atmosphere Image */}
-      <section className="px-6 md:px-14 lg:px-24 py-6">
-        <div className="relative overflow-hidden rounded-[3rem] h-[200px] md:h-[280px] shadow-sm">
+      <section className="px-6 md:px-14 lg:px-24 py-8">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
 
           <img
             src="/nature-light.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-65 scale-[1.03]"
+            className="absolute inset-0 w-full h-full object-cover opacity-80 scale-[1.01]"
           />
 
-          <div className="absolute inset-0 bg-[#F8F3E8]/45 backdrop-blur-[1px]" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#F8F3E8]/35 via-[#F8F3E8]/10 to-transparent" />
+
+          <div className="absolute inset-0 ring-1 ring-inset ring-[#9C7A4B]/10 rounded-[2.5rem]" />
         </div>
       </section>
 
