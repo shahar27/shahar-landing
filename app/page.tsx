@@ -98,31 +98,32 @@ export default function ShaharLandingPage() {
       </a>
 
       {/* Header */}
-      <header className="absolute top-0 right-0 left-0 z-40 px-6 md:px-12 lg:px-20 py-5">
-        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+      <header className="relative z-40 px-6 md:px-12 lg:px-20 pt-8 md:py-5">
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center md:items-start justify-between gap-5">
+          <div className="flex-1 text-center md:text-right md:pt-10">
+            <h2 className="text-[#9C7A4B] tracking-wide text-2xl md:text-3xl font-light mb-5">
+              שחר טקו פישר
+            </h2>
 
-          <div className="flex-1 pt-10">
-            <p className="text-[11px] md:text-base tracking-[0.12em] leading-7 md:leading-8 text-[#9C7A4B] text-center md:text-right">
+            <p className="text-[13px] md:text-base tracking-[0.14em] md:tracking-[0.22em] leading-8 text-[#9C7A4B]">
               B.Sc במדעי המחשב | MASTER NLP | מדריכת הורים (ADHD ODD) |
               <br />
               מאמנת אישית, זוגית ומשפחתית מיודעת טראומה
             </p>
           </div>
 
-          <a href="#top" className="shrink-0 mr-8">
+          <a href="#top" className="shrink-0 md:mr-8">
             <img
               src="/logo-placeholder.png"
               alt="הלוגו של שחר"
-              className="w-24 h-24 md:w-36 md:h-36 object-contain"
+              className="w-32 h-32 md:w-36 md:h-36 object-contain"
             />
           </a>
-
         </div>
       </header>
 
       {/* Hero */}
-      <section id="top" className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 md:px-10 lg:px-20 pt-44 md:pt-32 pb-16">        
-        <motion.div
+      <section id="top" className="relative min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 md:px-10 lg:px-20 pt-10 md:pt-32 pb-16">        <motion.div
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
