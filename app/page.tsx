@@ -182,6 +182,21 @@ export default function ShaharLandingPage() {
         </motion.div>
       </section>
 
+      {/* Atmosphere Image */}
+      <section className="px-6 md:px-14 lg:px-24 py-6">
+        <div className="relative overflow-hidden rounded-[3rem] h-[240px] md:h-[320px] shadow-sm">
+
+          <img
+            src="/calm-space.jpg"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-45 scale-[1.02]"
+          />
+
+          <div className="absolute inset-0 bg-[#F8F3E8]/35 backdrop-blur-[1px]" />
+        </div>
+      </section>
+
+
       {/* Mirror */}
       <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
         <div className="max-w-5xl mx-auto text-center">
@@ -233,6 +248,19 @@ export default function ShaharLandingPage() {
               <p className="leading-8 text-[#5F4A35]">{text}</p>
             </div>
           ))}
+        </div>
+      </section>
+      {/* Atmosphere Image */}
+      <section className="px-6 md:px-14 lg:px-24 py-6">
+        <div className="relative overflow-hidden rounded-[3rem] h-[220px] md:h-[300px] shadow-sm">
+
+          <img
+            src="/soft-home.jpg"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-40 scale-[1.02]"
+          />
+
+          <div className="absolute inset-0 bg-[#F8F3E8]/40 backdrop-blur-[1px]" />
         </div>
       </section>
 
@@ -340,6 +368,19 @@ export default function ShaharLandingPage() {
           <p className="mt-7 text-lg leading-9 text-[#5F4A35]">
             יותר שקט בגוף. יותר בחירה מול הילדים. פחות מלחמה פנימית. פחות חיים מתוך הישרדות. יותר יכולת להיות בקשר, להרגיש, לנשום, להגיב אחרת - ולחיות מתוך מקום שהוא באמת שלך.
           </p>
+        </div>
+      </section>
+      {/* Atmosphere Image */}
+      <section className="px-6 md:px-14 lg:px-24 py-6">
+        <div className="relative overflow-hidden rounded-[3rem] h-[200px] md:h-[280px] shadow-sm">
+
+          <img
+            src="/nature-light.jpg"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-35 scale-[1.03]"
+          />
+
+          <div className="absolute inset-0 bg-[#F8F3E8]/45 backdrop-blur-[1px]" />
         </div>
       </section>
 
