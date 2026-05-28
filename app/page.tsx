@@ -209,10 +209,13 @@ export default function ShaharLandingPage() {
             הרבה מהכאב שאנחנו סוחבים בבגרות לא נוצר מתוך חולשה, אלא מתוך מנגנונים שפעם ניסו להגן עלינו. הגוף זוכר. מערכת העצבים מגיבה. ולפעמים הגוף מספר את הסיפור עוד לפני שהמילים מצליחות.
           </p>
 
-          <div className="mt-14 grid md:grid-cols-3 gap-5 text-right">
+          <div className="mt-14 flex flex-col md:grid md:grid-cols-3 gap-5 text-right">
             {painCards.map((item, index) => (
-              <div key={index} className="rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm">
-                <Sparkles className="text-[#9C7A4B] mb-5" size={24} />
+              <div
+                key={index}
+                className="w-full rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm flex flex-col items-start gap-4"
+              >
+                <Sparkles className="text-[#9C7A4B] shrink-0" size={24} />
                 <p className="text-lg leading-8">{item}</p>
               </div>
             ))}
