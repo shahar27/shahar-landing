@@ -215,7 +215,7 @@ export default function ShaharLandingPage() {
                 key={index}
                 className="w-full rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm flex flex-col items-start gap-4"
               >
-                <Sparkles className="text-[#9C7A4B] shrink-0" size={24} />
+                <span className="text-[#9C7A4B]/80 text-xl leading-none">✧</span>
                 <p className="text-lg leading-8">{item}</p>
               </div>
             ))}
