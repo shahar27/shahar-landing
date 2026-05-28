@@ -174,7 +174,7 @@ export default function ShaharLandingPage() {
           className="relative z-10 flex justify-center lg:justify-start lg:pl-4"        >
           <div className="w-full max-w-[300px] md:max-w-[360px] lg:max-w-[390px] aspect-[4/5] rounded-[2.5rem] bg-white/45 border border-[#9C7A4B]/20 shadow-xl overflow-hidden">
             <img
-              src="/shaharportrait.jpeg"
+              src="/shaharportrait.png"
               alt="שחר טקו"
               className="w-full h-full object-cover object-center"
             />
