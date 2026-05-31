@@ -166,7 +166,7 @@ export default function ShaharLandingPage() {
             <p className="text-base md:text-xl leading-8 md:leading-10 text-[#5F4A35]">
               זה לא קורה מתוך חולשה,
               <br />
-              אלא מתוך חלקים עמוקים יותר בתוכם עדיין מנסים להגן עליהם.
+              אלא מתוך חלקים בתוכם, שעדיין מנסים להגן עליהם.
             </p>
           </div>
 
