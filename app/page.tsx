@@ -156,11 +156,17 @@ export default function ShaharLandingPage() {
             ובכל זאת, ברגעים מסוימים הם מוצאים את עצמם חוזרים לאותם דפוסים.
           </p>
 
-          <div className="mt-6 max-w-xl mx-auto lg:mx-0 border-r-2 border-[#9C7A4B]/30 pr-5 md:pr-6">
+          <div className="mt-8 max-w-xl mx-auto text-center">
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <span className="h-px w-12 bg-[#9C7A4B]/25" />
+              <Leaf className="text-[#9C7A4B]/65" size={22} />
+              <span className="h-px w-12 bg-[#9C7A4B]/25" />
+            </div>
+
             <p className="text-base md:text-xl leading-8 md:leading-10 text-[#5F4A35]">
-              לא כי הם חלשים.
+              זה לא קורה מתוך חולשה,
               <br />
-              כי חלקים עמוקים יותר בתוכם עדיין מנסים להגן עליהם.
+              אלא מתוך חלקים עמוקים יותר בתוכם עדיין מנסים להגן עליהם.
             </p>
           </div>
 
