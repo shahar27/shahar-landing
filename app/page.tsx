@@ -156,13 +156,28 @@ export default function ShaharLandingPage() {
             הם קראו ספרים, שמעו פודקאסטים, ניסו להבין את עצמם ולשנות את החיים שלהם.
 
             ובכל זאת ברגעים מסוימים הם מוצאים את עצמם חוזרים לאותם דפוסים.
-            
+
             והסיבה לכך היא, שחלקים עמוקים יותר במערכת שלהם עדיין מנסים לשרוד.
 
           </p>
           <p className="mt-5 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl">
             אני מלווה אנשים שרוצים להפסיק להילחם בעצמם, להבין מה מפעיל אותם באמת, ולחזור להרגיש טוב.
           </p>
+
+          <div className="mt-10 rounded-[2rem] bg-white/45 border border-[#9C7A4B]/15 p-6 md:p-8 max-w-2xl">
+            <h3 className="text-2xl font-serif text-[#3E3023] mb-5">
+              אולי הגעת לכאן כי...
+            </h3>
+
+            <ul className="space-y-4 text-[#5F4A35] leading-8">
+              <li>• אתם מבינים הרבה דברים על עצמכם, אבל עדיין מרגישים תקועים.</li>
+              <li>• אתם עייפים מלנתח, לחשוב ולנסות לפתור הכול דרך הראש.</li>
+              <li>• אתם מגיבים בעוצמות שלא תמיד תואמות את מה שקורה ברגע הזה.</li>
+              <li>• אתם רוצים להיות הורים, בני זוג או אנשים רגועים יותר, אבל משהו משתלט ברגע האמת.</li>
+              <li>• אתם מרגישים שהתרחקתם מעצמכם ומחפשים דרך לחזור.</li>
+              <li>• אתם יודעים שיש בכם יותר שקט, יותר חופש ויותר חיים ממה שאתם מצליחים לחוות היום.</li>
+            </ul>
+          </div>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <a className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition" href="#contact">
