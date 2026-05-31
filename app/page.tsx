@@ -147,24 +147,24 @@ export default function ShaharLandingPage() {
           transition={{ duration: 0.9 }}
           className="max-w-3xl relative z-10 text-center lg:text-right"
         >
-          <h1 className="text-3xl md:text-5xl lg:text-[4.2rem] leading-[1.18] font-serif text-[#3E3023] max-w-2xl mx-auto lg:mx-0">
+          <h1 className="text-[2.25rem] md:text-5xl lg:text-[4.2rem] leading-[1.25] md:leading-[1.18] font-serif text-[#3E3023] max-w-2xl mx-auto lg:mx-0">
             מאחורי כל דפוס הישרדות יש אדם שמנסה להרגיש בטוח בעולם.
           </h1>
 
-          <p className="mt-8 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl mx-auto lg:mx-0">
+          <p className="mt-6 text-base md:text-xl leading-8 md:leading-9 text-[#5F4A35] max-w-xl mx-auto lg:mx-0">
             רוב האנשים שאני פוגשת כבר עשו דרך. הם למדו, קראו, ניסו להבין את עצמם.
             ובכל זאת, ברגעים מסוימים הם מוצאים את עצמם חוזרים לאותם דפוסים.
           </p>
 
-          <div className="mt-8 max-w-xl mx-auto lg:mx-0 border-r-2 border-[#9C7A4B]/30 pr-5 md:pr-6">
-            <p className="text-lg md:text-xl leading-10 text-[#5F4A35]">
+          <div className="mt-6 max-w-xl mx-auto lg:mx-0 border-r-2 border-[#9C7A4B]/30 pr-5 md:pr-6">
+            <p className="text-base md:text-xl leading-8 md:leading-10 text-[#5F4A35]">
               לא כי הם חלשים.
               <br />
               כי חלקים עמוקים יותר בתוכם עדיין מנסים להגן עליהם.
             </p>
           </div>
 
-          <p className="mt-8 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl mx-auto lg:mx-0">
+          <p className="mt-6 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl mx-auto lg:mx-0">
             אני מלווה אנשים שרוצים להבין מה באמת מפעיל אותם, להפסיק להילחם בעצמם,
             ולחזור להרגיש יותר חופש, חיבור ושקט.
           </p>
@@ -246,24 +246,34 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Approach */}
-      <section id="approach" className="px-6 md:px-14 lg:px-24 py-24">
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
-          <div>
-            <p className="text-[#9C7A4B] mb-4">הגישה שלי</p>
-            <h2 className="text-3xl md:text-5xl font-serif leading-tight text-[#3E3023]">
-              לא רק להבין את הכאב.
-              <br />
-              להתחיל לשחרר אותו מהמקום שבו הוא חי.
-            </h2>
-          </div>
-          <div className="text-lg leading-9 text-[#5F4A35] space-y-6">
-            <p>
-              שינוי אמיתי קורה כשהמערכת כולה מקבלת חוויה חדשה - לא רק הראש.
+      <section id="approach" className="px-6 md:px-14 lg:px-24 py-20 md:py-24">
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="text-[#9C7A4B] mb-5 tracking-[0.18em] text-sm md:text-base">
+            הגישה שלי
+          </p>
+
+          <h2 className="text-3xl md:text-5xl font-serif leading-[1.25] text-[#3E3023] max-w-3xl mx-auto">
+            לא רק להבין את הכאב.
+            <br />
+            להתחיל לשחרר אותו מהמקום שבו הוא חי.
+          </h2>
+
+          <div className="mt-10 rounded-[2.5rem] bg-white/40 border border-[#9C7A4B]/15 shadow-sm px-6 py-8 md:px-12 md:py-10 max-w-4xl mx-auto">
+            <p className="text-lg md:text-xl leading-9 text-[#5F4A35]">
+              שינוי אמיתי קורה כשהמערכת כולה מקבלת חוויה חדשה,
+              לא רק הראש.
             </p>
-              לכן אני לא עובדת רק עם מחשבות.
-              אני מסתכלת על האדם כמערכת שלמה - גוף, רגש, מערכת עצבים, מערכות יחסים, חוויות ילדות והאמונות שנבנו לאורך החיים.
-              כשהחלקים האלה מתחילים להתחבר מחדש, נוצר שינוי עמוק ויציב יותר.
-            <p>
+
+            <div className="my-8 h-px w-20 bg-[#9C7A4B]/25 mx-auto" />
+
+            <p className="text-base md:text-lg leading-9 text-[#5F4A35]">
+              לכן אני לא עובדת רק עם מחשבות. אני מסתכלת על האדם כמערכת שלמה:
+              גוף, רגש, מערכת עצבים, מערכות יחסים, חוויות ילדות והאמונות שנבנו לאורך החיים.
+            </p>
+
+            <p className="mt-6 text-base md:text-lg leading-9 text-[#5F4A35]">
+              כשהחלקים האלה מתחילים להתחבר מחדש,
+              נוצר שינוי עמוק ויציב יותר.
             </p>
           </div>
         </div>
@@ -297,55 +307,51 @@ export default function ShaharLandingPage() {
       {/* About */}
       <section id="about" className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-[1fr_1.35fr] gap-14 items-start">
-          <div className="rounded-[3rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-8 shadow-sm sticky top-8 text-center flex flex-col items-center">
-            <Heart className="text-[#9C7A4B] mb-5" size={34} />
+          <div className="rounded-[3rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-8 md:p-10 shadow-sm text-center">
+            <Heart className="text-[#9C7A4B] mb-5 mx-auto" size={34} />
+
             <h2 className="text-3xl md:text-4xl font-serif text-[#3E3023] mb-10">
               קצת עליי
             </h2>
 
-            <div className="max-w-3xl mx-auto">
+            <div className="space-y-7 text-lg leading-9 text-[#5F4A35] max-w-2xl mx-auto">
+              <p>
+                אני שחר.
+                במשך שנים חיפשתי תשובות.
+                למדתי, חקרתי, קראתי והתפתחתי מתוך שאלה אחת שחזרה שוב ושוב:
+                למה אנשים ממשיכים לסבול גם כשהם יודעים בדיוק מה נכון לעשות?
+              </p>
 
-              <div className="rounded-[2rem] bg-white/35 border border-[#9C7A4B]/15 p-8 md:p-10">
+              <div className="my-8 h-px w-20 bg-[#9C7A4B]/25 mx-auto" />
 
-                <p className="text-lg md:text-xl leading-10 text-[#5F4A35]">
-                  אני שחר.
-                </p>
+              <p>
+                גם אני חייתי מתוך מנגנוני הגנה שלא תמיד ידעתי לזהות:
+                ריצוי, דריכות, צורך בשליטה, מחשבות שלא מפסיקות לעבוד,
+                וניסיון להיות כל מה שהסביבה צריכה.
+              </p>
 
-                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
-                  במשך שנים חיפשתי תשובות.
-                  למדתי, חקרתי, קראתי והתפתחתי מתוך שאלה אחת שחזרה שוב ושוב:
-                  למה אנשים ממשיכים לסבול גם כשהם יודעים בדיוק מה נכון לעשות?
-                </p>
+              <blockquote className="my-9 text-xl md:text-2xl leading-10 font-serif text-[#3E3023]">
+                השינוי המשמעותי ביותר לא קרה כשהצלחתי להשתנות.
+                <br />
+                הוא קרה כשהתחלתי להיזכר במי שהייתי לפני כל מה שנבנה כדי להגן עליי.
+              </blockquote>
 
-                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
-                  גם אני חייתי מתוך מנגנוני הגנה שלא תמיד ידעתי לזהות.
-                  ריצוי, דריכות, צורך בשליטה, מחשבות שלא מפסיקות לעבוד וניסיון להיות כל מה שהסביבה צריכה.
-                </p>
+              <div className="my-8 h-px w-20 bg-[#9C7A4B]/25 mx-auto" />
 
-                <div className="my-10 border-r-2 border-[#9C7A4B]/30 pr-6">
-                  <p className="text-xl md:text-2xl leading-10 text-[#3E3023] font-serif">
-                    השינוי המשמעותי ביותר לא קרה כשהצלחתי להשתנות.
-                    <br />
-                    הוא קרה כשהתחלתי להיזכר במי שהייתי לפני כל מה שנבנה כדי להגן עליי.
-                  </p>
-                </div>
+              <p>
+                היום הדרך שלי משלבת בין ידע מקצועי, עבודה עם הגוף ומערכת העצבים,
+                והמסע האישי שעברתי בעצמי.
+              </p>
 
-                <p className="text-lg leading-9 text-[#5F4A35]">
-                  היום הדרך שלי משלבת בין ידע מקצועי, עבודה עם הגוף ומערכת העצבים,
-                  והמסע האישי שעברתי בעצמי.
-                </p>
+              <p>
+                אני לא מאמינה שאנשים מקולקלים.
+                אני מאמינה שרובנו פשוט התרחקנו מעצמנו.
+              </p>
 
-                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
-                  אני לא מאמינה שאנשים מקולקלים.
-                  אני מאמינה שרובנו פשוט התרחקנו מעצמנו.
-                </p>
-
-                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
-                  והעבודה המשותפת היא לא להפוך למישהו אחר,
-                  אלא להבין מתי התרחקנו מעצמנו ואיך חוזרים.
-                </p>
-
-              </div>
+              <p>
+                והעבודה המשותפת היא לא להפוך למישהו אחר,
+                אלא להבין מתי התרחקנו מעצמנו ואיך חוזרים.
+              </p>
             </div>
           </div>
 
