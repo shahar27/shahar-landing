@@ -147,21 +147,26 @@ export default function ShaharLandingPage() {
           transition={{ duration: 0.9 }}
           className="max-w-3xl relative z-10 text-center lg:text-right"
         >
-          <h1 className="text-3xl md:text-5xl lg:text-[4.2rem] leading-[1.15] font-serif text-[#3E3023] max-w-2xl">
+          <h1 className="text-3xl md:text-5xl lg:text-[4.2rem] leading-[1.18] font-serif text-[#3E3023] max-w-2xl mx-auto lg:mx-0">
             מאחורי כל דפוס הישרדות יש אדם שמנסה להרגיש בטוח בעולם.
           </h1>
-          <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl">
-            רוב האנשים שאני פוגשת כבר יודעים מה נכון לעשות.
 
-            הם קראו ספרים, שמעו פודקאסטים, ניסו להבין את עצמם ולשנות את החיים שלהם.
-
-            ובכל זאת ברגעים מסוימים הם מוצאים את עצמם חוזרים לאותם דפוסים.
-
-            והסיבה לכך היא, שחלקים עמוקים יותר במערכת שלהם עדיין מנסים לשרוד.
-
+          <p className="mt-8 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl mx-auto lg:mx-0">
+            רוב האנשים שאני פוגשת כבר עשו דרך. הם למדו, קראו, ניסו להבין את עצמם.
+            ובכל זאת, ברגעים מסוימים הם מוצאים את עצמם חוזרים לאותם דפוסים.
           </p>
-          <p className="mt-5 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl">
-            אני מלווה אנשים שרוצים להפסיק להילחם בעצמם, להבין מה מפעיל אותם באמת, ולחזור להרגיש טוב.
+
+          <div className="mt-8 max-w-xl mx-auto lg:mx-0 border-r-2 border-[#9C7A4B]/30 pr-5 md:pr-6">
+            <p className="text-lg md:text-xl leading-10 text-[#5F4A35]">
+              לא כי הם חלשים.
+              <br />
+              כי חלקים עמוקים יותר בתוכם עדיין מנסים להגן עליהם.
+            </p>
+          </div>
+
+          <p className="mt-8 text-base md:text-lg leading-8 text-[#6B5944] max-w-xl mx-auto lg:mx-0">
+            אני מלווה אנשים שרוצים להבין מה באמת מפעיל אותם, להפסיק להילחם בעצמם,
+            ולחזור להרגיש יותר חופש, חיבור ושקט.
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -294,44 +299,53 @@ export default function ShaharLandingPage() {
         <div className="max-w-6xl mx-auto grid lg:grid-cols-[1fr_1.35fr] gap-14 items-start">
           <div className="rounded-[3rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-8 shadow-sm sticky top-8 text-center flex flex-col items-center">
             <Heart className="text-[#9C7A4B] mb-5" size={34} />
-            <h2 className="text-3xl font-serif mb-5 text-[#3E3023]">קצת עליי</h2>
-            <div className="space-y-8 leading-[2.15] text-[#5F4A35] text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-serif text-[#3E3023] mb-10">
+              קצת עליי
+            </h2>
 
-              <p>
-                אני שחר.
-                במשך שנים חיפשתי תשובות.
-                למדתי, חקרתי, קראתי, התפתחתי וניסיתי להבין למה אנשים ממשיכים לסבול גם כשהם יודעים בדיוק מה נכון לעשות.
-              </p>
+            <div className="max-w-3xl mx-auto">
 
-              <p>
-                גם אני חייתי מתוך מנגנוני הגנה שלא תמיד ידעתי לזהות.
-                ריצוי, דריכות, צורך בשליטה, מחשבות שלא מפסיקות לעבוד, וניסיון להיות כל מה שהסביבה צריכה.
-              </p>
+              <div className="rounded-[2rem] bg-white/35 border border-[#9C7A4B]/15 p-8 md:p-10">
 
-              <p>
-                עם השנים הבנתי שהשינוי המשמעותי ביותר לא קרה כשהצלחתי להשתנות.
-                הוא קרה כשהתחלתי להיזכר במי שהייתי לפני כל מה שנבנה כדי להגן עליי.
-              </p>
+                <p className="text-lg md:text-xl leading-10 text-[#5F4A35]">
+                  אני שחר.
+                </p>
 
-              <p>
-                מאז אני חוקרת את אותה שאלה.
-                איך אנשים חוזרים לעצמם?
-              </p>
+                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
+                  במשך שנים חיפשתי תשובות.
+                  למדתי, חקרתי, קראתי והתפתחתי מתוך שאלה אחת שחזרה שוב ושוב:
+                  למה אנשים ממשיכים לסבול גם כשהם יודעים בדיוק מה נכון לעשות?
+                </p>
 
-              <p>
-                הדרך שלי משלבת בין ידע מקצועי, הבנה עמוקה של נפש האדם, עבודה עם הגוף ומערכת העצבים, והמסע האישי שעברתי בעצמי.
-              </p>
-              
-               <p>
+                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
+                  גם אני חייתי מתוך מנגנוני הגנה שלא תמיד ידעתי לזהות.
+                  ריצוי, דריכות, צורך בשליטה, מחשבות שלא מפסיקות לעבוד וניסיון להיות כל מה שהסביבה צריכה.
+                </p>
+
+                <div className="my-10 border-r-2 border-[#9C7A4B]/30 pr-6">
+                  <p className="text-xl md:text-2xl leading-10 text-[#3E3023] font-serif">
+                    השינוי המשמעותי ביותר לא קרה כשהצלחתי להשתנות.
+                    <br />
+                    הוא קרה כשהתחלתי להיזכר במי שהייתי לפני כל מה שנבנה כדי להגן עליי.
+                  </p>
+                </div>
+
+                <p className="text-lg leading-9 text-[#5F4A35]">
+                  היום הדרך שלי משלבת בין ידע מקצועי, עבודה עם הגוף ומערכת העצבים,
+                  והמסע האישי שעברתי בעצמי.
+                </p>
+
+                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
                   אני לא מאמינה שאנשים מקולקלים.
                   אני מאמינה שרובנו פשוט התרחקנו מעצמנו.
-              </p>
+                </p>
 
-              <p>
-                והעבודה המשותפת היא לא להפוך למישהו אחר.
-                אלא להבין מתי ולמה התרחקנו מעצמנו ואיך חוזרים.
-              </p>
+                <p className="mt-6 text-lg leading-9 text-[#5F4A35]">
+                  והעבודה המשותפת היא לא להפוך למישהו אחר,
+                  אלא להבין מתי התרחקנו מעצמנו ואיך חוזרים.
+                </p>
 
+              </div>
             </div>
           </div>
 
