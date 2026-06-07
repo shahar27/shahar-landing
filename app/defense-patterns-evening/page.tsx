@@ -246,17 +246,18 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              המטרה בערב הזה,
-              היא שתצאו ממנו עם שפה חדשה להבין את עצמכם.
+              אני רוצה שתצאו מהערב הזה עם רגע אחד ברור:
+              רגע שבו אתם מבינים את עצמכם אחרת.
             </p>
 
             <p>
-              עם פחות אשמה. עם יותר חמלה.
-              עם שאלות שימשיכו ללוות אתכם גם אחר כך.
+              לא דרך אשמה.
+              לא דרך עוד הבטחה שהפעם תצליחו.
+              אלא דרך שאלה חדשה שתוכלו לקחת איתכם הביתה.
             </p>
 
             <p>
-              ועם כלים פשוטים שיעזרו לכם לעצור רגע לפני שהאוטומט משתלט.
+              מה בעצם קורה לי ברגע שבו אני חוזרת לאותו מקום?
             </p>
           </div>
 
@@ -389,11 +390,8 @@ export default function DefensePatternsEveningPage() {
                 key={item}
                 className="rounded-[1.5rem] bg-white/40 border border-[#9C7A4B]/15 p-6 text-[#5F4A35] text-lg leading-8 flex items-center gap-4"
                 >
-                <img
-                    src="/brain-icon.png"
-                    alt=""
-                    className="w-4 h-4 opacity-35 shrink-0"
-                />
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#C8A86A] shrink-0" />
+
 
                 <span>{item}</span>
                 </div>
