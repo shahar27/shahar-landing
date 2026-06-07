@@ -54,7 +54,7 @@ export default function DefensePatternsEveningPage() {
           <p className="mt-8 text-xl md:text-2xl leading-10 text-[#5F4A35] max-w-2xl mx-auto">
             ערב חוויתי, עמוק ומשחרר
             <br />
-            על כל מה שלמדנו להיות, ועל מי שאנחנו מתחת לזה.
+            על כל מה שלמדנו להיות, על מי שאנחנו מתחת לזה.
           </p>
 
           <BrainDivider />
@@ -113,7 +113,7 @@ export default function DefensePatternsEveningPage() {
           </div>
 
           <p className="mt-14 text-xl leading-10 text-[#5F4A35]">
-            אלו השאלות שאני פוגשת שוב ושוב.
+            אלו השאלות שאני פוגשת לא מעט.
             <br />
             וגם השאלות שהובילו אותי למסע ששינה את החיים שלי.
           </p>
@@ -209,12 +209,12 @@ export default function DefensePatternsEveningPage() {
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-14">
-            מה יקרה בערב?
+            אז מה יקרה בערב?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              ["01", "נחקור מה מסתתר מתחת להגנות שלנו, בלי להילחם בהן"],
+              ["01", "נחקור מה מסתתר מתחת להתנהגות שלנו, בלי להילחם בהן"],
               ["02", "נזהה איך הדפוסים האלה מופיעים בזוגיות, בהורות ובחיי היומיום"],
               ["03", "נלמד איך סקרנות יכולה לפתוח מרווח חדש לפני שהאוטומט משתלט"],
             ].map(([number, text]) => (
@@ -246,24 +246,24 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              אני רוצה שתצאו מהערב הזה עם רגע אחד ברור:
+              נצא מהערב הזה עם רגע אחד ברור:
               רגע שבו אתם מבינים את עצמכם אחרת.
             </p>
 
             <p>
               לא דרך אשמה.
-              לא דרך עוד הבטחה שהפעם תצליחו.
-              אלא דרך שאלה חדשה שתוכלו לקחת איתכם הביתה.
+              לא דרך עוד הבטחה שהפעם נצליח.
+              אלא דרך שאלה חדשה שנוכל לקחת איתנו הביתה.
             </p>
 
             <p>
-              מה בעצם קורה לי ברגע שבו אני חוזרת לאותו מקום?
+              אז מה כן?
             </p>
           </div>
 
           <div className="mt-12 grid md:grid-cols-3 gap-5">
             {[
-              ["01", "לא רק להבין, להצליח ליישם מנגנונים חדשים"],
+              ["01", " להבין לעומק ולהצליח ליישם מנגנונים חדשים"],
               ["02", "דרך חדשה להסתכל על עצמכם"],
               ["03", "כלים פשוטים ליום שאחרי"],
             ].map(([number, item]) => (
