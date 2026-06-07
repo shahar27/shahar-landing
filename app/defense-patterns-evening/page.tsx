@@ -75,22 +75,45 @@ export default function DefensePatternsEveningPage() {
       <section className="px-6 py-24 md:py-32">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-3xl md:text-5xl font-serif leading-[1.35]">
-            לפעמים אנחנו מוצאים את עצמנו מגיבים בצורה שלא באמת מייצגת את מי שאנחנו רוצים להיות.
-          </p>
+          אני חושבת שרוב האנשים לא באמת שואלים:
+          <br />
+          "מה המנגנון שלי?"
+        </p>
 
           <BrainDivider />
 
-          <div className="space-y-5 text-2xl md:text-3xl font-serif text-[#9C7A4B]">
-            <p>חושבים יותר מדי.</p>
-            <p>מרצים.</p>
-            <p>נמנעים.</p>
-            <p>מתפרצים.</p>
+          <div className="space-y-8 text-xl md:text-3xl font-serif text-[#9C7A4B]">
+
+            <p>
+              למה אני שוב עושה את זה
+              למרות שהבטחתי לעצמי שלא?
+            </p>
+
+            <p>
+              למה אני יודעת בדיוק מה נכון לי
+              ועדיין לא מצליחה לעשות אותו?
+            </p>
+
+            <p>
+              למה אני מתפוצצת על הילדים
+              כשאני בכלל לא רוצה להיות האמא הזאת?
+            </p>
+
+            <p>
+              למה אני כל כך עייפה?
+            </p>
+
+            <p>
+              ולמה אני חושבת על אותו דבר
+              שוב ושוב ושוב?
+            </p>
+
           </div>
 
           <p className="mt-14 text-xl leading-10 text-[#5F4A35]">
-            חוזרים שוב ושוב לאותם דפוסים,
+            אלו השאלות שאני פוגשת שוב ושוב.
             <br />
-            גם כשאנחנו כבר מבינים אותם היטב.
+            וגם השאלות שהובילו אותי למסע ששינה את החיים שלי.
           </p>
         </div>
       </section>
@@ -104,22 +127,31 @@ export default function DefensePatternsEveningPage() {
 
           <div className="text-center md:text-right">
             <p className="text-xl leading-10 text-[#5F4A35]">
-              רבים מהדפוסים האלה לא התחילו כבעיה.
-              <br />
-              הם התחילו כניסיון חכם להגן עלינו.
+              במשך שנים חשבתי שמשהו בי לא בסדר.
             </p>
 
             <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-              עם הזמן הם הפכו להיות כל כך מוכרים,
-              עד שהתחלנו לחשוב שהם פשוט מי שאנחנו.
+              איך יכול להיות שאני לומדת,
+              מבינה,
+              מתפתחת,
+              ובכל זאת ממשיכה לחזור לאותם מקומות?
+            </p>
+
+            <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
+              מה שגיליתי בדרך,
+              הוא שחלק גדול מההתנהגויות שהכי הכעיסו אותי בעצמי,
+              לא הופיעו סתם.
+            </p>
+
+            <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
+              פעם הן עזרו לי.
             </p>
 
             <div className="my-12 h-px w-24 bg-[#9C7A4B]/35 mx-auto md:mx-0" />
 
             <p className="text-3xl md:text-4xl font-serif leading-[1.35]">
-              רובנו לא סובלים מהמנגנונים עצמם.
-              <br />
-              אנחנו סובלים מהרגע שבו התחלנו להאמין שהם הזהות שלנו.
+              וכשמבינים למה הן נוצרו,
+              פתאום אפשר להתחיל להשתחרר מהן.
             </p>
           </div>
         </div>
@@ -131,7 +163,7 @@ export default function DefensePatternsEveningPage() {
           <BrainMark />
 
           <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
-            למה בכלל סקרנות?
+            אז למה כל כך קשה להשתנות?
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
@@ -141,21 +173,30 @@ export default function DefensePatternsEveningPage() {
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
+
             <p>
-              רובנו מנסים להשתנות דרך מאמץ:
-              להפסיק לחשוב, להפסיק לפחד, להפסיק לדחות, להפסיק להתעצבן.
+              אם כבר הבנתי את הבעיה,
+              למה אני עדיין מוצאת את עצמי באותו מקום?
             </p>
 
             <p>
-              אבל ככל שאנחנו נאבקים בעצמנו יותר,
-              כך אנחנו בדרך כלל נשארים תקועים באותו מקום.
+              זו אחת השאלות שאני הכי אוהבת לחקור.
             </p>
 
             <p>
-              סקרנות עובדת אחרת.
-              כשהיא נכנסת - משהו מתרכך. נוצר מרווח.
-              ובתוך המרווח הזה מתחילה להופיע בחירה.
+              כי הרבה פעמים אנחנו מנסים להשתנות בכוח.
             </p>
+
+            <p>
+              אנחנו מבטיחים לעצמנו,
+              מסבירים לעצמנו,
+              מתאכזבים מעצמנו.
+            </p>
+
+            <p>
+              ובכל זאת משהו בפנים ממשיך למשוך לאותו כיוון.
+            </p>
+
           </div>
         </div>
       </section>
