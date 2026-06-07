@@ -75,9 +75,9 @@ export default function DefensePatternsEveningPage() {
       <section className="px-6 py-24 md:py-32">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-3xl md:text-5xl font-serif leading-[1.35]">
-          אני חושבת שרוב האנשים לא באמת שואלים:
+          האם האופן שבו אתם מתנהגים,
           <br />
-          "מה המנגנון שלי?"
+          באמת מעיד על מי שאתם?
         </p>
 
           <BrainDivider />
@@ -139,19 +139,19 @@ export default function DefensePatternsEveningPage() {
 
             <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
               מה שגיליתי בדרך,
-              הוא שחלק גדול מההתנהגויות שהכי הכעיסו אותי בעצמי,
+              הוא שחלק גדול מההתנהגויות שגרמו להכי הרבה כאב וקושי בחיי,
               לא הופיעו סתם.
             </p>
 
             <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-              פעם הן עזרו לי.
+              פעם הייתה להן משמעות ותועלת.
             </p>
 
             <div className="my-12 h-px w-24 bg-[#9C7A4B]/35 mx-auto md:mx-0" />
 
             <p className="text-3xl md:text-4xl font-serif leading-[1.35]">
               וכשמבינים למה הן נוצרו,
-              פתאום אפשר להתחיל להשתחרר מהן.
+              זו נקודת ההתחלה לשינוי ולשחרור ממה שכבר לא משרת אותנו.
             </p>
           </div>
         </div>
@@ -237,9 +237,9 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25]">
-            פחות תשובות גדולות.
+            סקרנות.
             <br />
-            יותר בהירות אמיתית.
+            בהירות.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
@@ -254,7 +254,7 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <p>
-              ועם כמה כלים פשוטים שיעזרו לכם לעצור רגע לפני שהאוטומט משתלט.
+              ועם כלים פשוטים שיעזרו לכם לעצור רגע לפני שהאוטומט משתלט.
             </p>
           </div>
 
