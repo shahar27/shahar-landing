@@ -286,7 +286,7 @@ export default function DefensePatternsEveningPage() {
           <h2 className="text-4xl md:text-5xl font-serif mb-14">
             חלק מהקסם של הערב
             <br />
-            מתחיל עוד לפני שהוא מתחיל
+            מתחיל במרחב הייחודי שבו נשהה
           </h2>
 
         </div>
@@ -327,24 +327,37 @@ export default function DefensePatternsEveningPage() {
 
       {/* Odem House */}
       <section className="px-6 md:px-16 lg:px-24 py-20">
-        <div className="relative overflow-hidden rounded-[3rem] min-h-[520px] flex items-center justify-center text-center text-[#F8F3E8]">
-          <img src="/odem-house-wide.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-80" />
-          <div className="absolute inset-0 bg-[#3E3023]/35" />
+        <div className="relative overflow-hidden rounded-[3rem] min-h-[620px] md:min-h-[560px] flex items-end md:items-center justify-center text-center text-[#F8F3E8]">
+          <img
+            src="/odem-house-wide.jpg"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-90"
+          />
 
-          <div className="relative z-10 px-6 max-w-3xl">
-            <h2 className="text-4xl md:text-6xl font-serif mb-10">
-              ODEM HOUSE | יפו
-            </h2>
+          <div className="absolute inset-0 bg-[#3E3023]/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/80 via-[#3E3023]/45 to-[#3E3023]/30" />
 
-            <p className="text-xl leading-10">
-              בחרתי לקיים את הערב ב־ODEM HOUSE לא במקרה.
-              המרחב שבו אנחנו נמצאים משפיע על הדרך שבה אנחנו חושבים, מרגישים ונוכחים.
+          <div className="relative z-10 px-7 py-12 md:py-16 max-w-3xl">
+            <p className="text-[#C8A86A] tracking-[0.22em] mb-4 text-sm">
+              ODEM HOUSE
             </p>
 
-            <p className="mt-8 text-xl leading-10">
-              רציתי ליצור ערב שאפשר יהיה לנשום בו:
-              לצאת לכמה שעות מהקצב היומיומי,
-              לשבת עם כוס יין, אנשים טובים ושאלות שלא תמיד יש לנו זמן לעצור ולשאול.
+            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.2]">
+              יפו
+            </h2>
+
+            <div className="mx-auto mb-8 h-px w-20 bg-[#C8A86A]/45" />
+
+            <p className="text-xl md:text-2xl leading-10">
+              בחרתי לקיים את הערב ב־ODEM HOUSE
+              כי המקום עצמו כבר מכניס אותנו לאווירה אחרת.
+            </p>
+
+            <p className="mt-6 text-lg md:text-xl leading-9 text-[#F8F3E8]/90">
+              חלל יפואי עתיק, יפהפה ואינטימי.
+              מקום שאפשר לעצור בו רגע,
+              לשבת עם כוס יין,
+              ולפגוש שאלות שבדרך כלל אין לנו זמן לשאול.
             </p>
           </div>
         </div>
