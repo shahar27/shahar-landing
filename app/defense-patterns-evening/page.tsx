@@ -38,7 +38,7 @@ export default function DefensePatternsEveningPage() {
         <img src="/odem-house-hero.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-45" />
         <div className="absolute inset-0 bg-[#F8F3E8]/55" />
 
-        <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#9C7A4B]/30 bg-[#F8F3E8]/75 px-6 py-14 md:px-12 md:py-18 shadow-xl backdrop-blur-[2px]">
+        <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/75 px-6 py-14 md:px-12 md:py-18 shadow-2xl backdrop-blur-[2px]">
           <img src="/logo-placeholder.png" alt="שחר טקו פישר" className="w-28 md:w-36 mx-auto mb-8" />
 
           <p className="text-[#9C7A4B] tracking-[0.28em] text-sm mb-6">
@@ -52,7 +52,9 @@ export default function DefensePatternsEveningPage() {
           </h1>
 
           <p className="mt-8 text-xl md:text-2xl leading-10 text-[#5F4A35] max-w-2xl mx-auto">
-            ערב חווייתי, עמוק ומשחרר שבו נחליף ביקורת בסקרנות - ונגלה מה באמת נמצא מתחת לדפוסים שמנהלים אותנו.
+            ערב חוויתי, עמוק ומשחרר
+            <br />
+            על כל מה שלמדנו להיות, ועל מי שאנחנו מתחת לזה.
           </p>
 
           <BrainDivider />
@@ -160,7 +162,7 @@ export default function DefensePatternsEveningPage() {
       {/* Curiosity */}
       <section className="px-6 py-24 bg-white/35">
         <div className="max-w-4xl mx-auto text-center">
-          <BrainMark />
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
             אז למה כל כך קשה להשתנות?
@@ -204,7 +206,7 @@ export default function DefensePatternsEveningPage() {
       {/* What happens */}
       <section className="px-6 py-24">
         <div className="max-w-5xl mx-auto text-center">
-          <BrainMark />
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-14">
             מה יקרה בערב?
@@ -230,7 +232,7 @@ export default function DefensePatternsEveningPage() {
       {/* Experience */}
       <section className="px-6 py-24 bg-white/35">
         <div className="max-w-4xl mx-auto text-center">
-          <BrainMark />
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <p className="text-[#C8A86A] tracking-[0.22em] mb-5">
             עם מה תצאו הביתה?
@@ -244,7 +246,7 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              ההמטרה בערב הזה,
+              המטרה בערב הזה,
               היא שתצאו ממנו עם שפה חדשה להבין את עצמכם.
             </p>
 
@@ -366,7 +368,7 @@ export default function DefensePatternsEveningPage() {
       {/* Included */}
       <section className="px-6 py-24">
         <div className="max-w-4xl mx-auto text-center">
-          <BrainMark />
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-12">
             מה כולל הערב?
@@ -403,7 +405,7 @@ export default function DefensePatternsEveningPage() {
       {/* Safety */}
       <section className="px-6 py-24 bg-white/35">
         <div className="max-w-3xl mx-auto text-center">
-          <BrainMark />
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-10">
             חשוב לי לומר
@@ -452,7 +454,7 @@ export default function DefensePatternsEveningPage() {
           src="/odem-evening.jpg"
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        />  
 
         <div className="absolute inset-0 bg-[#3E3023]/35" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/90 via-[#3E3023]/30 to-transparent" />
