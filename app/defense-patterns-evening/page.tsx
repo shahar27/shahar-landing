@@ -147,7 +147,7 @@ export default function DefensePatternsEveningPage() {
               פעם הייתה להן משמעות ותועלת.
             </p>
 
-            <div className="my-12 h-px w-24 bg-[#9C7A4B]/35 mx-auto md:mx-0" />
+            <div className="my-12 h-px w-24 bg-[#C8A86A]/45 mx-auto md:mx-0" />
 
             <p className="text-3xl md:text-4xl font-serif leading-[1.35]">
               וכשמבינים למה הן נוצרו,
@@ -217,9 +217,9 @@ export default function DefensePatternsEveningPage() {
               ["03", "נלמד איך סקרנות יכולה לפתוח מרווח חדש לפני שהאוטומט משתלט"],
             ].map(([number, text]) => (
               <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
-                <div className="mb-8 text-[#9C7A4B] text-2xl font-light tracking-[0.3em]">
-                  {number}
-                </div>
+                <div className="mb-8 text-[#C8A86A] text-2xl font-light tracking-[0.3em]">
+                {number}
+              </div>
                 <p className="text-xl leading-9 text-[#5F4A35]">{text}</p>
               </div>
             ))}
@@ -232,7 +232,7 @@ export default function DefensePatternsEveningPage() {
         <div className="max-w-4xl mx-auto text-center">
           <BrainMark />
 
-          <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
+          <p className="text-[#C8A86A] tracking-[0.22em] mb-5">
             עם מה תצאו הביתה?
           </p>
 
@@ -265,7 +265,7 @@ export default function DefensePatternsEveningPage() {
               ["03", "כלים פשוטים ליום שאחרי"],
             ].map(([number, item]) => (
               <div key={item} className="rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm">
-                <div className="mb-5 text-[#9C7A4B] text-xl font-light tracking-[0.3em]">
+                <div className="mb-5 text-[#C8A86A] text-xl font-light tracking-[0.3em]">
                   {number}
                 </div>
                 <p className="text-xl leading-8 text-[#5F4A35]">{item}</p>
@@ -273,6 +273,56 @@ export default function DefensePatternsEveningPage() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="px-6 md:px-16 lg:px-24 py-20">
+
+        <div className="max-w-5xl mx-auto text-center">
+
+          <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
+            המקום שבו ניפגש
+          </p>
+
+          <h2 className="text-4xl md:text-5xl font-serif mb-14">
+            חלק מהקסם של הערב
+            <br />
+            מתחיל עוד לפני שהוא מתחיל
+          </h2>
+
+        </div>
+
+        <div className="max-w-6xl mx-auto grid md:grid-cols-[2fr_1fr] gap-5">
+
+          <div className="overflow-hidden rounded-[3rem]">
+            <img
+              src="/odem-gallery-1.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <div className="grid gap-5">
+
+            <div className="overflow-hidden rounded-[2rem]">
+              <img
+                src="/odem-gallery-2.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-[2rem]">
+              <img
+                src="/odem-gallery-3.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+          </div>
+
+        </div>
+
       </section>
 
       {/* Odem House */}
@@ -382,6 +432,28 @@ export default function DefensePatternsEveningPage() {
             לקריאה נוספת עליי
           </Link>
         </div>
+      </section>
+
+      <section className="relative min-h-[500px] flex items-center justify-center text-center">
+
+        <img
+          src="/odem-evening.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <div className="absolute inset-0 bg-[#3E3023]/45" />
+
+        <div className="relative z-10 max-w-3xl px-6 text-[#F8F3E8]">
+
+          <h2 className="text-4xl md:text-6xl font-serif leading-[1.3]">
+            ערב אחד
+            <br />
+            לעצור רגע את הרעש
+          </h2>
+
+        </div>
+
       </section>
 
       {/* Register */}
