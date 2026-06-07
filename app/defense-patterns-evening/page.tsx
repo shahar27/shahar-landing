@@ -447,26 +447,29 @@ export default function DefensePatternsEveningPage() {
         </div>
       </section>
 
-      <section className="relative min-h-[500px] flex items-center justify-center text-center">
-
+      <section className="relative min-h-[620px] flex items-end justify-center text-center overflow-hidden">
         <img
           src="/odem-evening.jpg"
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-[#3E3023]/45" />
+        <div className="absolute inset-0 bg-[#3E3023]/35" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/90 via-[#3E3023]/30 to-transparent" />
 
-        <div className="relative z-10 max-w-3xl px-6 text-[#F8F3E8]">
+        <div className="relative z-10 w-full px-6 pb-16 md:pb-20 text-[#F8F3E8]">
+          <div className="mx-auto max-w-2xl rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#3E3023]/45 px-7 py-10 backdrop-blur-[2px]">
+            <p className="text-[#C8A86A] tracking-[0.22em] mb-5 text-sm">
+              רגע לעצור
+            </p>
 
-          <h2 className="text-4xl md:text-6xl font-serif leading-[1.3]">
-            ערב אחד
-            <br />
-            לעצור רגע את הרעש
-          </h2>
-
+            <h2 className="text-4xl md:text-6xl font-serif leading-[1.25]">
+              ערב אחד
+              <br />
+              לנשום בו אחרת
+            </h2>
+          </div>
         </div>
-
       </section>
 
       {/* Register */}
