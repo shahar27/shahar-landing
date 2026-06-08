@@ -98,11 +98,22 @@ export default function DefensePatternsEveningPage() {
             ))}
           </div>
 
-          <p className="mt-14 text-xl leading-10 text-[#5F4A35]">
-            אלו שאלות שאני פוגשת לא מעט.
-            <br />
-            וגם השאלות שהובילו אותי למסע ששינה את החיים שלי.
-          </p>
+          <div className="mt-20 max-w-2xl mx-auto">
+
+            <div className="h-px w-20 bg-[#C8A86A]/30 mx-auto mb-10" />
+
+            <p className="text-2xl md:text-3xl font-serif leading-[1.8] text-[#3E3023]">
+              אלה לא רק שאלות שאני שומעת.
+            </p>
+
+            <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
+              אלו גם השאלות שגרמו לי לעצור,
+              לחקור,
+              ולנסות להבין למה כל כך קשה לנו
+              לעשות את מה שאנחנו יודעים שנכון לנו.
+            </p>
+
+          </div>
         </div>
       </section>
 
