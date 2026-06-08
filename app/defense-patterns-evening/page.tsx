@@ -28,7 +28,7 @@ export default function DefensePatternsEveningPage() {
 
         <a
           href="#register"
-          className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:w-auto z-[9999] rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-4 text-center shadow-xl text-lg hover:shadow-2xl transition"
+          className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:w-auto z-[9999] rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-3 text-center shadow-xl text-base hover:shadow-2xl transition"
         >
           שמירת מקום 
         </a>
@@ -136,6 +136,16 @@ export default function DefensePatternsEveningPage() {
             />
           </div>
         </div>
+      </section>
+
+      <section className="py-12 text-center">
+        <p className="text-[#9C7A4B] tracking-[0.22em] text-sm">
+          דברים שאפשר לראות
+        </p>
+
+        <p className="mt-4 text-2xl md:text-3xl font-serif text-[#3E3023]">
+          כשמאיטים.
+        </p>
       </section>
 
       <section className="relative min-h-[620px] flex items-end justify-center text-center overflow-hidden">
@@ -298,19 +308,12 @@ export default function DefensePatternsEveningPage() {
 
           </div>
 
-          <div className="mt-12 grid md:grid-cols-3 gap-5">
-            {[
-              ["01", " לזהות את הרגע שבו אנחנו פועלים על אוטומט"],
-              ["02", "לראות סיטואציות מוכרות בזווית חדשה"],
-              ["03", "לקחת הביתה שאלות וכלים שילוו אתכם גם בחיים"],
-            ].map(([number, item]) => (
-              <div key={item} className="rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm">
-                <div className="mb-5 text-[#C8A86A] text-xl font-light tracking-[0.3em]">
-                  {number}
-                </div>
-                <p className="text-xl leading-8 text-[#5F4A35]">{item}</p>
-              </div>
-            ))}
+          <div className="mt-12 max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/60 px-8 py-10 shadow-sm">
+            <ul className="space-y-6 text-xl leading-9 text-[#5F4A35] text-right">
+              <li>✦ לזהות את הרגע שבו אנחנו פועלים על אוטומט</li>
+              <li>✦ לראות סיטואציות מוכרות בזווית חדשה</li>
+              <li>✦ לקחת הביתה שאלות וכלים שילוו אתכם גם בחיים</li>
+            </ul>
           </div>
         </div>
       </section>
