@@ -96,7 +96,6 @@ export default function DefensePatternsEveningPage() {
           <div className="mt-16 max-w-3xl mx-auto">
             {[
               "למה אני בטוח שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
-              "אני מבינה שהילדים לא עושים לי בכוונה אז למה אני עדיין מתפוצצת, כשזו בכלל לא האמא שאני רוצה להיות?",
               "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
             ].map((question) => (
               <div key={question} className="py-8 border-b border-[#C8A86A]/20 last:border-b-0">
@@ -112,11 +111,13 @@ export default function DefensePatternsEveningPage() {
             <div className="h-px w-20 bg-[#C8A86A]/30 mx-auto mb-10" />
 
             <p className="text-2xl md:text-3xl font-serif leading-[1.8] text-[#3E3023]">
-              לפעמים אנחנו בטוחים שאנחנו יודעים את התשובות.
+              אולי הסיבה שאנחנו ממשיכים לחזור לאותם מקומות,
+              היא שאנחנו ממשיכים להסתכל עליהם מאותה נקודת מבט .
             </p>
 
             <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
-              שמשהו חייב לקרות, שלא קשור אלינו.
+              אז בואו נעצור רגע,
+             לפני שאנחנו ממשיכים להאמין לכל מה שנראה לנו מובן מאליו.
             </p>
 
           </div>
