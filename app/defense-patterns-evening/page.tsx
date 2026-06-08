@@ -119,7 +119,7 @@ export default function DefensePatternsEveningPage() {
 
             <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
               אלו גם השאלות שגרמו לי לעצור,
-              ללמוד ולחקור
+              ללמוד, לחקור
               ולשנות את החיים שלי.
             </p>
 
