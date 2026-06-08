@@ -279,6 +279,12 @@ export default function DefensePatternsEveningPage() {
               כי אנחנו לא תמיד מגיבים למה שקורה עכשיו.
             </p>
 
+            <p className="mt-8 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
+              לפעמים אנחנו מגיבים
+              <br />
+              מתוך זיכרון שכבר לא רלוונטי.
+            </p>
+
           </div>
         </div>
       </section>
@@ -298,13 +304,13 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25]">
-            עם רגע אחד
+             עם דרך חדשה
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              שבו משהו שהייתם בטוחים לגביו,
-              נפתח לאפשרויות חדשות.  
+              שבה, במקומות שהייתם בטוחים לגביהם,
+              נפתחות אפשרויות חדשות.  
             </p>
 
           </div>
