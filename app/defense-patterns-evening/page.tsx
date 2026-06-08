@@ -95,11 +95,9 @@ export default function DefensePatternsEveningPage() {
           <BrainDivider />
           <div className="mt-16 max-w-3xl mx-auto">
             {[
-              "אני יודעת שלא כל ביקורת אומרת שמשהו לא בסדר בי, אז למה אני עדיין נפגעת ממנה ?",
               "למה אני בטוח שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
               "אני מבינה שהילדים לא עושים לי בכוונה אז למה אני עדיין מתפוצצת, כשזו בכלל לא האמא שאני רוצה להיות?",
-              "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב ועדיין בטוח שהבעיה היא רק מה שקורה סביבי?",
-              "כמה מהמריבות שלנו הן בכלל לא על מה שקרה אלא על מה שאנחנו בטוחים שזה אומר?",
+              "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
             ].map((question) => (
               <div key={question} className="py-8 border-b border-[#C8A86A]/20 last:border-b-0">
                 <p className="text-[1.15rem] md:text-[1.7rem] font-serif leading-[2] text-[#9C7A4B]">
@@ -114,15 +112,50 @@ export default function DefensePatternsEveningPage() {
             <div className="h-px w-20 bg-[#C8A86A]/30 mx-auto mb-10" />
 
             <p className="text-2xl md:text-3xl font-serif leading-[1.8] text-[#3E3023]">
-              אלה לא רק שאלות שאני שומעת.
+              לפעמים אנחנו בטוחים שאנחנו יודעים את התשובות.
             </p>
 
             <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
-              אלו גם השאלות שגרמו לי לעצור,
-              ללמוד, לחקור
-              ולשנות את החיים שלי.
+              שמשהו חייב לקרות, שלא קשור אלינו.
             </p>
 
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-16 lg:px-24 pb-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
+            <img
+              src="/odem-house-detail.jpg"
+              alt=""
+              className="w-full h-full object-cover opacity-90"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="relative min-h-[620px] flex items-end justify-center text-center overflow-hidden">
+        <img
+          src="/odem-evening.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+        />  
+
+        <div className="absolute inset-0 bg-[#3E3023]/35" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/90 via-[#3E3023]/30 to-transparent" />
+
+        <div className="relative z-10 w-full px-6 pb-16 md:pb-20 text-[#F8F3E8]">
+          <div className="mx-auto max-w-2xl rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#3E3023]/45 px-7 py-10 backdrop-blur-[2px]">
+            <p className="text-[#C8A86A] tracking-[0.22em] mb-5 text-sm">
+              רגע לעצור
+            </p>
+
+            <h2 className="text-4xl md:text-6xl font-serif leading-[1.25]">
+              ערב אחד
+              <br />
+              לנשום בו אחרת
+            </h2>
           </div>
         </div>
       </section>
@@ -223,38 +256,26 @@ export default function DefensePatternsEveningPage() {
 
       {/* Core idea */}
       <section className="px-6 md:px-16 lg:px-24 py-20">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
-          <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
-            <img src="/odem-house-detail.jpg" alt="" className="w-full h-full object-cover opacity-90" />
-          </div>
+        <div className="max-w-3xl mx-auto text-center">
 
           <div className="text-center md:text-right">
             <p className="text-xl leading-10 text-[#5F4A35]">
-              במשך שנים חשבתי שמשהו בי לא בסדר.
+              התחלתי להשתנות באמת 
             </p>
 
             <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-              איך יכול להיות שאני לומדת,
-              מבינה,
-              מתפתחת,
-              ובכל זאת ממשיכה לחזור לאותם מקומות?
+              ביום שבו הפסקתי ״לדעת״ מה לא בסדר ולנסות לתקן
             </p>
 
             <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-              מה שגיליתי בדרך,
-              הוא שחלק גדול מההתנהגויות שגרמו להכי הרבה כאב וקושי בחיי,
-              לא הופיעו סתם.
-            </p>
-
-            <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-              פעם הייתה להן משמעות ותועלת.
+              והתחלתי לנסות להבין, למה זה נוצר?
             </p>
 
             <div className="my-12 h-px w-24 bg-[#C8A86A]/45 mx-auto md:mx-0" />
 
             <p className="text-3xl md:text-4xl font-serif leading-[1.35]">
-              וכשמבינים למה הן נוצרו,
-              זו נקודת ההתחלה לשינוי ולשחרור ממה שכבר לא משרת אותנו.
+              ברגע שמבינים למה משהו נוצר,
+              קשה להמשיך לראות אותו באותה צורה. 
             </p>
           </div>
         </div>
@@ -283,10 +304,6 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <p>
-              כי לדעת לא תמיד משנה את מה שמנהל אותנו.
-            </p>
-
-            <p>
               לפעמים דווקא הדברים שאנחנו הכי בטוחים לגביהם,
               הם הדברים שהכי קשה לנו לראות.
             </p>
@@ -308,23 +325,13 @@ export default function DefensePatternsEveningPage() {
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25]">
             עם רגע אחד
-            <br />
-            שאי אפשר לחזור ממנו.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              הרגע שבו אתם קולטים
+               שבו אתם קולטים
               שלא כל מה שנראה כמו המציאות,
               הוא בהכרח המציאות.
-            </p>
-
-            <p>
-              ופתאום מתחילים לשאול:
-            </p>
-
-            <p className="font-serif text-2xl">
-              "מאיפה אני כל כך בטוח שזה מה שקרה?"
             </p>
 
           </div>
@@ -530,31 +537,6 @@ export default function DefensePatternsEveningPage() {
           <Link href="/" className="mt-10 inline-flex rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/50 transition">
             לקריאה נוספת עליי
           </Link>
-        </div>
-      </section>
-
-      <section className="relative min-h-[620px] flex items-end justify-center text-center overflow-hidden">
-        <img
-          src="/odem-evening.jpg"
-          alt=""
-          className="absolute inset-0 w-full h-full object-cover"
-        />  
-
-        <div className="absolute inset-0 bg-[#3E3023]/35" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/90 via-[#3E3023]/30 to-transparent" />
-
-        <div className="relative z-10 w-full px-6 pb-16 md:pb-20 text-[#F8F3E8]">
-          <div className="mx-auto max-w-2xl rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#3E3023]/45 px-7 py-10 backdrop-blur-[2px]">
-            <p className="text-[#C8A86A] tracking-[0.22em] mb-5 text-sm">
-              רגע לעצור
-            </p>
-
-            <h2 className="text-4xl md:text-6xl font-serif leading-[1.25]">
-              ערב אחד
-              <br />
-              לנשום בו אחרת
-            </h2>
-          </div>
         </div>
       </section>
 
