@@ -84,46 +84,6 @@ export default function DefensePatternsEveningPage() {
         </div>
       </section>
 
-      {/* Identification */}
-      <section className="px-6 py-24 md:py-32">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-3xl md:text-5xl font-serif leading-[1.35]">
-          האם האופן שבו אתם מתנהגים,
-          <br />
-          באמת מעיד על מי שאתם?
-        </p>
-          <BrainDivider />
-          <div className="mt-16 max-w-3xl mx-auto">
-            {[
-              "למה אני בטוח שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
-              "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
-            ].map((question) => (
-              <div key={question} className="py-8 border-b border-[#C8A86A]/20 last:border-b-0">
-                <p className="text-[1.15rem] md:text-[1.7rem] font-serif leading-[2] text-[#9C7A4B]">
-                  {question}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-20 max-w-2xl mx-auto">
-
-            <div className="h-px w-20 bg-[#C8A86A]/30 mx-auto mb-10" />
-
-            <p className="text-2xl md:text-3xl font-serif leading-[1.8] text-[#3E3023]">
-              אולי הסיבה שאנחנו ממשיכים לחזור לאותם מקומות,
-              היא שאנחנו ממשיכים להסתכל עליהם מאותה נקודת מבט .
-            </p>
-
-            <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
-              אז בואו נעצור רגע,
-             לפני שאנחנו ממשיכים להאמין לכל מה שנראה לנו מובן מאליו.
-            </p>
-
-          </div>
-        </div>
-      </section>
-
       <section className="px-6 md:px-16 lg:px-24 pb-10">
         <div className="max-w-6xl mx-auto">
           <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
@@ -132,6 +92,51 @@ export default function DefensePatternsEveningPage() {
               alt=""
               className="w-full h-full object-cover opacity-90"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Identification */}
+      <section className="px-6 py-20 md:py-28">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-3xl md:text-5xl font-serif leading-[1.35] text-[#3E3023]">
+            האם האופן שבו אתם מתנהגים,
+            <br />
+            באמת מעיד על מי שאתם?
+          </p>
+
+          <BrainDivider />
+
+          <div className="mt-14 max-w-2xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/25 px-7 py-10 md:px-10 md:py-12 shadow-sm">
+            {[
+              "למה אני בטוח שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
+              "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
+            ].map((question) => (
+              <div
+                key={question}
+                className="py-7 border-b border-[#C8A86A]/20 last:border-b-0"
+              >
+                <p className="text-[1.1rem] md:text-[1.55rem] font-serif leading-[1.9] text-[#9C7A4B]">
+                  {question}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-14 max-w-2xl mx-auto">
+            <div className="h-px w-16 bg-[#C8A86A]/30 mx-auto mb-8" />
+
+            <p className="text-xl md:text-2xl font-serif leading-[1.9] text-[#3E3023]">
+              אולי הסיבה שאנחנו ממשיכים לחזור לאותם מקומות,
+              <br className="hidden md:block" />
+              היא שאנחנו ממשיכים להסתכל עליהם מאותה נקודת מבט.
+            </p>
+
+            <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35]">
+              אז בואו נעצור רגע,
+              <br className="hidden md:block" />
+              לפני שאנחנו ממשיכים להאמין לכל מה שנראה לנו מובן מאליו.
+            </p>
           </div>
         </div>
       </section>
