@@ -228,14 +228,12 @@ export default function DefensePatternsEveningPage() {
               <br />
               מחשבה הופכת לעובדה.
             </p>
-
-            <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto my-10" />
           </div>
         </div>
       </section>
 
       {/* What happens */}
-      <section className="px-6 pt-16 pb-20 bg-gradient-to-b from-[#F8F3E8] via-[#F8F3E8] to-white/30">
+      <section className="px-6 pt-8 pb-20">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-6 mx-auto h-px w-16 bg-[#C8A86A]/35" />
 
@@ -247,7 +245,7 @@ export default function DefensePatternsEveningPage() {
             {[
               ["01", "נפגוש שאלות שלא שואלים בדרך כלל."],
               ["02", "נסתכל על סיטואציות מוכרות מזווית אחרת."],
-              ["03", "ומה קורה כשמחליפים ודאות בסקרנות."],
+              ["03", "ונרגיש מה קורה כשמחליפים ודאות בסקרנות."],
             ].map(([number, text]) => (
               <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
                 <div className="mb-8 text-[#C8A86A] text-2xl font-light tracking-[0.3em]">
@@ -285,10 +283,13 @@ export default function DefensePatternsEveningPage() {
         </div>
       </section>
 
-      
-
       {/* Experience */}
-      <section className="px-6 py-24 bg-white/35">
+      <section className="px-6 py-24 bg-[#F3EBDD]">
+        <div className="max-w-4xl mx-auto mb-14 flex items-center justify-center gap-4">
+          <span className="h-px w-10 bg-[#C8A86A]/20" />
+          <div className="w-2 h-2 rounded-full bg-[#C8A86A]/40" />
+          <span className="h-px w-10 bg-[#C8A86A]/20" />
+        </div>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
@@ -308,12 +309,21 @@ export default function DefensePatternsEveningPage() {
 
           </div>
 
-          <div className="mt-12 max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/60 px-8 py-10 shadow-sm">
-            <ul className="space-y-6 text-xl leading-9 text-[#5F4A35] text-right">
-              <li>✦ לזהות את הרגע שבו אנחנו פועלים על אוטומט</li>
-              <li>✦ לראות סיטואציות מוכרות בזווית חדשה</li>
-              <li>✦ לקחת הביתה שאלות וכלים שילוו אתכם גם בחיים</li>
-            </ul>
+          <div className="mt-12 max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/60 px-7 py-8 md:px-10 md:py-10 shadow-sm">
+            <div className="divide-y divide-[#C8A86A]/20 text-center">
+              {[
+                "לזהות את הרגע שבו אנחנו פועלים על אוטומט",
+                "לראות סיטואציות מוכרות בזווית חדשה",
+                "לקחת הביתה שאלות וכלים שילוו אתכם גם בחיים",
+              ].map((item) => (
+                <p
+                  key={item}
+                  className="py-6 text-lg md:text-xl leading-9 text-[#5F4A35]"
+                >
+                  {item}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       </section>
