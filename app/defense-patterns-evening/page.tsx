@@ -97,7 +97,7 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-14 max-w-2xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/25 px-7 py-10 md:px-10 md:py-12 shadow-sm">
             {[
-              "למה אני בטוח שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
+              "למה אני בטוחה שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
               "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
             ].map((question) => (
               <div
@@ -221,13 +221,6 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto my-10" />
-
-            <p className="text-lg md:text-xl leading-10 text-[#5F4A35] max-w-2xl mx-auto">
-              כי בין מה שקרה,
-              לבין מה שאנחנו בטוחים שהוא אומר,
-              נולד חלק גדול מהסבל שלנו.
-            </p>
-
           </div>
         </div>
       </section>
@@ -301,16 +294,15 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
-             איפה שאין סקרנות,
+             אם כבר הבנתי את הבעיה,
             <br />
-            יש יותר אוטומט.
+            למה אני מוצאת את עצמי באותו מקום?
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
 
             <p>
-              אם כבר הבנתי את הבעיה,
-              למה אני עדיין מוצאת את עצמי באותו מקום?
+              כי אנחנו לא תמיד מגיבים למה שקורה עכשיו.
             </p>
 
           </div>
