@@ -81,9 +81,7 @@ export default function DefensePatternsEveningPage() {
           <br />
           באמת מעיד על מי שאתם?
         </p>
-
           <BrainDivider />
-
           <div className="mt-16 max-w-3xl mx-auto">
             {[
               "אני יודעת שלא כל ביקורת אומרת שמשהו לא בסדר בי, אז למה אני עדיין נפגעת ממנה ?",
@@ -93,7 +91,7 @@ export default function DefensePatternsEveningPage() {
               "כמה מהמריבות שלנו הן בכלל לא על מה שקרה אלא על מה שאנחנו בטוחים שזה אומר?",
             ].map((question) => (
               <div key={question} className="py-8 border-b border-[#C8A86A]/20 last:border-b-0">
-                <p className="text-[1.55rem] md:text-3xl font-serif leading-[1.75] text-[#9C7A4B]">
+                <p className="text-[1.15rem] md:text-[1.7rem] font-serif leading-[2] text-[#9C7A4B]">
                   {question}
                 </p>
               </div>
