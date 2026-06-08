@@ -108,9 +108,8 @@ export default function DefensePatternsEveningPage() {
 
             <p className="mt-6 text-xl leading-10 text-[#5F4A35]">
               אלו גם השאלות שגרמו לי לעצור,
-              לחקור,
-              ולנסות להבין למה כל כך קשה לנו
-              לעשות את מה שאנחנו יודעים שנכון לנו.
+              ללמוד ולחקור
+              ולשנות את החיים שלי.
             </p>
 
           </div>
@@ -157,17 +156,31 @@ export default function DefensePatternsEveningPage() {
             ))}
           </div>
 
-          <p className="mt-14 text-2xl md:text-3xl font-serif leading-[1.6] text-[#3E3023]">
-            הערב הזה נועד לעצור בדיוק ברגע הזה.
-            <br />
-            ברגע שבו מחשבה הופכת לעובדה.
-          </p>
+          <div className="mt-20 max-w-3xl mx-auto text-center">
 
-          <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-            כי בין מה שקרה,
-            לבין מה שאנחנו בטוחים שהוא אומר,
-            נולד חלק גדול מהסבל שלנו.
-          </p>
+            <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-10" />
+
+            <p className="text-4xl md:text-5xl font-serif leading-[1.4] text-[#3E3023]">
+              הערב הזה נועד לעצור
+              <br />
+              בדיוק ברגע הזה.
+            </p>
+
+            <p className="mt-10 text-2xl md:text-3xl font-serif leading-[1.7] text-[#9C7A4B]">
+              ברגע שבו
+              <br />
+              מחשבה הופכת לעובדה.
+            </p>
+
+            <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto my-10" />
+
+            <p className="text-lg md:text-xl leading-10 text-[#5F4A35] max-w-2xl mx-auto">
+              כי בין מה שקרה,
+              לבין מה שאנחנו בטוחים שהוא אומר,
+              נולד חלק גדול מהסבל שלנו.
+            </p>
+
+          </div>
         </div>
       </section>
 
