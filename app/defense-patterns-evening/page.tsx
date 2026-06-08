@@ -79,20 +79,8 @@ export default function DefensePatternsEveningPage() {
             href="#included"
             className="mt-4 inline-flex items-center justify-center rounded-full border border-[#C8A86A]/45 bg-[#F8F3E8]/55 px-7 py-3 text-[#9C7A4B] shadow-sm backdrop-blur-[2px] hover:bg-white/70 hover:border-[#C8A86A] transition"
           >
-            מה הערב כולל
+            מה מחכה לנו
           </a>
-        </div>
-      </section>
-
-      <section className="px-6 md:px-16 lg:px-24 pb-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
-            <img
-              src="/odem-house-detail.jpg"
-              alt=""
-              className="w-full h-full object-cover opacity-90"
-            />
-          </div>
         </div>
       </section>
 
@@ -137,6 +125,18 @@ export default function DefensePatternsEveningPage() {
               <br className="hidden md:block" />
               לפני שאנחנו ממשיכים להאמין לכל מה שנראה לנו מובן מאליו.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-16 lg:px-24 pb-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
+            <img
+              src="/odem-house-detail.jpg"
+              alt=""
+              className="w-full h-full object-cover opacity-90"
+            />
           </div>
         </div>
       </section>
