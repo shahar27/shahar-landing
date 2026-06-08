@@ -70,6 +70,13 @@ export default function DefensePatternsEveningPage() {
           <a href="#register" className="mt-10 inline-flex rounded-full bg-[#9C7A4B] px-9 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition">
             שמירת מקום 
           </a>
+
+          <a
+            href="#included"
+            className="mt-5 block text-sm md:text-base text-[#9C7A4B] underline underline-offset-8 decoration-[#C8A86A]/45 hover:decoration-[#C8A86A] transition"
+          >
+            מה הערב כולל
+          </a>
         </div>
       </section>
 
@@ -424,7 +431,7 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* Included */}
-      <section className="px-6 py-24">
+      <section id="included" className="px-6 py-24">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
