@@ -233,9 +233,9 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
-            איפה שיש סקרנות,
+            רמז: איפה שאין סקרנות,
             <br />
-            יש פחות אוטומט.
+            יש יותר אוטומט.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
