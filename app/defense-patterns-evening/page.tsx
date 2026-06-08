@@ -65,6 +65,8 @@ export default function DefensePatternsEveningPage() {
             {EVENT_TIME}
             <br />
             ODEM HOUSE | יפו
+            <br />
+            שעתיים וחצי • יין ונשנושים • אירוח מפנק
           </p>
 
           <a href="#register" className="mt-10 inline-flex rounded-full bg-[#9C7A4B] px-9 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition">
@@ -73,7 +75,7 @@ export default function DefensePatternsEveningPage() {
 
           <a
             href="#included"
-            className="mt-5 block text-sm md:text-base text-[#9C7A4B] underline underline-offset-8 decoration-[#C8A86A]/45 hover:decoration-[#C8A86A] transition"
+            className="mt-4 inline-flex items-center justify-center rounded-full border border-[#C8A86A]/45 bg-[#F8F3E8]/55 px-7 py-3 text-[#9C7A4B] shadow-sm backdrop-blur-[2px] hover:bg-white/70 hover:border-[#C8A86A] transition"
           >
             מה הערב כולל
           </a>
