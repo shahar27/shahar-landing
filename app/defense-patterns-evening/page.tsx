@@ -118,9 +118,8 @@ export default function DefensePatternsEveningPage() {
               אולי יש משהו שאנחנו עדיין לא רואים.
             </p>
 
-            <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35]">
-              אז בואו נעצור רגע
-            <br className="hidden md:block" />
+            <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-xl mx-auto">
+              אז בואו נעצור רגע,
               לפני שאנחנו ממשיכים להאמין לכל מה שנראה לנו מובן מאליו.
             </p>
           </div>
@@ -226,12 +225,12 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* What happens */}
-      <section className="px-6 py-24">
+      <section className="px-6 pt-16 pb-20 bg-gradient-to-b from-[#F8F3E8] via-[#F8F3E8] to-white/30">
         <div className="max-w-5xl mx-auto text-center">
-          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
+          <div className="mb-6 mx-auto h-px w-16 bg-[#C8A86A]/35" />
 
-          <h2 className="text-4xl md:text-5xl font-serif mb-14">
-            במהלך הערב נבדוק
+          <h2 className="text-3xl md:text-5xl font-serif mb-12 leading-[1.35]">
+            במהלך הערב 
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -247,39 +246,6 @@ export default function DefensePatternsEveningPage() {
                 <p className="text-xl leading-9 text-[#5F4A35]">{text}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Core idea */}
-      <section className="px-6 md:px-16 lg:px-24 py-20 bg-white/25">
-        <div className="max-w-3xl mx-auto text-center">
-
-          <p className="text-[#C8A86A] tracking-[0.22em] mb-5 text-sm">
-            נקודת המפנה
-          </p>
-
-          <h2 className="text-3xl md:text-5xl font-serif leading-[1.35] text-[#3E3023]">
-            שינוי לא התחיל אצלי
-            <br />
-            מעוד תשובה.
-          </h2>
-
-          <div className="mt-12 rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#F8F3E8]/70 px-7 py-10 md:px-10 md:py-12 shadow-sm">
-
-            <p className="text-xl md:text-2xl font-serif leading-[1.9] text-[#5F4A35]">
-              התחלתי להשתנות באמת
-              ביום שבו הפסקתי רק לדעת מה לא בסדר ולנסות לתקן.
-            </p>
-
-            <div className="my-9 h-px w-16 bg-[#C8A86A]/35 mx-auto" />
-
-            <p className="text-xl md:text-2xl font-serif leading-[1.9] text-[#5F4A35]">
-              והתחלתי לשאול:
-              <br />
-              למה זה בכלל נוצר?
-            </p>
-
           </div>
         </div>
       </section>
