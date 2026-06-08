@@ -68,7 +68,7 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <a href="#register" className="mt-10 inline-flex rounded-full bg-[#9C7A4B] px-9 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition">
-            שמירת מקום - {EVENT_PRICE}
+            שמירת מקום 
           </a>
         </div>
       </section>
@@ -184,6 +184,32 @@ export default function DefensePatternsEveningPage() {
         </div>
       </section>
 
+      {/* What happens */}
+      <section className="px-6 py-24">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
+
+          <h2 className="text-4xl md:text-5xl font-serif mb-14">
+            במהלך הערב נבדוק
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              ["01", "איך המוח שלנו משכנע אותנו שהוא רואה את המציאות."],
+              ["02", "למה אנחנו ממשיכים לחזור לאותם מקומות גם כשאנחנו יודעים יותר טוב."],
+              ["03", "ומה קורה כשמחליפים ודאות בסקרנות."],
+            ].map(([number, text]) => (
+              <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
+                <div className="mb-8 text-[#C8A86A] text-2xl font-light tracking-[0.3em]">
+                {number}
+              </div>
+                <p className="text-xl leading-9 text-[#5F4A35]">{text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Core idea */}
       <section className="px-6 md:px-16 lg:px-24 py-20">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
@@ -258,31 +284,7 @@ export default function DefensePatternsEveningPage() {
         </div>
       </section>
 
-      {/* What happens */}
-      <section className="px-6 py-24">
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
-
-          <h2 className="text-4xl md:text-5xl font-serif mb-14">
-            במהלך הערב נבדוק
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              ["01", "איך המוח שלנו משכנע אותנו שהוא רואה את המציאות."],
-              ["02", "למה אנחנו ממשיכים לחזור לאותם מקומות גם כשאנחנו יודעים יותר טוב."],
-              ["03", "ומה קורה כשמחליפים ודאות בסקרנות."],
-            ].map(([number, text]) => (
-              <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
-                <div className="mb-8 text-[#C8A86A] text-2xl font-light tracking-[0.3em]">
-                {number}
-              </div>
-                <p className="text-xl leading-9 text-[#5F4A35]">{text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Experience */}
       <section className="px-6 py-24 bg-white/35">
@@ -427,7 +429,7 @@ export default function DefensePatternsEveningPage() {
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-12">
-            מה כולל הערב?
+              אז מה בעצם כולל הערב?
           </h2>
 
           <div className="grid md:grid-cols-2 gap-5 text-right">
@@ -439,7 +441,6 @@ export default function DefensePatternsEveningPage() {
               "כלים מעשיים לעבודה עם דפוסים ביומיום",
               "שיח פתוח, סיפורים ותוכן חווייתי",
               "מספר משתתפים מוגבל",
-              "עלות השתתפות: 240 ₪",
             ].map((item) => (
               <div
                 key={item}
@@ -451,6 +452,20 @@ export default function DefensePatternsEveningPage() {
                 <span>{item}</span>
                 </div>
             ))}
+          </div>
+
+          <div className="mt-12 text-center">
+
+            <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-8" />
+
+            <p className="text-2xl md:text-3xl font-serif text-[#3E3023]">
+              עלות ההשתתפות
+            </p>
+
+            <p className="mt-4 text-4xl font-serif text-[#9C7A4B]">
+              240 ₪
+            </p>
+
           </div>
         </div>
       </section>
