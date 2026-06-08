@@ -115,9 +115,7 @@ export default function DefensePatternsEveningPage() {
             <div className="h-px w-16 bg-[#C8A86A]/30 mx-auto mb-8" />
 
             <p className="text-xl md:text-2xl font-serif leading-[1.9] text-[#3E3023]">
-              אולי הסיבה שאנחנו ממשיכים לחזור לאותם מקומות,
-              <br className="hidden md:block" />
-              היא שאנחנו ממשיכים להסתכל עליהם מאותה נקודת מבט.
+              אולי יש משהו שאנחנו עדיין לא רואים.
             </p>
 
             <p className="mt-7 text-lg md:text-xl leading-9 text-[#5F4A35]">
@@ -245,8 +243,8 @@ export default function DefensePatternsEveningPage() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              ["01", "איך המוח שלנו משכנע אותנו שהוא רואה את המציאות."],
-              ["02", "למה אנחנו ממשיכים לחזור לאותם מקומות גם כשאנחנו יודעים יותר טוב."],
+              ["01", "נפגוש שאלות שלא שואלים בדרך כלל."],
+              ["02", "נסתכל על סיטואציות מוכרות מזווית אחרת."],
               ["03", "ומה קורה כשמחליפים ודאות בסקרנות."],
             ].map(([number, text]) => (
               <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
@@ -290,13 +288,6 @@ export default function DefensePatternsEveningPage() {
             </p>
 
           </div>
-
-          <p className="mt-12 text-2xl md:text-3xl font-serif leading-[1.7] text-[#3E3023]">
-            כי ברגע שמבינים למה משהו נוצר,
-            <br className="hidden md:block" />
-            קשה להמשיך לראות אותו באותה צורה.
-          </p>
-
         </div>
       </section>
 
@@ -310,7 +301,7 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
-            רמז: איפה שאין סקרנות,
+             איפה שאין סקרנות,
             <br />
             יש יותר אוטומט.
           </h2>
@@ -320,11 +311,6 @@ export default function DefensePatternsEveningPage() {
             <p>
               אם כבר הבנתי את הבעיה,
               למה אני עדיין מוצאת את עצמי באותו מקום?
-            </p>
-
-            <p>
-              לפעמים דווקא הדברים שאנחנו הכי בטוחים לגביהם,
-              הם הדברים שהכי קשה לנו לראות.
             </p>
 
           </div>
@@ -348,9 +334,8 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-               שבו אתם קולטים
-              שלא כל מה שנראה כמו המציאות,
-              הוא בהכרח המציאות.
+              שבו משהו שהייתם בטוחים לגביו,
+              נפתח לאפשרויות חדשות.  
             </p>
 
           </div>
