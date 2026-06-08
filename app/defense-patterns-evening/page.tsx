@@ -52,9 +52,9 @@ export default function DefensePatternsEveningPage() {
           </h1>
 
           <p className="mt-8 text-xl md:text-2xl leading-10 text-[#5F4A35] max-w-2xl mx-auto">
-            ערב חוויתי, עמוק ומשחרר
+            כמה מהחיים שלך מנוהלים על ידי בחירה,
             <br />
-            על כל מה שלמדנו להיות, על מי שאנחנו מתחת לזה.
+            וכמה על ידי דברים שמעולם לא בחרת?
           </p>
 
           <BrainDivider />
@@ -87,27 +87,28 @@ export default function DefensePatternsEveningPage() {
           <div className="space-y-8 text-xl md:text-3xl font-serif text-[#9C7A4B]">
 
             <p>
-              למה אני שוב עושה את זה
-              למרות שהבטחתי לעצמי שלא?
+              אני יודעת שלא כל ביקורת אומרת שמשהו לא בסדר בי,
+              אז למה אני עדיין נפגעת ממנה כאילו כן?
             </p>
 
             <p>
-              למה אני יודעת בדיוק מה נכון לי
-              ועדיין לא מצליחה לעשות אותו?
+              למה אני בטוח שהפעם אני אגיב אחרת,
+              ושוב עושה בדיוק אותו דבר?
             </p>
 
             <p>
-              למה אני מתפוצצת על הילדים
-              כשאני בכלל לא רוצה להיות האמא הזאת?
+              אני מבינה שהילדים לא עושים לי בכוונה 
+              אבל עדיין מתפוצצת עליהם, כשאני בכלל לא רוצה להיות האמא הזאת?
             </p>
 
             <p>
-              למה אני כל כך עייפה?
+              איך יכול להיות שאני חוזר לאותו כאב שוב ושוב
+              ועדיין בטוח שהבעיה היא רק מה שקורה סביבי?
             </p>
 
             <p>
-              ולמה אני חושבת על אותו דבר
-              שוב ושוב ושוב?
+              כמה מהמריבות שלנו הן בכלל לא על מה שקרה
+              אלא על מה שאנחנו בטוחים שזה אומר?
             </p>
 
           </div>
@@ -116,6 +117,60 @@ export default function DefensePatternsEveningPage() {
             אלו השאלות שאני פוגשת לא מעט.
             <br />
             וגם השאלות שהובילו אותי למסע ששינה את החיים שלי.
+          </p>
+        </div>
+      </section>
+
+      {/* Interpretation Moment */}
+      <section className="px-6 py-20 md:py-28 bg-white/30">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-3xl md:text-5xl font-serif leading-[1.45] text-[#3E3023]">
+            מה אם רוב הסבל שלנו
+            <br />
+            לא נובע ממה שקורה?
+          </p>
+
+          <p className="mt-8 text-2xl md:text-4xl font-serif leading-[1.45] text-[#9C7A4B]">
+            מה אם הוא נובע מהמהירות
+            <br />
+            שבה החלטנו שאנחנו יודעים מה קרה?
+          </p>
+
+          <div className="my-12 h-px w-24 bg-[#C8A86A]/45 mx-auto" />
+
+          <div className="grid md:grid-cols-3 gap-5 text-right">
+            {[
+              ["בן הזוג שתק.", "הוא מזלזל."],
+              ["הילד התפרץ.", "לא אכפת לו."],
+              ["החברה לא חזרה להודעה.", "היא לא מעריכה."],
+            ].map(([event, meaning]) => (
+              <div
+                key={event}
+                className="rounded-t-[4rem] rounded-b-[2rem] bg-[#F8F3E8] border border-[#C8A86A]/25 p-7 shadow-sm"
+              >
+                <p className="text-xl leading-8 text-[#5F4A35]">
+                  {event}
+                </p>
+
+                <div className="my-6 h-px w-12 bg-[#C8A86A]/35" />
+
+                <p className="text-2xl font-serif leading-9 text-[#3E3023]">
+                  {meaning}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-14 text-2xl md:text-3xl font-serif leading-[1.6] text-[#3E3023]">
+            הערב הזה נועד לעצור בדיוק ברגע הזה.
+            <br />
+            ברגע שבו מחשבה הופכת לעובדה.
+          </p>
+
+          <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
+            כי בין מה שקרה,
+            לבין מה שאנחנו בטוחים שהוא אומר,
+            נולד חלק גדול מהסבל שלנו.
           </p>
         </div>
       </section>
@@ -182,21 +237,12 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <p>
-              זו אחת השאלות שאני הכי אוהבת לחקור.
+              כי לדעת לא תמיד משנה את מה שמנהל אותנו.
             </p>
 
             <p>
-              כי הרבה פעמים אנחנו מנסים להשתנות בכוח.
-            </p>
-
-            <p>
-              אנחנו מבטיחים לעצמנו,
-              מסבירים לעצמנו,
-              מתאכזבים מעצמנו.
-            </p>
-
-            <p>
-              ובכל זאת משהו בפנים ממשיך למשוך לאותו כיוון.
+              לפעמים דווקא הדברים שאנחנו הכי בטוחים לגביהם,
+              הם הדברים שהכי קשה לנו לראות.
             </p>
 
           </div>
@@ -209,14 +255,14 @@ export default function DefensePatternsEveningPage() {
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <h2 className="text-4xl md:text-5xl font-serif mb-14">
-            אז מה יקרה בערב?
+            במהלך הערב נבדוק
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              ["01", "נחקור מה מסתתר מתחת להתנהגות שלנו, בלי להילחם בהן"],
-              ["02", "נזהה איך הדפוסים האלה מופיעים בזוגיות, בהורות ובחיי היומיום"],
-              ["03", "נלמד איך סקרנות יכולה לפתוח מרווח חדש לפני שהאוטומט משתלט"],
+              ["01", "איך המוח שלנו משכנע אותנו שהוא רואה את המציאות."],
+              ["02", "למה אנחנו ממשיכים לחזור לאותם מקומות גם כשאנחנו יודעים יותר טוב."],
+              ["03", "ומה קורה כשמחליפים ודאות בסקרנות."],
             ].map(([number, text]) => (
               <div key={number} className="rounded-[2rem] bg-white/40 border border-[#9C7A4B]/15 p-8 shadow-sm">
                 <div className="mb-8 text-[#C8A86A] text-2xl font-light tracking-[0.3em]">
@@ -239,33 +285,33 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25]">
-            סקרנות.
+            עם רגע אחד
             <br />
-            בהירות.
+            שאי אפשר לחזור ממנו.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              נצא מהערב הזה עם רגע אחד ברור:
-              רגע שבו אתם מבינים את עצמכם אחרת.
+              הרגע שבו אתם קולטים
+              שלא כל מה שנראה כמו המציאות,
+              הוא בהכרח המציאות.
             </p>
 
             <p>
-              לא דרך אשמה.
-              לא דרך עוד הבטחה שהפעם נצליח.
-              אלא דרך שאלה חדשה שנוכל לקחת איתנו הביתה.
+              ופתאום מתחילים לשאול:
             </p>
 
-            <p>
-              אז מה כן?
+            <p className="font-serif text-2xl">
+              "מאיפה אני כל כך בטוח שזה מה שקרה?"
             </p>
+
           </div>
 
           <div className="mt-12 grid md:grid-cols-3 gap-5">
             {[
-              ["01", " להבין לעומק ולהצליח ליישם מנגנונים חדשים"],
-              ["02", "דרך חדשה להסתכל על עצמכם"],
-              ["03", "כלים פשוטים ליום שאחרי"],
+              ["01", " לזהות את הרגע שבו אנחנו פועלים על אוטומט"],
+              ["02", "לראות סיטואציות מוכרות בזווית חדשה"],
+              ["03", "לקחת הביתה שאלות וכלים שילוו אתכם גם בחיים"],
             ].map(([number, item]) => (
               <div key={item} className="rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm">
                 <div className="mb-5 text-[#C8A86A] text-xl font-light tracking-[0.3em]">
@@ -439,6 +485,11 @@ export default function DefensePatternsEveningPage() {
 
           <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
             מלווה תהליכים רגשיים המשלבים גוף, מערכת עצבים, תודעה והורות מיודעת טראומה.
+          </p>
+
+          <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
+            אני לא באה לתת תשובות.
+            אני באה להאיר את המקומות שבהם הפסקנו לשאול שאלות.
           </p>
 
           <Link href="/" className="mt-10 inline-flex rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/50 transition">
