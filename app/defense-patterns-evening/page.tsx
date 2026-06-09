@@ -385,16 +385,21 @@ export default function DefensePatternsEveningPage() {
               className="absolute inset-0 w-full h-full object-cover"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/60 via-[#3E3023]/15 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/70 via-[#3E3023]/10 to-transparent" />
 
-            <div className="absolute bottom-10 right-10 left-10 text-right">
-              <p className="text-[#C8A86A] tracking-[0.28em] text-xs md:text-sm mb-3">
-                ODEM HOUSE
-              </p>
+            <div className="absolute bottom-10 right-8 md:right-10 left-8 text-right">
+              <div className="inline-block">
+                <p className="text-[#F8F3E8] tracking-[0.24em] text-xs md:text-sm mb-2">
+                  ODEM HOUSE
+                </p>
 
-              <h2 className="text-[#F8F3E8] text-5xl md:text-7xl font-serif leading-none">
-                יפו
-              </h2>
+                <h2 className="text-[#F8F3E8] text-5xl md:text-7xl font-serif leading-none">
+                  יפו
+                </h2>
+
+                <div className="mt-4 h-px w-full bg-[#C8A86A]/75" />
+              </div>
+            </div>
             </div>
           </div>
 
