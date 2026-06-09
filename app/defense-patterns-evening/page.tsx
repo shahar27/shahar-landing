@@ -454,47 +454,48 @@ export default function DefensePatternsEveningPage() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-14 text-center">
+            <p className="text-[#C8A86A] tracking-[0.22em] text-sm mb-4">
+              הרשמה
+            </p>
 
-            <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-8" />
+            <p className="text-3xl md:text-4xl font-serif text-[#3E3023]">
+              מחירי מכירה מוקדמת
+            </p>
 
-            <div className="mt-12 text-center">
+            <p className="mt-4 text-sm md:text-base text-[#9C7A4B]/80">
+              מספר המקומות במחיר זה מוגבל
+            </p>
 
-              <p className="text-[#C8A86A] tracking-[0.22em] text-sm mb-4">
-                הרשמה
-              </p>
+            <div className="mt-10 max-w-2xl mx-auto grid md:grid-cols-2 gap-5">
+              <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8 shadow-sm">
+                <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
+                  כרטיס יחיד
+                </p>
 
-              <p className="text-3xl md:text-4xl font-serif text-[#3E3023]">
-                מחירי מכירה מוקדמת
-              </p>
+                <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
+                  220 ₪
+                </p>
 
-              <div className="mt-10 max-w-2xl mx-auto grid md:grid-cols-2 gap-5">
-
-                <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8">
-                  <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-4">
-                    כרטיס יחיד
-                  </p>
-
-                  <p className="text-5xl font-serif text-[#3E3023]">
-                    220 ₪
-                  </p>
-                </div>
-
-                <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#F3EBDD] p-8 shadow-md">
-                  <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-4">
-                    כרטיס זוגי
-                  </p>
-
-                  <p className="text-5xl font-serif text-[#3E3023]">
-                    400 ₪
-                  </p>
-
-                </div>
-
+                <p className="mt-4 text-sm text-[#9C7A4B]/80">
+                  במכירה מוקדמת
+                </p>
               </div>
 
-            </div>
+              <div className="relative rounded-t-[4rem] rounded-b-[2rem] border-2 border-[#C8A86A]/40 bg-[#F8F3E8] p-8 shadow-lg md:scale-[1.02]">
+                <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
+                  כרטיס זוגי
+                </p>
 
+                <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
+                  400 ₪
+                </p>
+
+                <p className="mt-4 text-sm text-[#9C7A4B]/80">
+                  במכירה מוקדמת
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
