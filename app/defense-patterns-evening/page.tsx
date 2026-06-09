@@ -189,7 +189,7 @@ export default function DefensePatternsEveningPage() {
 
           <div className="my-12 h-px w-24 bg-[#C8A86A]/45 mx-auto" />
 
-          <div className="grid md:grid-cols-3 gap-5 text-right">
+          <div className="mt-12 max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/55 px-7 py-8 md:px-10 md:py-10 shadow-sm">
             {[
               ["בן הזוג שתק.", "הוא מזלזל."],
               ["הילד התפרץ.", "לא אכפת לו."],
@@ -197,15 +197,13 @@ export default function DefensePatternsEveningPage() {
             ].map(([event, meaning]) => (
               <div
                 key={event}
-                className="rounded-t-[4rem] rounded-b-[2rem] bg-[#F8F3E8] border border-[#C8A86A]/25 p-7 shadow-sm"
+                className="py-7 border-b border-[#C8A86A]/18 last:border-b-0"
               >
-                <p className="text-xl leading-8 text-[#5F4A35]">
+                <p className="text-lg md:text-xl leading-8 text-[#5F4A35]">
                   {event}
                 </p>
 
-                <div className="my-6 h-px w-12 bg-[#C8A86A]/35" />
-
-                <p className="text-2xl font-serif leading-9 text-[#3E3023]">
+                <p className="mt-4 text-xl md:text-2xl font-serif leading-9 text-[#3E3023]">
                   {meaning}
                 </p>
               </div>
@@ -459,9 +457,11 @@ export default function DefensePatternsEveningPage() {
 
             <div className="mt-12 text-center">
 
-              <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-8" />
+              <p className="text-[#C8A86A] tracking-[0.22em] text-sm mb-4">
+                הרשמה
+              </p>
 
-              <p className="text-2xl md:text-3xl font-serif text-[#3E3023]">
+              <p className="text-3xl md:text-4xl font-serif text-[#3E3023]">
                 מחירי מכירה מוקדמת
               </p>
 
@@ -486,9 +486,6 @@ export default function DefensePatternsEveningPage() {
                     400 ₪
                   </p>
 
-                  <p className="mt-4 text-sm text-[#9C7A4B]">
-                    משתלם יותר ב־40 ₪
-                  </p>
                 </div>
 
               </div>
