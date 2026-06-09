@@ -376,24 +376,23 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* Odem House */}
-      <section className="px-6 md:px-16 lg:px-24 py-20">
+      <section className="px-6 md:px-16 lg:px-24 pt-8 pb-20">
         <div className="max-w-6xl mx-auto rounded-[3rem] overflow-hidden border border-[#C8A86A]/20 shadow-xl bg-[#F8F3E8]">
-          
           <div className="relative min-h-[420px] md:min-h-[560px]">
             <img
               src="/odem-house-wide.jpg"
               alt=""
-              className="absolute inset-0 w-full h-full object-cover opacity-90"
+              className="absolute inset-0 w-full h-full object-cover"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/55 via-[#3E3023]/20 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/60 via-[#3E3023]/15 to-transparent" />
 
-            <div className="absolute bottom-8 right-8 left-8 text-[#F8F3E8] text-right">
-              <p className="text-[#C8A86A] tracking-[0.25em] text-sm mb-4">
+            <div className="absolute bottom-10 right-10 left-10 text-right">
+              <p className="text-[#C8A86A] tracking-[0.28em] text-xs md:text-sm mb-3">
                 ODEM HOUSE
               </p>
 
-              <h2 className="text-4xl md:text-6xl font-serif leading-[1.2]">
+              <h2 className="text-[#F8F3E8] text-5xl md:text-7xl font-serif leading-none">
                 יפו
               </h2>
             </div>
