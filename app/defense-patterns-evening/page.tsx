@@ -477,7 +477,7 @@ export default function DefensePatternsEveningPage() {
                 className="block rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
-                  כרטיס יחיד
+                  לרכישת כרטיס יחיד
                 </p>
 
                 <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
@@ -496,7 +496,7 @@ export default function DefensePatternsEveningPage() {
                 className="block relative rounded-t-[4rem] rounded-b-[2rem] border-2 border-[#C8A86A]/40 bg-[#F8F3E8] p-8 shadow-lg md:scale-[1.02] transition hover:-translate-y-1 hover:shadow-xl"
               >
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
-                  כרטיס זוגי
+                  לרכישת כרטיס זוגי
                 </p>
 
                 <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
