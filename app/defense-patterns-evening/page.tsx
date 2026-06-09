@@ -221,7 +221,7 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <p className="mt-10 text-2xl md:text-3xl font-serif leading-[1.7] text-[#9C7A4B]">
-              ברגע שבו
+              שבו
               <br />
               מחשבה הופכת לעובדה.
             </p>
@@ -261,13 +261,13 @@ export default function DefensePatternsEveningPage() {
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
-            אז למה כל כך קשה להשתנות?
+            למה שלא פשוט נלמד, ננבין ונשתנה?
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
-             אם כבר הבנתי את הבעיה,
+             גם אם כבר הבנו את הבעיה,
             <br />
-            למה אני מוצאת את עצמי באותו מקום?
+            נגלה שאנחנו עדיין מגיעים לאותם מקומות.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
@@ -279,7 +279,7 @@ export default function DefensePatternsEveningPage() {
             <p className="mt-8 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
               לפעמים אנחנו מגיבים
               <br />
-              מתוך זיכרון שכבר לא רלוונטי.
+              למשהו שאנחנו בכלל לא רואים וקורה בתוכנו.
             </p>
 
           </div>
