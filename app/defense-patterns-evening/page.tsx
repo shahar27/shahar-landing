@@ -382,14 +382,14 @@ export default function DefensePatternsEveningPage() {
             <img
               src="/odem-house-wide.jpg"
               alt=""
-              className="absolute inset-0 w-full h-full object-cover brightness-105 saturate-75"
+              className="absolute inset-0 w-full h-full object-cover brightness-100 saturate-100"
             />
 
-            <div className="absolute inset-0 bg-[#F8F3E8]/12" />
+            <div className="absolute inset-0 bg-[#C8A86A]/10" />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/40 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#6B4F32]/35 via-transparent to-transparent" />
 
-            <div className="absolute bottom-10 right-8 md:right-10 left-8 text-right">
+            <div className="absolute bottom-6 right-8 md:right-10 left-8 text-right">
               <div className="inline-block">
                 <p className="text-[#F8F3E8] tracking-[0.24em] text-xs md:text-sm mb-2">
                   ODEM HOUSE
