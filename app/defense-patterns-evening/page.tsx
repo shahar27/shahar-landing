@@ -26,10 +26,12 @@ export default function DefensePatternsEveningPage() {
     <main dir="rtl" className="min-h-screen bg-[#F8F3E8] text-[#3E3023] overflow-hidden pb-24">
 
         <a
-          href="#register"
+          href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20לקבל%20פרטים%20ולשמור%20מקום%20לערב%20מתחת%20למנגנוני%20ההגנה"
+          target="_blank"
+          rel="noopener noreferrer"
           className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:w-auto z-[9999] rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-3 text-center shadow-xl text-base hover:shadow-2xl transition"
         >
-          שמירת מקום 
+          פרטים נוספים/ שמירת מקום
         </a>
         
       {/* Hero */}
@@ -599,7 +601,7 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <a
-            href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה"
+            href="https://wa.me/972525460444?text=היי שחר, ״אשמח לקבל פרטים לגביי הערב ״מתחת למנגנוני ההגנה"
             className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition"
           >
             שמירת מקום
