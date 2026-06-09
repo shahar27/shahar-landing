@@ -261,25 +261,25 @@ export default function DefensePatternsEveningPage() {
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
           <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
-            למה שלא פשוט נלמד, ננבין ונשתנה?
+            למה שלא פשוט נלמד, נבין ונשתנה?
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
-             גם אם כבר הבנו את הבעיה,
+            גם אם כבר הבנו,
             <br />
-            נגלה שאנחנו עדיין מגיעים לאותם מקומות.
+            מה צריך להשתנות.
           </h2>
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
 
             <p>
-              כי אנחנו לא תמיד מגיבים למה שקורה עכשיו.
+              אבל אנחנו עדיין מגיבים שונה ממה שתכננו.
             </p>
 
             <p className="mt-8 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
-              לפעמים אנחנו מגיבים
+              כי התגובה שלנו לא תלויה רק במה שקורה מולנו,
               <br />
-              למשהו שאנחנו בכלל לא רואים וקורה בתוכנו.
+              אלא בדברים שאנחנו בכלל לא שמים לב אליהם, בתוכנו.
             </p>
 
           </div>
@@ -291,7 +291,7 @@ export default function DefensePatternsEveningPage() {
         <div className="max-w-4xl mx-auto text-center">
           <BrainMark />
           <p className="text-[#C8A86A] tracking-[0.22em] mb-5">
-            עם מה תצאו הביתה?
+            עם מה נצא הביתה?
           </p>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.25]">
@@ -300,8 +300,8 @@ export default function DefensePatternsEveningPage() {
 
           <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
             <p>
-              שבה, במקומות שהייתם בטוחים לגביהם,
-              נפתחות אפשרויות חדשות.  
+              להסתכל על מקומות שהיינו בטוחים לגביהם,
+              ולראות אפשרויות חדשות.  
             </p>
 
           </div>
