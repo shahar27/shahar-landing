@@ -257,31 +257,31 @@ export default function DefensePatternsEveningPage() {
 
       {/* Curiosity */}
       <section className="px-6 py-24 bg-white/35">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="mb-10 h-px w-20 bg-[#C8A86A]/35 mx-auto" />
 
-          <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
+          <p className="text-[#9C7A4B] tracking-[0.18em] text-sm md:text-base mb-10">
             למה שלא פשוט נלמד, נבין ונשתנה?
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-serif leading-[1.25] text-[#3E3023]">
+          <h2 className="text-4xl md:text-5xl font-serif leading-[1.4] text-[#3E3023]">
             גם אם כבר הבנו,
             <br />
             מה צריך להשתנות.
           </h2>
 
-          <div className="mt-8 text-xl leading-10 text-[#5F4A35] space-y-6">
-
-            <p>
-               אנחנו עדיין מגיבים שונה ממה שתכננו.
+          <div className="mt-12 rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-white/25 px-8 py-10 shadow-sm">
+            <p className="text-xl leading-10 text-[#5F4A35]">
+              אנחנו עדיין מגיבים שונה ממה שתכננו.
             </p>
 
-            <p className="mt-6 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
+            <div className="my-8 h-px w-14 bg-[#C8A86A]/25 mx-auto" />
+
+            <p className="text-xl leading-10 text-[#5F4A35]">
               כי התגובה שלנו לא תלויה רק במה שקורה מולנו,
               <br />
               אלא בדברים שאנחנו בכלל לא שמים לב אליהם, בתוכנו.
             </p>
-
           </div>
         </div>
       </section>
