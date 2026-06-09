@@ -270,13 +270,13 @@ export default function DefensePatternsEveningPage() {
             מה צריך להשתנות.
           </h2>
 
-          <div className="mt-10 text-xl leading-10 text-[#5F4A35] space-y-6">
+          <div className="mt-8 text-xl leading-10 text-[#5F4A35] space-y-6">
 
             <p>
-              אבל אנחנו עדיין מגיבים שונה ממה שתכננו.
+               אנחנו עדיין מגיבים שונה ממה שתכננו.
             </p>
 
-            <p className="mt-8 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
+            <p className="mt-6 text-2xl md:text-3xl font-serif text-[#3E3023] leading-[1.7]">
               כי התגובה שלנו לא תלויה רק במה שקורה מולנו,
               <br />
               אלא בדברים שאנחנו בכלל לא שמים לב אליהם, בתוכנו.
