@@ -287,12 +287,7 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* Experience */}
-      <section className="px-6 py-24 bg-[#F3EBDD]">
-        <div className="max-w-4xl mx-auto mb-14 flex items-center justify-center gap-4">
-          <span className="h-px w-10 bg-[#C8A86A]/20" />
-          <div className="w-2 h-2 rounded-full bg-[#C8A86A]/40" />
-          <span className="h-px w-10 bg-[#C8A86A]/20" />
-        </div>
+      <section className="px-6 py-16 bg-[#F3EBDD]">
         <div className="max-w-4xl mx-auto text-center">
           <BrainMark />
           <p className="text-[#C8A86A] tracking-[0.22em] mb-5">
@@ -382,46 +377,49 @@ export default function DefensePatternsEveningPage() {
 
       {/* Odem House */}
       <section className="px-6 md:px-16 lg:px-24 py-20">
-        <div className="relative overflow-hidden rounded-[3rem] min-h-[620px] md:min-h-[560px] flex items-end md:items-center justify-center text-center text-[#F8F3E8]">
-          <img
-            src="/odem-house-wide.jpg"
-            alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-90"
-          />
+        <div className="max-w-6xl mx-auto rounded-[3rem] overflow-hidden border border-[#C8A86A]/20 shadow-xl bg-[#F8F3E8]">
+          
+          <div className="relative min-h-[420px] md:min-h-[560px]">
+            <img
+              src="/odem-house-wide.jpg"
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover opacity-90"
+            />
 
-          <div className="absolute inset-0 bg-[#3E3023]/60" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/80 via-[#3E3023]/45 to-[#3E3023]/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/55 via-[#3E3023]/20 to-transparent" />
 
-          <div className="relative z-10 ml-auto max-w-2xl px-8 md:px-12 py-12 md:py-16 text-right">
-            <div className="rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#3E3023]/35 backdrop-blur-[4px] p-8 md:p-10">
-              <p className="text-[#C8A86A] tracking-[0.22em] mb-4 text-sm">
+            <div className="absolute bottom-8 right-8 left-8 text-[#F8F3E8] text-right">
+              <p className="text-[#C8A86A] tracking-[0.25em] text-sm mb-4">
                 ODEM HOUSE
               </p>
 
-              <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.2]">
+              <h2 className="text-4xl md:text-6xl font-serif leading-[1.2]">
                 יפו
               </h2>
-
-              <div className="mb-8 h-px w-20 bg-[#C8A86A]/45" />
-
-              <p className="text-xl md:text-2xl leading-10">
-                בחרתי לקיים את הערב ב־ODEM HOUSE
-                כי המקום עצמו כבר מכניס אותנו לאווירה אחרת.
-              </p>
-
-              <p className="mt-6 text-lg md:text-xl leading-9 text-[#F8F3E8]/90">
-                חלל יפואי עתיק, יפהפה ואינטימי.
-                מקום שאפשר לעצור בו רגע,
-                לשבת עם כוס יין,
-                ולפגוש שאלות שבדרך כלל אין לנו זמן לשאול.
-              </p>
             </div>
           </div>
+
+          <div className="px-7 py-10 md:px-14 md:py-12 text-center">
+            <div className="h-px w-20 bg-[#C8A86A]/40 mx-auto mb-8" />
+
+            <p className="text-xl md:text-2xl leading-10 text-[#5F4A35] max-w-3xl mx-auto">
+              בחרתי לקיים את הערב ב־ODEM HOUSE
+              כי המקום עצמו כבר מכניס אותנו לאווירה אחרת.
+            </p>
+
+            <p className="mt-6 text-lg md:text-xl leading-9 text-[#5F4A35] max-w-3xl mx-auto">
+              חלל יפואי עתיק, יפהפה ואינטימי.
+              מקום שאפשר לעצור בו רגע,
+              לשבת עם כוס יין,
+              ולפגוש שאלות שבדרך כלל אין לנו זמן לשאול.
+            </p>
+          </div>
+
         </div>
       </section>
 
       {/* Included */}
-      <section id="included" className="px-6 py-24">
+      <section id="included" className="px-6 pt-10 pb-24">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
 
