@@ -470,7 +470,12 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <div className="mt-10 max-w-2xl mx-auto grid md:grid-cols-2 gap-5">
-              <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8 shadow-sm">
+              <a
+                href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20להזמין%20כרטיס%20יחיד%20במכירה%20מוקדמת%20לערב%20מתחת%20למנגנוני%20ההגנה"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+              >
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
                   כרטיס יחיד
                 </p>
@@ -482,9 +487,14 @@ export default function DefensePatternsEveningPage() {
                 <p className="mt-4 text-sm text-[#9C7A4B]/80">
                   במכירה מוקדמת
                 </p>
-              </div>
+              </a>
 
-              <div className="relative rounded-t-[4rem] rounded-b-[2rem] border-2 border-[#C8A86A]/40 bg-[#F8F3E8] p-8 shadow-lg md:scale-[1.02]">
+              <a
+                href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20להזמין%20כרטיס%20זוגי%20במכירה%20מוקדמת%20לערב%20מתחת%20למנגנוני%20ההגנה"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative rounded-t-[4rem] rounded-b-[2rem] border-2 border-[#C8A86A]/40 bg-[#F8F3E8] p-8 shadow-lg md:scale-[1.02] transition hover:-translate-y-1 hover:shadow-xl"
+              >
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
                   כרטיס זוגי
                 </p>
@@ -496,7 +506,7 @@ export default function DefensePatternsEveningPage() {
                 <p className="mt-4 text-sm text-[#9C7A4B]/80">
                   במכירה מוקדמת
                 </p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -601,7 +611,7 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <a
-            href="https://wa.me/972525460444?text=היי שחר, ״אשמח לקבל פרטים לגביי הערב ״מתחת למנגנוני ההגנה"
+            href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים לגביי הערב מתחת למנגנוני ההגנה"
             className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition"
           >
             שמירת מקום
