@@ -571,33 +571,37 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* Register */}
-      <section id="register" className="px-6 py-28 bg-[#9C7A4B] text-[#F8F3E8] text-center">
-        <div className="max-w-3xl mx-auto">
+      <section id="register" className="px-6 py-20 bg-[#9C7A4B] text-[#F8F3E8] text-center">
+        <div className="max-w-3xl mx-auto rounded-t-[6rem] rounded-b-[2.5rem] border border-[#F8F3E8]/20 bg-[#9C7A4B]/40 px-7 py-14 shadow-2xl">
+
           <p className="text-4xl md:text-5xl font-serif leading-[1.35]">
-            אם היית מסתכל/ת על עצמך בסקרנות במקום בביקורת,
+            אם היינו מסתכלים בעיניים סקרניות,
             <br />
-            מה היית מגלה?
+            במקום ביקורתיות.
           </p>
 
-          <div className="my-12 flex items-center justify-center gap-5">
-            <span className="h-px w-16 bg-[#F8F3E8]/35" />
+          <p className="mt-8 text-2xl md:text-3xl font-serif leading-[1.6] text-[#F8F3E8]/90">
+            אולי היינו מגלים
+            <br />
+            את כל האפשרויות הנוספות שלא ראינו.
+          </p>
+
+          <div className="my-10 flex items-center justify-center gap-5">
+            <span className="h-px w-14 bg-[#F8F3E8]/35" />
             <img src="/brain-icon.png" alt="" className="w-7 h-7 opacity-55 object-contain" />
-            <span className="h-px w-16 bg-[#F8F3E8]/35" />
+            <span className="h-px w-14 bg-[#F8F3E8]/35" />
           </div>
 
-          <div className="mt-8">
-            <p className="text-[#9C7A4B] text-lg">
-              מספר המקומות מוגבל כדי לשמור על מרחב אינטימי ואישי.
-            </p>
-          </div>
-
-          <p className="mt-8 text-xl leading-9">
+          <p className="text-xl leading-9">
             {EVENT_DATE}
             <br />
             {EVENT_TIME}
           </p>
 
-          <a href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה" className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition">
+          <a
+            href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה"
+            className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition"
+          >
             שמירת מקום
           </a>
         </div>
