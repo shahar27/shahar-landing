@@ -99,7 +99,7 @@ export default function DefensePatternsEveningPage() {
           <div className="mt-14 max-w-2xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/25 px-7 py-10 md:px-10 md:py-12 shadow-sm">
             {[
               "למה אני בטוחה שהפעם אגיב אחרת, ושוב עושה בדיוק אותו דבר?",
-              "איך יכול להיות שאני חוזר לאותו כאב שוב ושוב?",
+              "איך יכול להיות שאני חוזר לאותו כאב פעם אחר פעם?",
             ].map((question) => (
               <div
                 key={question}
