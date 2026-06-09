@@ -400,7 +400,6 @@ export default function DefensePatternsEveningPage() {
                 <div className="mt-4 h-px w-full bg-[#C8A86A]/75" />
               </div>
             </div>
-            </div>
           </div>
 
           <div className="px-7 py-10 md:px-14 md:py-12 text-center">
