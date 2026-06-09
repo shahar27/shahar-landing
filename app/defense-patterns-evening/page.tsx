@@ -585,13 +585,9 @@ export default function DefensePatternsEveningPage() {
             <span className="h-px w-16 bg-[#F8F3E8]/35" />
           </div>
 
-          <div className="mt-8 space-y-3">
-            <p className="text-2xl font-serif">
-              כרטיס יחיד · 220 ₪
-            </p>
-
-            <p className="text-2xl font-serif">
-              כרטיס זוגי · 400 ₪
+          <div className="mt-8">
+            <p className="text-[#9C7A4B] text-lg">
+              מספר המקומות מוגבל כדי לשמור על מרחב אינטימי ואישי.
             </p>
           </div>
 
