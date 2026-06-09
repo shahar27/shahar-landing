@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-const EVENT_PRICE = "240 ₪";
 const EVENT_DATE = "יום חמישי | 17.9.26";
 const EVENT_TIME = "19:00-21:30";
 
@@ -37,7 +36,7 @@ export default function DefensePatternsEveningPage() {
       <section className="relative min-h-screen grid place-items-center text-center px-6 py-20 bg-[#F8F3E8]">
         <img src="/odem-house-hero.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-45" />
         <div className="absolute inset-0 bg-[#F8F3E8]/55" />
-
+        <div className="absolute w-[650px] h-[650px] rounded-full bg-[#C8A86A]/10 blur-[140px]" />
         <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/75 px-6 py-14 md:px-12 md:py-18 shadow-2xl backdrop-blur-[2px]">
           <img src="/logo-placeholder.png" alt="שחר טקו פישר" className="w-28 md:w-36 mx-auto mb-8" />
 
@@ -297,8 +296,7 @@ export default function DefensePatternsEveningPage() {
           <span className="h-px w-10 bg-[#C8A86A]/20" />
         </div>
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 mx-auto h-px w-20 bg-[#C8A86A]/45" />
-
+          <BrainMark />
           <p className="text-[#C8A86A] tracking-[0.22em] mb-5">
             עם מה תצאו הביתה?
           </p>
@@ -352,7 +350,7 @@ export default function DefensePatternsEveningPage() {
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-[2fr_1fr] gap-5">
 
-          <div className="overflow-hidden rounded-[3rem]">
+          <div className="overflow-hidden rounded-t-[8rem] rounded-b-[3rem]">
             <img
               src="/odem-gallery-1.jpg"
               alt=""
@@ -396,28 +394,30 @@ export default function DefensePatternsEveningPage() {
           <div className="absolute inset-0 bg-[#3E3023]/60" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#3E3023]/80 via-[#3E3023]/45 to-[#3E3023]/30" />
 
-          <div className="relative z-10 px-7 py-12 md:py-16 max-w-3xl">
-            <p className="text-[#C8A86A] tracking-[0.22em] mb-4 text-sm">
-              ODEM HOUSE
-            </p>
+          <div className="relative z-10 ml-auto max-w-2xl px-8 md:px-12 py-12 md:py-16 text-right">
+            <div className="rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#3E3023]/35 backdrop-blur-[4px] p-8 md:p-10">
+              <p className="text-[#C8A86A] tracking-[0.22em] mb-4 text-sm">
+                ODEM HOUSE
+              </p>
 
-            <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.2]">
-              יפו
-            </h2>
+              <h2 className="text-4xl md:text-6xl font-serif mb-8 leading-[1.2]">
+                יפו
+              </h2>
 
-            <div className="mx-auto mb-8 h-px w-20 bg-[#C8A86A]/45" />
+              <div className="mb-8 h-px w-20 bg-[#C8A86A]/45" />
 
-            <p className="text-xl md:text-2xl leading-10">
-              בחרתי לקיים את הערב ב־ODEM HOUSE
-              כי המקום עצמו כבר מכניס אותנו לאווירה אחרת.
-            </p>
+              <p className="text-xl md:text-2xl leading-10">
+                בחרתי לקיים את הערב ב־ODEM HOUSE
+                כי המקום עצמו כבר מכניס אותנו לאווירה אחרת.
+              </p>
 
-            <p className="mt-6 text-lg md:text-xl leading-9 text-[#F8F3E8]/90">
-              חלל יפואי עתיק, יפהפה ואינטימי.
-              מקום שאפשר לעצור בו רגע,
-              לשבת עם כוס יין,
-              ולפגוש שאלות שבדרך כלל אין לנו זמן לשאול.
-            </p>
+              <p className="mt-6 text-lg md:text-xl leading-9 text-[#F8F3E8]/90">
+                חלל יפואי עתיק, יפהפה ואינטימי.
+                מקום שאפשר לעצור בו רגע,
+                לשבת עם כוס יין,
+                ולפגוש שאלות שבדרך כלל אין לנו זמן לשאול.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -457,13 +457,43 @@ export default function DefensePatternsEveningPage() {
 
             <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-8" />
 
-            <p className="text-2xl md:text-3xl font-serif text-[#3E3023]">
-              עלות ההשתתפות
-            </p>
+            <div className="mt-12 text-center">
 
-            <p className="mt-4 text-4xl font-serif text-[#9C7A4B]">
-              240 ₪
-            </p>
+              <div className="h-px w-20 bg-[#C8A86A]/35 mx-auto mb-8" />
+
+              <p className="text-2xl md:text-3xl font-serif text-[#3E3023]">
+                מחירי מכירה מוקדמת
+              </p>
+
+              <div className="mt-10 max-w-2xl mx-auto grid md:grid-cols-2 gap-5">
+
+                <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8">
+                  <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-4">
+                    כרטיס יחיד
+                  </p>
+
+                  <p className="text-5xl font-serif text-[#3E3023]">
+                    220 ₪
+                  </p>
+                </div>
+
+                <div className="rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-[#F3EBDD] p-8 shadow-md">
+                  <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-4">
+                    כרטיס זוגי
+                  </p>
+
+                  <p className="text-5xl font-serif text-[#3E3023]">
+                    400 ₪
+                  </p>
+
+                  <p className="mt-4 text-sm text-[#9C7A4B]">
+                    משתלם יותר ב־40 ₪
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
 
           </div>
         </div>
@@ -494,30 +524,48 @@ export default function DefensePatternsEveningPage() {
       </section>
 
       {/* About */}
-      <section className="px-6 py-24">
-        <div className="max-w-3xl mx-auto text-center">
-          <img src="/logo-placeholder.png" alt="שחר טקו פישר" className="w-28 mx-auto mb-8 opacity-90" />
+      <section className="px-6 md:px-16 lg:px-24 py-24 bg-[#F3EBDD]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+          
+          <div className="relative">
+            <div className="absolute -top-6 -right-6 w-[80%] h-[80%] rounded-t-[8rem] rounded-b-[3rem] border border-[#C8A86A]/25" />
 
-          <p className="text-[#9C7A4B] tracking-[0.22em] mb-4">
-            בהנחיית
-          </p>
+            <div className="relative overflow-hidden rounded-t-[8rem] rounded-b-[3rem] border border-[#C8A86A]/25 shadow-xl">
+              <img
+                src="/shahar-event.jpg"
+                alt="שחר טקו פישר"
+                className="w-full h-full min-h-[420px] object-cover object-center"
+              />
+            </div>
+          </div>
 
-          <h2 className="text-4xl md:text-5xl font-serif">
-            שחר טקו פישר
-          </h2>
+          <div className="text-center md:text-right">
+            <p className="text-[#C8A86A] tracking-[0.22em] mb-5 text-sm">
+              בהנחיית
+            </p>
 
-          <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-            מלווה תהליכים רגשיים המשלבים גוף, מערכת עצבים, תודעה והורות מיודעת טראומה.
-          </p>
+            <h2 className="text-4xl md:text-5xl font-serif">
+              שחר טקו פישר
+            </h2>
 
-          <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-            אני לא באה לתת את כל התשובות.
-            אני באה להאיר את המקומות שבהם הפסקנו לשאול שאלות.
-          </p>
+            <div className="my-8 h-px w-20 bg-[#C8A86A]/35 mx-auto md:mx-0" />
 
-          <Link href="/" className="mt-10 inline-flex rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/50 transition">
-            לקריאה נוספת עליי
-          </Link>
+            <p className="text-xl leading-10 text-[#5F4A35]">
+              מלווה תהליכים רגשיים המשלבים גוף, מערכת עצבים, תודעה והורות מיודעת טראומה.
+            </p>
+
+            <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
+              אני לא באה לתת את כל התשובות.
+              אני באה להאיר את המקומות שבהם הפסקנו לשאול שאלות.
+            </p>
+
+            <Link
+              href="/"
+              className="mt-10 inline-flex rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/50 transition"
+            >
+              לקריאה נוספת עליי
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -536,15 +584,23 @@ export default function DefensePatternsEveningPage() {
             <span className="h-px w-16 bg-[#F8F3E8]/35" />
           </div>
 
-          <p className="text-xl leading-9">
-            {EVENT_PRICE}
-            <br />
+          <div className="mt-8 space-y-3">
+            <p className="text-2xl font-serif">
+              כרטיס יחיד · 220 ₪
+            </p>
+
+            <p className="text-2xl font-serif">
+              כרטיס זוגי · 400 ₪
+            </p>
+          </div>
+
+          <p className="mt-8 text-xl leading-9">
             {EVENT_DATE}
             <br />
             {EVENT_TIME}
           </p>
 
-          <a href="https://wa.me/972525460444?text=היי שחר, אשמח לשמור מקום לערב מתחת למנגנוני ההגנה" className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition">
+          <a href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה" className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition">
             שמירת מקום
           </a>
         </div>
