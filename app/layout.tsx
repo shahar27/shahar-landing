@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shahartakofisher.com"),
-  title: "שחר טקו פישר | אימון רגשי אישי/ זוגי| הדרכת הורים | ADHD ODD",
+  title: "שחר טקו פישר | ליווי רגשי אישי/ זוגי| הדרכת הורים | ADHD ODD",
   description:
     "ליווי רגשי מיודע טראומה המשלב עבודה עם הגוף, מערכת העצבים, דפוסי ילדות, הורות ומערכות יחסים. מרחב לחיבור, נשימה וחופש פנימי.",
   openGraph: {
