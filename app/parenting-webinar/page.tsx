@@ -74,18 +74,18 @@ export default function ParentingWebinarPage() {
         <img
           src="/soft-home.jpg"
           alt=""
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-90 scale-[1.03]"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-80 scale-[1.04]"
         />
-        <div className="absolute inset-0 bg-[#F8F3E8]/10 backdrop-blur-[1px]" />
+
+        <div className="absolute inset-0 bg-[#F8F3E8]/62" />
+
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to top, rgba(62,48,35,0.22), rgba(248,243,232,0.02))",
+              "linear-gradient(to bottom, rgba(248,243,232,0.78), rgba(248,243,232,0.55), rgba(248,243,232,0.82))",
           }}
         />
-
-        <div className="absolute inset-0 bg-[#F8F3E8]/58" />
         <div
           className="absolute top-[-80px] right-[-120px] w-[500px] h-[500px] blur-[140px]"
           style={{
@@ -264,7 +264,6 @@ export default function ParentingWebinarPage() {
           </div>
         </div>
       </section>
-      <NatureDivider />
 
       {/* What we will open */}
       <section className="px-6 py-20">
@@ -346,7 +345,7 @@ export default function ParentingWebinarPage() {
       <NatureDivider />
 
       {/* About */}
-      <section className="px-6 md:px-16 lg:px-24 py-24">
+      <section className="px-6 md:px-16 lg:px-24 py-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
           <div className="relative">
             <div className="absolute -top-6 -right-6 w-[80%] h-[80%] rounded-t-[8rem] rounded-b-[3rem] border border-[#C8A86A]/25" />
