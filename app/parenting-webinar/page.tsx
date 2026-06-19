@@ -140,24 +140,12 @@ export default function ParentingWebinarPage() {
             אז מה אנחנו מפספסים?
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-3">
-            <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
-              <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
-                תאריך
-              </span>
-              <span className="text-lg">
-                {WEBINAR_DATE}
-              </span>
-            </div>
-
-            <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
-              <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
-                שעה
-              </span>
-              <span className="text-lg">
-                {WEBINAR_TIME}
-              </span>
-            </div>
+          <div className="mt-10 flex items-center justify-center rounded-[1.1rem] border border-[#A7834D]/25 px-5 py-3 text-[#5F4A35]">
+            <span className="text-base md:text-lg">20:30</span>
+            <span className="mx-4 h-5 w-px bg-[#A7834D]/30" />
+            <span className="text-base md:text-lg">8.7.26</span>
+            <span className="mx-4 h-5 w-px bg-[#A7834D]/30" />
+            <span className="text-base md:text-lg">יום רביעי</span>
           </div>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -406,24 +394,12 @@ export default function ParentingWebinarPage() {
             בואו לקבל קצת אוויר.
           </h2>
 
-          <div className="mt-9 flex flex-col items-center gap-3">
-            <div className="inline-flex items-center gap-3 rounded-full border border-[#F8F3E8]/22 bg-[#F8F3E8]/10 px-5 py-2.5 text-[#F8F3E8]/90">
-              <span className="text-sm tracking-[0.18em] text-[#F8F3E8]/65">
-                תאריך
-              </span>
-              <span className="text-xl">
-                {WEBINAR_DATE}
-              </span>
-            </div>
-
-            <div className="inline-flex items-center gap-3 rounded-full border border-[#F8F3E8]/22 bg-[#F8F3E8]/10 px-5 py-2.5 text-[#F8F3E8]/90">
-              <span className="text-sm tracking-[0.18em] text-[#F8F3E8]/65">
-                שעה
-              </span>
-              <span className="text-xl">
-                {WEBINAR_TIME}
-              </span>
-            </div>
+          <div className="mt-9 inline-flex items-center justify-center rounded-[1.1rem] border border-[#F8F3E8]/28 px-5 py-3 text-[#F8F3E8]/90">
+            <span className="text-lg">20:30</span>
+            <span className="mx-4 h-5 w-px bg-[#F8F3E8]/30" />
+            <span className="text-lg">8.7.26</span>
+            <span className="mx-4 h-5 w-px bg-[#F8F3E8]/30" />
+            <span className="text-lg">יום רביעי</span>
           </div>
 
           <p className="mt-8 text-lg leading-8 text-[#F8F3E8]/85">
