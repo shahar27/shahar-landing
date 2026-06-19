@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 const WEBINAR_DATE = "יום רביעי | 8.7.26";
 const WEBINAR_TIME = "20:30";
 
@@ -15,6 +16,7 @@ const FACEBOOK =
 const WEBSITE = "https://shahartakofisher.com";
 
 const TALLY_FORM_URL = "https://tally.so/r/Y5e58W";
+const OLIVE = "#7E8C6B";
 
 function SoftDivider() {
   return (
@@ -26,9 +28,40 @@ function SoftDivider() {
   );
 }
 
+function NatureDivider() {
+  return (
+    <div className="relative h-24 flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-64 h-px bg-[#C8A86A]/20" />
+      </div>
+
+      <div
+        className="relative text-3xl opacity-25"
+        style={{ color: "#7E8C6B" }}
+      >
+        ❋
+      </div>
+    </div>
+  );
+}
+
 export default function ParentingWebinarPage() {
   return (
-    <main dir="rtl" className="min-h-screen bg-[#F8F3E8] text-[#3E3023] overflow-hidden pb-24">
+    <main
+      dir="rtl"
+      className="relative min-h-screen bg-[#F8F3E8] text-[#3E3023] overflow-hidden pb-24"
+    >
+
+      <div
+        className="pointer-events-none fixed inset-0 z-[1] opacity-[0.018] mix-blend-multiply"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at 1px 1px, rgba(62,48,35,0.22) 1px, transparent 0)",
+          backgroundSize: "20px 20px",
+        }}
+      />
+      <div className="relative z-10">
+
       <a
         href="#register"
         className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:w-auto z-[9999] rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-3 text-center shadow-xl text-base hover:shadow-2xl transition"
@@ -41,21 +74,45 @@ export default function ParentingWebinarPage() {
         <img
           src="/soft-home.jpg"
           alt=""
-          className="absolute inset-0 w-full h-full object-cover opacity-35"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-90 scale-[1.03]"
+        />
+        <div className="absolute inset-0 bg-[#F8F3E8]/10 backdrop-blur-[1px]" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(62,48,35,0.22), rgba(248,243,232,0.02))",
+          }}
         />
 
-        <div className="absolute inset-0 bg-[#F8F3E8]/70" />
-        <div className="absolute top-20 right-[-160px] w-[420px] h-[420px] rounded-full bg-[#C8A86A]/15 blur-[120px]" />
-        <div className="absolute bottom-10 left-[-180px] w-[480px] h-[480px] rounded-full bg-white/40 blur-[140px]" />
+        <div className="absolute inset-0 bg-[#F8F3E8]/58" />
+        <div
+          className="absolute top-[-80px] right-[-120px] w-[500px] h-[500px] blur-[140px]"
+          style={{
+            background:
+              "radial-gradient(circle at center, rgba(126,140,107,0.16) 0%, transparent 70%)",
+          }}
+        />
 
-        <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/82 px-6 py-14 md:px-12 md:py-16 shadow-2xl backdrop-blur-[2px]">
+        <div
+          className="absolute bottom-[-120px] left-[-160px] w-[600px] h-[600px] blur-[150px]"
+          style={{
+            background:
+              "radial-gradient(circle at center, rgba(200,168,106,0.12) 0%, transparent 70%)",
+          }}
+        />
+
+        <div className="relative z-10 w-full max-w-4xl rounded-t-[5rem] md:rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/82 px-6 py-14 md:px-12 md:py-16 shadow-2xl backdrop-blur-[2px]">
           <img
             src="/logo-placeholder.png"
             alt="שחר טקו פישר"
             className="w-28 md:w-36 mx-auto mb-8"
           />
 
-          <p className="text-[#9C7A4B] tracking-[0.24em] text-sm mb-6">
+          <p
+            className="tracking-[0.24em] text-sm mb-6"
+            style={{ color: OLIVE }}
+          >
             וובינר מיוחד להורים
           </p>
 
@@ -107,10 +164,15 @@ export default function ParentingWebinarPage() {
         </div>
       </section>
 
+      <NatureDivider />
+
       {/* Identification + Reflection */}
         <section className="px-6 py-20 md:py-24">
         <div className="max-w-5xl mx-auto text-center">
-            <p className="text-[#9C7A4B] tracking-[0.22em] text-sm mb-6">
+            <p
+              className="tracking-[0.22em] text-sm mb-6"
+              style={{ color: OLIVE }}
+            >
             אולי זה מוכר לכם
             </p>
 
@@ -120,47 +182,72 @@ export default function ParentingWebinarPage() {
             אתם רוצים להיות.
             </h2>
 
-            <div className="mt-14 grid md:grid-cols-2 gap-5 text-right">
-            {[
-                "הפעם אני לא אצעק.",
+            <div className="mt-14 grid md:grid-cols-2 gap-6 text-right">
+              {[
+                "אתם יודעים שצעקות זו לא הדרך שאתם רוצים לבחור בה.",
                 "אתם יודעים שהילד לא עושה ״דווקא״.",
                 "אתם רוצים להנות יותר עם הילדים, אבל לפעמים זה מרגיש גדול עליכם.",
                 "ויש רגעים שבהם כל הידע נעלם והתגובה יוצאת מהר יותר מהבחירה.",
-            ].map((item) => (
+              ].map((item, index) => (
                 <div
-                key={item}
-                className="rounded-[2rem] bg-white/32 border border-[#C8A86A]/20 px-7 py-8 shadow-sm"
+                  key={item}
+                  className={`
+                    relative overflow-hidden border border-[#C8A86A]/18 
+                    bg-[#FFFDF8]/45 px-7 py-7 md:px-8 md:py-8
+                    shadow-[0_18px_45px_rgba(62,48,35,0.06)]
+                    ${index === 0 ? "rounded-t-[3.5rem] rounded-b-[1.8rem]" : ""}
+                    ${index === 1 ? "rounded-t-[1.8rem] rounded-b-[3.5rem]" : ""}
+                    ${index === 2 ? "rounded-t-[2.8rem] rounded-b-[1.8rem]" : ""}
+                    ${index === 3 ? "rounded-t-[1.8rem] rounded-b-[2.8rem]" : ""}
+                  `}
                 >
-                <p className="text-lg md:text-xl leading-9 text-[#5F4A35]">
+                  <div
+                    className="absolute -top-10 -left-10 h-28 w-28 rounded-full blur-3xl opacity-40"
+                    style={{
+                      background:
+                        index % 2 === 0
+                          ? "rgba(126,140,107,0.16)"
+                          : "rgba(200,168,106,0.16)",
+                    }}
+                  />
+
+                  <p className="relative text-lg md:text-xl leading-9 text-[#5F4A35]">
                     {item}
-                </p>
+                  </p>
                 </div>
-            ))}
+              ))}
             </div>
 
-            <div className="mt-16 md:mt-20">
-            <p className="text-2xl md:text-3xl font-serif leading-[1.6] text-[#3E3023]">
-                 לפעמים אנחנו מחפשים תשובות חדשות.
-                <br />
-               כשבעצם חסרה לנו דרך חדשה להסתכל.
-            </p>
+            <div className="mt-12 md:mt-14">
+              <div className="max-w-4xl mx-auto">
+                <p className="text-2xl md:text-3xl font-serif leading-[1.4] text-[#3E3023]">
+                  לפעמים אנחנו מחפשים תשובות חדשות.
+                </p>
+
+                <p
+                  className="mt-4 text-lg md:text-xl tracking-wide"
+                  style={{ color: OLIVE }}
+                >
+                  כשבעצם חסרה לנו דרך חדשה להסתכל.
+                </p>
+              </div>
             </div>
 
-            <div className="my-16 h-px w-24 bg-[#C8A86A]/35 mx-auto" />
-
-            <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-serif leading-[1.4]">
+            <div className="mt-10 md:mt-12 max-w-3xl mx-auto rounded-[3rem] border border-[#C8A86A]/15 bg-white/18 px-8 py-10 backdrop-blur-[2px] shadow-[0_20px_60px_rgba(62,48,35,0.04)]">
+              <h2 className="text-4xl md:text-5xl font-serif leading-[1.45]">
                 רוב ההורים שאני פוגשת
                 <br />
                 לא צריכים להתאמץ יותר.
-            </h2>
+              </h2>
 
-            <p className="mt-8 text-2xl md:text-4xl font-serif leading-[1.5] text-[#9C7A4B]">
-               למעשה, חלקם מותשים מהניסיון לעשות הכל נכון.
-            </p>
+              <p className="mt-6 text-xl md:text-2xl text-[#A7834D] leading-[1.8]">
+                למעשה, חלקם מותשים מהניסיון לעשות הכל נכון.
+              </p>
             </div>
         </div>
         </section>
+      
+        <NatureDivider />
 
       {/* Soft Home Image */}
       <section className="px-6 md:px-16 lg:px-24 pb-20">
@@ -177,11 +264,15 @@ export default function ParentingWebinarPage() {
           </div>
         </div>
       </section>
+      <NatureDivider />
 
       {/* What we will open */}
       <section className="px-6 py-20">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="text-[#9C7A4B] tracking-[0.22em] text-sm mb-6">
+          <p
+            className="tracking-[0.22em] text-sm mb-6"
+            style={{ color: OLIVE }}
+          >
             בוובינר נפתח שאלה אחת
           </p>
 
@@ -211,11 +302,33 @@ export default function ParentingWebinarPage() {
       </section>
 
       {/* Gift */}
-      <section className="px-6 py-20 bg-[#F3EBDD] text-center">
-        <div className="max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/55 px-7 py-12 shadow-sm">
+      <section className="relative px-6 py-20 bg-[#F3EBDD] text-center overflow-hidden">
+
+        <div
+          className="absolute top-0 right-0 w-64 h-64 blur-[100px] opacity-40"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(126,140,107,0.18), transparent 70%)",
+          }}
+        />
+
+        <div
+          className="absolute bottom-0 left-0 w-64 h-64 blur-[100px] opacity-30"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(200,168,106,0.18), transparent 70%)",
+          }}
+        />
+
+        <div className="relative z-10 max-w-3xl mx-auto rounded-t-[5rem] rounded-b-[2rem] border border-[#C8A86A]/20 bg-[#F8F3E8]/55 px-7 py-12 shadow-sm">
+
           <p className="text-[#9C7A4B] tracking-[0.22em] mb-5">
             מתנה למשתתפים
           </p>
+
+          <div className="mb-4 text-4xl opacity-70">
+            ✦
+          </div>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.3]">
             ערכת משחקים להדפסה
@@ -226,8 +339,11 @@ export default function ParentingWebinarPage() {
             <br />
             לחיזוק הקשר והחיבור עם הילדים גם בתוך ימי החופש.
           </p>
+
         </div>
       </section>
+
+      <NatureDivider />
 
       {/* About */}
       <section className="px-6 md:px-16 lg:px-24 py-24">
@@ -332,6 +448,7 @@ export default function ParentingWebinarPage() {
           </div>
         </div>
       </section>
+      </div>
     </main>
   );
 }
