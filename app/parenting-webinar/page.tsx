@@ -167,7 +167,7 @@ export default function ParentingWebinarPage() {
       <NatureDivider />
 
       {/* Identification + Reflection */}
-        <section className="px-6 py-20 md:py-24">
+        <section className="px-6 py-10 md:py-16">
         <div className="max-w-5xl mx-auto text-center">
             <p
               className="tracking-[0.22em] text-sm mb-6"
@@ -182,58 +182,45 @@ export default function ParentingWebinarPage() {
             אתם רוצים להיות.
             </h2>
 
-            <div className="mt-14 grid md:grid-cols-2 gap-6 text-right">
+            <div className="mt-10 grid gap-4 text-right md:mt-14 md:grid-cols-2 md:gap-5">
               {[
                 "אתם יודעים שצעקות זו לא הדרך שאתם רוצים לבחור בה.",
                 "אתם יודעים שהילד לא עושה ״דווקא״.",
                 "אתם רוצים להנות יותר עם הילדים, אבל לפעמים זה מרגיש גדול עליכם.",
                 "ויש רגעים שבהם כל הידע נעלם והתגובה יוצאת מהר יותר מהבחירה.",
-              ].map((item, index) => (
+              ].map((item) => (
                 <div
                   key={item}
-                  className={`
-                    relative overflow-hidden border border-[#C8A86A]/18 
-                    bg-[#FFFDF8]/45 px-7 py-7 md:px-8 md:py-8
-                    shadow-[0_18px_45px_rgba(62,48,35,0.06)]
-                    ${index === 0 ? "rounded-t-[3.5rem] rounded-b-[1.8rem]" : ""}
-                    ${index === 1 ? "rounded-t-[1.8rem] rounded-b-[3.5rem]" : ""}
-                    ${index === 2 ? "rounded-t-[2.8rem] rounded-b-[1.8rem]" : ""}
-                    ${index === 3 ? "rounded-t-[1.8rem] rounded-b-[2.8rem]" : ""}
-                  `}
+                  className="relative overflow-hidden rounded-[2rem] border border-[#C8A86A]/14 bg-[#FFFDF8]/36 px-6 py-5 shadow-[0_10px_28px_rgba(62,48,35,0.035)] md:px-7 md:py-7"
                 >
                   <div
-                    className="absolute -top-10 -left-10 h-28 w-28 rounded-full blur-3xl opacity-40"
+                    className="absolute -top-12 -left-12 h-24 w-24 rounded-full blur-3xl opacity-25"
                     style={{
-                      background:
-                        index % 2 === 0
-                          ? "rgba(126,140,107,0.16)"
-                          : "rgba(200,168,106,0.16)",
+                      background: "rgba(126,140,107,0.14)",
                     }}
                   />
 
-                  <p className="relative text-lg md:text-xl leading-9 text-[#5F4A35]">
+                  <p className="relative text-lg md:text-xl leading-8 md:leading-9 text-[#5F4A35]">
                     {item}
                   </p>
                 </div>
               ))}
             </div>
 
-            <div className="mt-12 md:mt-14">
-              <div className="max-w-4xl mx-auto">
-                <p className="text-2xl md:text-3xl font-serif leading-[1.4] text-[#3E3023]">
-                  לפעמים אנחנו מחפשים תשובות חדשות.
-                </p>
+            <div className="mt-10 md:mt-12 max-w-2xl mx-auto px-4">
+              <p className="text-xl md:text-2xl font-serif leading-[1.45] text-[#3E3023]">
+                לפעמים אנחנו מחפשים תשובות חדשות.
+              </p>
 
-                <p
-                  className="mt-4 text-lg md:text-xl tracking-wide"
-                  style={{ color: OLIVE }}
-                >
-                  כשבעצם חסרה לנו דרך חדשה להסתכל.
-                </p>
-              </div>
+              <p
+                className="mt-3 text-base md:text-lg leading-8"
+                style={{ color: OLIVE }}
+              >
+                כשבעצם חסרה לנו דרך חדשה להסתכל.
+              </p>
             </div>
 
-            <div className="mt-10 md:mt-12 max-w-3xl mx-auto rounded-[3rem] border border-[#C8A86A]/15 bg-white/18 px-8 py-10 backdrop-blur-[2px] shadow-[0_20px_60px_rgba(62,48,35,0.04)]">
+            <div className="mt-8 md:mt-10 max-w-2xl mx-auto rounded-[2.2rem] border border-[#C8A86A]/12 bg-white/14 px-6 py-8 md:px-8 md:py-9 backdrop-blur-[2px] shadow-[0_14px_40px_rgba(62,48,35,0.035)]">
               <h2 className="text-4xl md:text-5xl font-serif leading-[1.45]">
                 רוב ההורים שאני פוגשת
                 <br />
@@ -250,9 +237,9 @@ export default function ParentingWebinarPage() {
         <NatureDivider />
 
       {/* Soft Home Image */}
-      <section className="px-6 md:px-16 lg:px-24 pb-20">
+      <section className="px-6 md:px-16 lg:px-24 pb-8 md:pb-14">
         <div className="max-w-6xl mx-auto">
-          <div className="relative min-h-[320px] md:min-h-[520px] overflow-hidden rounded-t-[10rem] rounded-b-[2.5rem] border border-[#9C7A4B]/15 shadow-lg bg-[#F8F3E8]">
+          <div className="relative h-[220px] md:h-[520px] md:min-h-[520px] overflow-hidden rounded-t-[10rem] rounded-b-[2.5rem] border border-[#9C7A4B]/15 shadow-lg bg-[#F8F3E8]">
             <img
               src="/soft-home.jpg"
               alt=""
@@ -266,7 +253,7 @@ export default function ParentingWebinarPage() {
       </section>
 
       {/* What we will open */}
-      <section className="px-6 py-20">
+      <section className="px-6 pt-10 pb-20 md:py-20">
         <div className="max-w-5xl mx-auto text-center">
           <p
             className="tracking-[0.22em] text-sm mb-6"
