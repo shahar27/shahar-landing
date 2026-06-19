@@ -140,10 +140,24 @@ export default function ParentingWebinarPage() {
             אז מה אנחנו מפספסים?
           </p>
 
-          <div className="mt-10 text-lg leading-9 text-[#5F4A35]">
-            {WEBINAR_DATE}
-            <br />
-            {WEBINAR_TIME}
+          <div className="mt-10 flex flex-col items-center gap-3">
+            <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
+              <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
+                תאריך
+              </span>
+              <span className="text-lg">
+                {WEBINAR_DATE}
+              </span>
+            </div>
+
+            <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
+              <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
+                שעה
+              </span>
+              <span className="text-lg">
+                {WEBINAR_TIME}
+              </span>
+            </div>
           </div>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -392,11 +406,25 @@ export default function ParentingWebinarPage() {
             בואו לקבל קצת אוויר.
           </h2>
 
-          <p className="mt-9 text-xl leading-9 text-[#F8F3E8]/90">
-            {WEBINAR_DATE}
-            <br />
-            {WEBINAR_TIME}
-          </p>
+          <div className="mt-9 flex flex-col items-center gap-3">
+            <div className="inline-flex items-center gap-3 rounded-full border border-[#F8F3E8]/22 bg-[#F8F3E8]/10 px-5 py-2.5 text-[#F8F3E8]/90">
+              <span className="text-sm tracking-[0.18em] text-[#F8F3E8]/65">
+                תאריך
+              </span>
+              <span className="text-xl">
+                {WEBINAR_DATE}
+              </span>
+            </div>
+
+            <div className="inline-flex items-center gap-3 rounded-full border border-[#F8F3E8]/22 bg-[#F8F3E8]/10 px-5 py-2.5 text-[#F8F3E8]/90">
+              <span className="text-sm tracking-[0.18em] text-[#F8F3E8]/65">
+                שעה
+              </span>
+              <span className="text-xl">
+                {WEBINAR_TIME}
+              </span>
+            </div>
+          </div>
 
           <p className="mt-8 text-lg leading-8 text-[#F8F3E8]/85">
             מתנה ללקוחות הגלריה לביטוחים ופיננסים.
