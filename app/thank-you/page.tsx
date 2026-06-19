@@ -70,25 +70,11 @@ export default function ThankYouPage() {
             פרטי האירוע יישלחו אליך בהמשך.
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-3">
-          <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
-            <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
-              תאריך
-            </span>
-            <span className="text-lg">
-              {WEBINAR_DATE}
-            </span>
+          <div className="mt-10 text-lg leading-9 text-[#5F4A35]">
+            {WEBINAR_DATE}
+            <br />
+            {WEBINAR_TIME}
           </div>
-
-          <div className="inline-flex items-center gap-3 rounded-full border border-[#C8A86A]/25 bg-white/22 px-5 py-2.5 text-[#5F4A35] shadow-[0_10px_30px_rgba(62,48,35,0.04)]">
-            <span className="text-sm tracking-[0.18em]" style={{ color: OLIVE }}>
-              שעה
-            </span>
-            <span className="text-lg">
-              {WEBINAR_TIME}
-            </span>
-          </div>
-        </div>
 
           <Link
             href="/"
