@@ -30,7 +30,7 @@ function SoftDivider() {
 
 function NatureDivider() {
   return (
-    <div className="relative h-24 flex items-center justify-center overflow-hidden">
+    <div className="relative h-14 md:h-24 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-64 h-px bg-[#C8A86A]/20" />
       </div>
@@ -70,7 +70,7 @@ export default function ParentingWebinarPage() {
       </a>
 
       {/* Hero */}
-      <section className="relative min-h-screen grid place-items-center text-center px-6 py-20">
+      <section className="relative grid place-items-center text-center px-6 pt-14 pb-10 md:min-h-screen md:py-20 overflow-hidden">
         <img
           src="/soft-home.jpg"
           alt=""
