@@ -403,8 +403,6 @@ export default function ParentingWebinarPage() {
           </div>
 
           <p className="mt-8 text-lg leading-8 text-[#F8F3E8]/85">
-            מתנה ללקוחות הגלריה לביטוחים ופיננסים.
-            <br />
             מספר המקומות מוגבל.
           </p>
 
