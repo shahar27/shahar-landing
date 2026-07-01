@@ -1,0 +1,212 @@
+[
+  {
+    "id": "see-moment-for-you",
+    "category": "see",
+    "subcategory": "being-seen",
+    "theme": "connection",
+    "title": "רגע בשבילך",
+    "text": [
+      "מתי לאחרונה הרגשת שמישהו באמת ראה אותך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "moment-for-you",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-i-notice",
+    "category": "see",
+    "subcategory": "attention",
+    "theme": "attention",
+    "title": "אני שם לב",
+    "text": [
+      "ספר על משהו קטן שמישהו במשפחה עשה לאחרונה ושמת לב אליו."
+    ],
+    "completion": "manual",
+    "illustrationId": "i-notice",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-because-of-you",
+    "category": "see",
+    "subcategory": "gratitude",
+    "theme": "gratitude",
+    "title": "בזכותך",
+    "text": [
+      "מה מישהו מהמשפחה עשה לאחרונה שעזר לך או שימח אותך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "because-of-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-fun-with-you",
+    "category": "see",
+    "subcategory": "relationship",
+    "theme": "relationship",
+    "title": "הכי כיף איתך",
+    "text": [
+      "מה אתה הכי אוהב לעשות עם האדם שיושב מימינך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "fun-with-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-small-smile",
+    "category": "see",
+    "subcategory": "attention",
+    "theme": "attention",
+    "title": "חיוך קטן",
+    "text": [
+      "איזה רגע קטן שמישהו במשפחה עשה גרם לך לחייך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "small-smile",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-see-you",
+    "category": "see",
+    "subcategory": "appreciation",
+    "theme": "appreciation",
+    "title": "רואה אותך",
+    "text": [
+      "ספר על תכונה יפה שאתה רואה במי שבחר את הקלף."
+    ],
+    "completion": "manual",
+    "illustrationId": "see-you",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-never-forget",
+    "category": "see",
+    "subcategory": "memory",
+    "theme": "memory",
+    "title": "רגע שלא אשכח",
+    "text": [
+      "איזה רגע משפחתי היית רוצה לזכור לעוד הרבה שנים?"
+    ],
+    "completion": "manual",
+    "illustrationId": "never-forget",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-small-thanks",
+    "category": "see",
+    "subcategory": "gratitude",
+    "theme": "gratitude",
+    "title": "תודה קטנה",
+    "text": [
+      "על מה היית רוצה להגיד תודה למישהו מהמשפחה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "small-thanks",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-if-you-only-knew",
+    "category": "see",
+    "subcategory": "connection",
+    "theme": "connection",
+    "title": "אם רק היית יודע",
+    "text": [
+      "מה היית רוצה שמישהו מהמשפחה יידע עליך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "if-you-only-knew",
+    "variants": [],
+    "minAge": 6
+  },
+  {
+    "id": "see-again",
+    "category": "see",
+    "subcategory": "memory",
+    "theme": "memory",
+    "title": "עוד פעם",
+    "text": [
+      "איזה רגע משפחתי היית רוצה לחוות שוב?"
+    ],
+    "completion": "manual",
+    "illustrationId": "again",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-i-appreciate",
+    "category": "see",
+    "subcategory": "appreciation",
+    "theme": "appreciation",
+    "title": "אני מעריך",
+    "text": [
+      "מה אתה מעריך במי שיושב מולך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "i-appreciate",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-i-saw-you",
+    "category": "see",
+    "subcategory": "attention",
+    "theme": "attention",
+    "title": "ראיתי אותך",
+    "text": [
+      "ספר על רגע שבו ראית מישהו מהמשפחה מתאמץ, גם אם הוא לא הצליח."
+    ],
+    "completion": "manual",
+    "illustrationId": "i-saw-you",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-proud-of-you",
+    "category": "see",
+    "subcategory": "appreciation",
+    "theme": "appreciation",
+    "title": "גאה בך",
+    "text": [
+      "על מה היית אומר למישהו מהמשפחה: אני גאה בך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "proud-of-you",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "see-wish-we-would",
+    "category": "see",
+    "subcategory": "connection",
+    "theme": "connection",
+    "title": "הלוואי שנעשה",
+    "text": [
+      "מה היית רוצה שנעשה יחד יותר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "wish-we-would",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-one-star",
+    "category": "see",
+    "subcategory": "appreciation",
+    "theme": "appreciation",
+    "title": "כוכב אחד",
+    "text": [
+      "אם היית נותן היום כוכב למישהו במשפחה, למי היית נותן ולמה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "one-star",
+    "variants": [],
+    "minAge": 4
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "release-human-maze",
+    "category": "release",
+    "subcategory": "cooperation",
+    "title": "מבוך אנושי",
+    "text": [
+      "מי שבחר בקלף הוא המנווט.",
+      "כל השאר מכסים את העיניים.",
+      "עליכם להגיע לצד השני של החדר.",
+      "המנווט משתמש במילים בלבד."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "human-maze",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-pillow-mission",
+    "category": "release",
+    "subcategory": "cooperation",
+    "title": "מבצע כרית",
+    "text": [
+      "העבירו כרית בין כל בני המשפחה שני סיבובים.",
+      "מבלי להשתמש בידיים.",
+      "מבלי שהכרית תיגע ברצפה."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "pillow-mission",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-invisible-ball",
+    "category": "release",
+    "subcategory": "imagination",
+    "title": "כדור בלתי נראה",
+    "text": [
+      "זרקו כדור דמיוני בין בני המשפחה.",
+      "בכל פעם שמישהו תופס אותו, הוא מחליט אם הכדור הופך לקטן, ענק, כבד או קל."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "invisible-ball",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-wind-storm",
+    "category": "release",
+    "subcategory": "movement",
+    "title": "סערת רוח",
+    "text": [
+      "נערו ידיים, רגליים וכתפיים כאילו יש סערה חזקה.",
+      "בסיום קפאו כמו פסל."
+    ],
+    "completion": "timer",
+    "timerSeconds": 30,
+    "illustrationId": "wind-storm",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-new-walk",
+    "category": "release",
+    "subcategory": "movement",
+    "title": "הליכה חדשה",
+    "text": [
+      "המציאו דרך חדשה ומצחיקה ללכת.",
+      "כל המשפחה מחקה אתכם."
+    ],
+    "completion": "timer",
+    "timerSeconds": 45,
+    "illustrationId": "new-walk",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-contagious-face",
+    "category": "release",
+    "subcategory": "humor",
+    "title": "פרצוף מדבק",
+    "text": [
+      "עשו את הפרצוף הכי מצחיק שאתם יכולים.",
+      "כולם מחקים אתכם. כמובן שתצלמו תמונה למזכרת"
+    ],
+    "completion": "timer",
+    "timerSeconds": 30,
+    "illustrationId": "contagious-face",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-family-machine",
+    "category": "release",
+    "subcategory": "cooperation",
+    "title": "מכונה משפחתית",
+    "text": [
+      "התחילו בתנועה אחת ובקול אחד.",
+      "כל אחד מוסיף תנועה וקול משלו.",
+      "בסוף הפעילו את המכונה יחד."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "family-machine",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-move-and-move",
+    "category": "release",
+    "subcategory": "memory",
+    "title": "תנועה ועוד תנועה",
+    "text": [
+      "עשו תנועה אחת.",
+      "האדם הבא חוזר עליה ומוסיף תנועה חדשה.",
+      "כך ממשיכים עד שמתבלבלים."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "move-and-move",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "release-shrinking-island",
+    "category": "release",
+    "subcategory": "cooperation",
+    "title": "האי מצטמצם",
+    "text": [
+      "עמדו יחד על שמיכה או מגבת.",
+      "קפלו אותה לחצי.",
+      "הצליחו להישאר עליה יחד, מבלי ליפול החוצה."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "shrinking-island",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-family-jump",
+    "category": "release",
+    "subcategory": "coordination",
+    "title": "קפיצה משפחתית",
+    "text": [
+      "נסו לקפוץ כולם בדיוק באותו רגע.",
+      "מבלי לספור בקול."
+    ],
+    "completion": "timer",
+    "timerSeconds": 45,
+    "illustrationId": "family-jump",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-aliens",
+    "category": "release",
+    "subcategory": "imagination",
+    "title": "חייזרים",
+    "text": [
+      "דברו במשך דקה בשפה שחייזרים היו מבינים.",
+      "אסור להשתמש במילים אמיתיות."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "aliens",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-mirror",
+    "category": "release",
+    "subcategory": "attention",
+    "title": "מראה",
+    "text": [
+      "מי שבחר בקלף.",
+      "עכשיו יזוז ממש ממש לאט.",
+      "כולם מחקים אותו בדיוק."
+    ],
+    "completion": "timer",
+    "timerSeconds": 45,
+    "illustrationId": "mirror",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "release-no-words",
+    "category": "release",
+    "subcategory": "acting",
+    "title": "בלי מילים",
+    "text": [
+      "הצליחו לגרום לכל המשפחה להבין איזו חיה אתם.",
+      "בלי לדבר."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "no-words",
+    "variants": [
+      "אריה",
+      "פיל",
+      "קוף",
+      "חתול",
+      "כלב",
+      "ג'ירפה",
+      "צפרדע",
+      "דג",
+      "נחש",
+      "פרפר",
+      "צב",
+      "ינשוף"
+    ],
+    "minAge": 4
+  },
+  {
+    "id": "release-family-statue",
+    "category": "release",
+    "subcategory": "imagination",
+    "title": "פסל משפחתי",
+    "text": [
+      "יש לכם 10 שניות ליצור יחד פסל שמייצג את המילה שעל המסך."
+    ],
+    "completion": "timer",
+    "timerSeconds": 30,
+    "illustrationId": "family-statue",
+    "variants": [
+      "קיץ",
+      "חופשה",
+      "ים",
+      "ג'ונגל",
+      "חללית",
+      "קרקס",
+      "ספארי",
+      "לונה פארק",
+      "ספינה",
+      "חתונה",
+      "יום הולדת",
+      "סופרמרקט"
+    ],
+    "minAge": 4
+  },
+  {
+    "id": "release-balloons-in-air",
+    "category": "release",
+    "subcategory": "cooperation",
+    "title": "בלון באוויר",
+    "text": [
+      "דמיינו שני בלונים באוויר.",
+      "התמסרו בשניהם בין בני המשפחה.",
+      "מבלי שיגעו ברצפה."
+    ],
+    "completion": "timer",
+    "timerSeconds": 60,
+    "illustrationId": "balloons-in-air",
+    "variants": [],
+    "minAge": 4
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "discover-most-me",
+    "category": "discover",
+    "subcategory": "identity",
+    "theme": "identity",
+    "title": "הכי אני",
+    "text": [
+      "מתי אתה מרגיש הכי אתה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "most-me",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-proud-moment",
+    "category": "discover",
+    "subcategory": "confidence",
+    "theme": "confidence",
+    "title": "רגע של גאווה",
+    "text": [
+      "על איזה רגע מהזמן האחרון אתה הכי גאה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "proud-moment",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-heart-chooses",
+    "category": "discover",
+    "subcategory": "joy",
+    "theme": "emotion",
+    "title": "הלב בוחר",
+    "text": [
+      "מה תמיד מצליח לשמח אותך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "heart-chooses",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-safe-place",
+    "category": "discover",
+    "subcategory": "safety",
+    "theme": "safety",
+    "title": "מקום בטוח",
+    "text": [
+      "איפה אתה מרגיש הכי רגוע?"
+    ],
+    "completion": "manual",
+    "illustrationId": "safe-place",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-small-success",
+    "category": "discover",
+    "subcategory": "growth",
+    "theme": "growth",
+    "title": "הצלחה קטנה",
+    "text": [
+      "איזה דבר חדש למדת לאחרונה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "small-success",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-small-magic",
+    "category": "discover",
+    "subcategory": "joy",
+    "theme": "emotion",
+    "title": "קסם קטן",
+    "text": [
+      "מה הדבר הקטן שעושה לך טוב בכל יום?"
+    ],
+    "completion": "manual",
+    "illustrationId": "small-magic",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-three-words",
+    "category": "discover",
+    "subcategory": "identity",
+    "theme": "identity",
+    "title": "שלוש מילים",
+    "text": [
+      "באילו שלוש מילים היית מתאר את עצמך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "three-words",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-surprise",
+    "category": "discover",
+    "subcategory": "identity",
+    "theme": "identity",
+    "title": "הפתעה",
+    "text": [
+      "מה לדעתך אנשים לא יודעים עליך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "surprise",
+    "variants": [],
+    "minAge": 6
+  },
+  {
+    "id": "discover-wish-they-knew",
+    "category": "discover",
+    "subcategory": "belonging",
+    "theme": "belonging",
+    "title": "הלוואי שידעו",
+    "text": [
+      "מה היית רוצה שיבינו עליך יותר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "wish-they-knew",
+    "variants": [],
+    "minAge": 6
+  },
+  {
+    "id": "discover-sweet-memory",
+    "category": "discover",
+    "subcategory": "memory",
+    "theme": "memory",
+    "title": "זיכרון מתוק",
+    "text": [
+      "איזה זיכרון משפחתי אתה הכי אוהב?"
+    ],
+    "completion": "manual",
+    "illustrationId": "sweet-memory",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-hidden-talent",
+    "category": "discover",
+    "subcategory": "confidence",
+    "theme": "confidence",
+    "title": "כישרון נסתר",
+    "text": [
+      "במה אתה חושב שאתה ממש טוב?"
+    ],
+    "completion": "manual",
+    "illustrationId": "hidden-talent",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "discover-i-would-like",
+    "category": "discover",
+    "subcategory": "growth",
+    "theme": "growth",
+    "title": "הייתי רוצה",
+    "text": [
+      "איזה דבר חדש היית רוצה לנסות השנה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "i-would-like",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-brave-moment",
+    "category": "discover",
+    "subcategory": "courage",
+    "theme": "courage",
+    "title": "רגע של אומץ",
+    "text": [
+      "מתי הרגשת אמיץ לאחרונה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "brave-moment",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-heart-knows",
+    "category": "discover",
+    "subcategory": "listening",
+    "theme": "listening",
+    "title": "הלב יודע",
+    "text": [
+      "איך אתה יודע שמישהו באמת מקשיב לך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "heart-knows",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "discover-my-gift",
+    "category": "discover",
+    "subcategory": "confidence",
+    "theme": "confidence",
+    "title": "המתנה שלי",
+    "text": [
+      "איזו תכונה שלך הכי עוזרת לאחרים?"
+    ],
+    "completion": "manual",
+    "illustrationId": "my-gift",
+    "variants": [],
+    "minAge": 5
+  }
+]

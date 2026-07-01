@@ -1,0 +1,223 @@
+[
+  {
+    "id": "curious-secret-castle",
+    "category": "curious",
+    "subcategory": "imagination",
+    "theme": "imagination",
+    "title": "טירה סודית",
+    "text": [
+      "אם הייתה לך טירה משלך,",
+      "מה היה החדר הכי מיוחד בה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "secret-castle",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-bag-that-tells",
+    "category": "curious",
+    "subcategory": "symbols",
+    "theme": "inner",
+    "title": "תיק שמספר עליך",
+    "text": [
+      "אם היה לך תיק שמספר מי אתה,",
+      "מה היו שלושת הדברים שבתוכו?"
+    ],
+    "completion": "manual",
+    "illustrationId": "bag-that-tells",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-heart-weather",
+    "category": "curious",
+    "subcategory": "emotion",
+    "theme": "emotion",
+    "title": "מזג האוויר שבלב",
+    "text": [
+      "אם הלב שלך היה מזג אוויר,",
+      "איך הוא היה נראה היום?"
+    ],
+    "completion": "manual",
+    "illustrationId": "heart-weather",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-new-invention",
+    "category": "curious",
+    "subcategory": "creativity",
+    "theme": "imagination",
+    "title": "המצאה חדשה",
+    "text": [
+      "איזו המצאה הייתה הופכת את החיים ליותר כיפיים?"
+    ],
+    "completion": "manual",
+    "illustrationId": "new-invention",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-personal-guardian",
+    "category": "curious",
+    "subcategory": "symbols",
+    "theme": "inner",
+    "title": "שומר אישי",
+    "text": [
+      "אם היה לך שומר מיוחד שמלווה אותך לכל מקום,",
+      "איך הוא היה נראה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "personal-guardian",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-perfect-day",
+    "category": "curious",
+    "subcategory": "choice",
+    "theme": "choice",
+    "title": "יום מושלם",
+    "text": [
+      "איך היה נראה היום המושלם שלך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "perfect-day",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-super-animal",
+    "category": "curious",
+    "subcategory": "symbols",
+    "theme": "imagination",
+    "title": "חיית העל",
+    "text": [
+      "אם היית חיה,",
+      "איזו חיה היית?"
+    ],
+    "completion": "manual",
+    "illustrationId": "super-animal",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-private-island",
+    "category": "curious",
+    "subcategory": "imagination",
+    "theme": "imagination",
+    "title": "אי פרטי",
+    "text": [
+      "אם היה לך אי משלך,",
+      "מה היה חייב להיות בו?"
+    ],
+    "completion": "manual",
+    "illustrationId": "private-island",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-new-skill",
+    "category": "curious",
+    "subcategory": "choice",
+    "theme": "choice",
+    "title": "יכולת חדשה",
+    "text": [
+      "אם היית יכול ללמוד כל דבר בעולם,",
+      "במה היית בוחר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "new-skill",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-treasure-box",
+    "category": "curious",
+    "subcategory": "symbols",
+    "theme": "inner",
+    "title": "קופסת אוצר",
+    "text": [
+      "אם היית יכול לשמור שלושה דברים בקופסת אוצר,",
+      "מה היית בוחר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "treasure-box",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-future-window",
+    "category": "curious",
+    "subcategory": "future",
+    "theme": "future",
+    "title": "חלון לעתיד",
+    "text": [
+      "אם היית יכול לראות יום אחד מהעתיד שלך,",
+      "באיזה יום היית בוחר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "future-window",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "curious-new-land",
+    "category": "curious",
+    "subcategory": "imagination",
+    "theme": "imagination",
+    "title": "ארץ חדשה",
+    "text": [
+      "אם היית מגלה ארץ חדשה,",
+      "איך היית קורא לה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "new-land",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-adventure-friend",
+    "category": "curious",
+    "subcategory": "relationship",
+    "theme": "relationship",
+    "title": "חבר להרפתקה",
+    "text": [
+      "אם היית יוצא להרפתקה,",
+      "את מי היית בוחר לקחת איתך?"
+    ],
+    "completion": "manual",
+    "illustrationId": "adventure-friend",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-time-machine",
+    "category": "curious",
+    "subcategory": "future",
+    "theme": "future",
+    "title": "מכונת הזמן",
+    "text": [
+      "לאיזו תקופה היית נוסע ליום אחד?"
+    ],
+    "completion": "manual",
+    "illustrationId": "time-machine",
+    "variants": [],
+    "minAge": 5
+  },
+  {
+    "id": "curious-magical-day",
+    "category": "curious",
+    "subcategory": "imagination",
+    "theme": "imagination",
+    "title": "יום קסום",
+    "text": [
+      "מה היה קורה ביום הכי משמח שאתה יכול לדמיין?"
+    ],
+    "completion": "manual",
+    "illustrationId": "magical-day",
+    "variants": [],
+    "minAge": 4
+  }
+]
