@@ -13,7 +13,7 @@ export default function GamesPage() {
         </h1>
 
         <p className="mb-10 max-w-2xl text-lg leading-8 text-[#6F6252]">
-          רגעים פשוטים, עדינים ומשחקיים שמזמינים את המשפחה לעצור,
+          רגעים של יחד, משמעותיים ומשחקיים שמזמינים את המשפחה לעצור,
           לצחוק, להסתקרן ולהיות יחד.
         </p>
 
@@ -25,7 +25,7 @@ export default function GamesPage() {
             <p className="mb-4 text-sm text-[#A58E6C]">המשחק הראשון</p>
             <h2 className="mb-3 text-2xl font-light">להיות יחד</h2>
             <p className="leading-7 text-[#6F6252]">
-              משחק קלפים דיגיטלי למשפחה — תנועה, סקרנות, גילוי וחיבור.
+              משחק קלפים דיגיטלי למשפחה - תנועה, סקרנות, גילוי וחיבור.
             </p>
           </Link>
 

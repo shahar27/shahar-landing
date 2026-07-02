@@ -41,6 +41,7 @@ import {
 import type {
   GameDuration,
   GameSession,
+  TogetherCard,
 } from "@/types/games/family-time";
 
 const initialSession: GameSession = {
@@ -53,6 +54,41 @@ const initialSession: GameSession = {
   extraRoundStarted: false,
 };
 
+function shouldShowCategoryIntro(params: {
+  currentCard: TogetherCard | null;
+  nextCard: TogetherCard;
+  extraRoundStarted: boolean;
+}) {
+  const { currentCard, nextCard, extraRoundStarted } = params;
+
+  const currentCategory = currentCard?.category;
+  const nextCategory = nextCard.category;
+
+  if (currentCategory === nextCategory) return false;
+
+  // "לראות" הוא טקס הסיום, ולכן תמיד מציגים את מסך המעבר אליו.
+  if (nextCategory === "see") return true;
+
+  // אחרי שנכנסים להגרלות אקראיות, לא מציגים שוב מסכי מעבר רגילים.
+  if (extraRoundStarted) return false;
+
+  return true;
+}
+
+function insertCardBeforeIndex(params: {
+  sequence: TogetherCard[];
+  insertIndex: number;
+  cardToInsert: TogetherCard;
+}) {
+  const { sequence, insertIndex, cardToInsert } = params;
+
+  return [
+    ...sequence.slice(0, insertIndex),
+    cardToInsert,
+    ...sequence.slice(insertIndex),
+  ];
+}
+
 export default function FamilyTimeGamePage() {
   const router = useRouter();
 
@@ -60,8 +96,7 @@ export default function FamilyTimeGamePage() {
   const [session, setSession] = useState<GameSession>(initialSession);
   const [lastStarsAdded, setLastStarsAdded] = useState(1);
 
-  const currentCard =
-    session.sequence[session.currentCardIndex] ?? null;
+  const currentCard = session.sequence[session.currentCardIndex] ?? null;
 
   const currentCategory = currentCard
     ? familyTimeCategories[currentCard.category]
@@ -106,10 +141,7 @@ export default function FamilyTimeGamePage() {
   }
 
   function startGame(selectedDuration: GameDuration) {
-    const builtSequence = buildGameSequence(
-      familyTimeCards,
-      selectedDuration
-    );
+    const builtSequence = buildGameSequence(familyTimeCards, selectedDuration);
 
     setLastStarsAdded(1);
 
@@ -154,21 +186,26 @@ export default function FamilyTimeGamePage() {
     });
 
     if (!extraCard) {
+      const nextCard = session.sequence[nextIndex] ?? null;
+
       updateSession({
         ...session,
         currentCardIndex: nextIndex,
-        step: "card",
+        step:
+          nextCard && nextCard.category === "see"
+            ? "categoryIntro"
+            : "card",
         extraRoundStarted: true,
       });
 
       return;
     }
 
-    const updatedSequence = [
-      ...session.sequence.slice(0, nextIndex),
-      extraCard,
-      ...session.sequence.slice(nextIndex),
-    ];
+    const updatedSequence = insertCardBeforeIndex({
+      sequence: session.sequence,
+      insertIndex: nextIndex,
+      cardToInsert: extraCard,
+    });
 
     updateSession({
       ...session,
@@ -193,14 +230,12 @@ export default function FamilyTimeGamePage() {
     }
 
     const isAboutToEnterSeeCategory = nextCard.category === "see";
+    const hasTimeForExtraCard = hasEnoughTimeForExtraCard({
+      startedAt: session.startedAt,
+      duration: session.duration,
+    });
 
-    if (
-      isAboutToEnterSeeCategory &&
-      hasEnoughTimeForExtraCard({
-        startedAt: session.startedAt,
-        duration: session.duration,
-      })
-    ) {
+    if (isAboutToEnterSeeCategory && hasTimeForExtraCard) {
       if (!session.extraRoundStarted) {
         updateSession({
           ...session,
@@ -217,11 +252,11 @@ export default function FamilyTimeGamePage() {
       });
 
       if (extraCard) {
-        const updatedSequence = [
-          ...session.sequence.slice(0, nextIndex),
-          extraCard,
-          ...session.sequence.slice(nextIndex),
-        ];
+        const updatedSequence = insertCardBeforeIndex({
+          sequence: session.sequence,
+          insertIndex: nextIndex,
+          cardToInsert: extraCard,
+        });
 
         updateSession({
           ...session,
@@ -235,16 +270,16 @@ export default function FamilyTimeGamePage() {
       }
     }
 
-    const currentCategoryId = currentCard?.category;
-    const nextCategoryId = nextCard.category;
-
     updateSession({
       ...session,
       currentCardIndex: nextIndex,
-      step:
-        session.extraRoundStarted || currentCategoryId === nextCategoryId
-          ? "card"
-          : "categoryIntro",
+      step: shouldShowCategoryIntro({
+        currentCard,
+        nextCard,
+        extraRoundStarted: session.extraRoundStarted,
+      })
+        ? "categoryIntro"
+        : "card",
     });
   }
 
