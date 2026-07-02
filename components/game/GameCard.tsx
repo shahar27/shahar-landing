@@ -20,7 +20,6 @@ type GameCardProps = {
 
 function getRandomVariant(variants?: string[]) {
   if (!variants || variants.length === 0) return null;
-
   const randomIndex = Math.floor(Math.random() * variants.length);
   return variants[randomIndex];
 }
@@ -58,15 +57,15 @@ export function GameCard({
     <div className="mx-auto max-w-xl">
       <CardIllustration card={card} />
 
-      <div className="mb-4 inline-flex rounded-full border border-[#DCCDB8] bg-white/55 px-5 py-2 text-sm tracking-[0.2em] text-[#8A7A62]">
+      <div className="mb-3 inline-flex rounded-full border border-[#DCCDB8] bg-[#FFF8EA]/55 px-5 py-2 text-sm tracking-[0.18em] text-[#8A7A62]">
         {category?.label}
       </div>
 
-      <h1 className="mb-6 text-4xl font-light leading-tight text-[#3F3428] md:text-5xl">
+      <h1 className="mb-5 font-serif text-4xl font-normal leading-tight tracking-[-0.035em] text-[#6A4E35] md:text-5xl">
         {card.title}
       </h1>
 
-      <div className="mb-8 rounded-[1.7rem] border border-[#DCCDB8]/80 bg-white/45 px-6 py-6 text-lg leading-8 text-[#6F6252] shadow-sm">
+      <div className="mb-6 rounded-[1.5rem] bg-[#FFF8EA]/48 px-5 py-5 text-lg leading-8 text-[#6F6252] shadow-[0_5px_16px_rgba(76,61,46,0.06)]">
         {card.text.map((line) => (
           <p key={line} className="mb-2 last:mb-0">
             {line}
@@ -75,22 +74,22 @@ export function GameCard({
       </div>
 
       {selectedVariant && (
-        <div className="mx-auto mb-8 max-w-md rounded-[1.7rem] border border-[#DCCDB8] bg-[#FFF9EF]/75 px-6 py-5 shadow-sm">
+        <div className="mx-auto mb-6 max-w-md rounded-[1.4rem] border border-[#DCCDB8]/75 bg-[#FFF9EF]/55 px-5 py-4 shadow-[0_4px_14px_rgba(76,61,46,0.05)]">
           {!isVariantVisible ? (
             <button
               type="button"
               onClick={() => setIsVariantVisible(true)}
-              className="rounded-full bg-[#A58E6C] px-8 py-3 text-base text-white shadow-sm transition hover:bg-[#927B5E]"
+              className="rounded-[1.2rem] bg-[#9E7D55] px-8 py-3 text-base text-white shadow-[0_6px_16px_rgba(76,61,46,0.12)] transition hover:bg-[#8D6F4B]"
             >
               {getVariantRevealButtonText(card)}
             </button>
           ) : (
             <>
-              <p className="mb-2 text-sm text-[#8A7A62]">
+              <p className="mb-2 text-sm tracking-[0.12em] text-[#8A7A62]">
                 {getVariantLabel(card)}
               </p>
 
-              <p className="text-3xl font-light text-[#3F3428]">
+              <p className="font-serif text-3xl font-normal text-[#6A4E35]">
                 {selectedVariant}
               </p>
             </>
@@ -98,13 +97,9 @@ export function GameCard({
         </div>
       )}
 
-      {card.completion === "timer" &&
-        card.timerSeconds !== undefined && (
-          <CardTimer
-            seconds={card.timerSeconds}
-            onComplete={() => onComplete(1)}
-          />
-        )}
+      {card.completion === "timer" && card.timerSeconds !== undefined && (
+        <CardTimer seconds={card.timerSeconds} onComplete={() => onComplete(1)} />
+      )}
 
       {card.completion === "manual" && (
         <div className="flex flex-col items-center gap-3">
@@ -112,14 +107,14 @@ export function GameCard({
             <button
               type="button"
               onClick={() => onComplete(2)}
-              className="flex items-center gap-2 rounded-full bg-[#A58E6C] px-10 py-4 text-lg text-white shadow-[0_10px_24px_rgba(76,61,46,0.14)] transition hover:-translate-y-0.5 hover:bg-[#927B5E]"
+              className="flex items-center gap-2 rounded-[1.2rem] bg-[#9E7D55] px-9 py-3.5 text-base text-white shadow-[0_6px_16px_rgba(76,61,46,0.12)] transition hover:-translate-y-0.5 hover:bg-[#8D6F4B]"
             >
               <Image
                 src="/illustrations/family-time/icons/guess.webp"
                 alt=""
-                width={24}
-                height={24}
-                className="h-6 w-6 object-contain"
+                width={22}
+                height={22}
+                className="h-5 w-5 object-contain"
               />
               סיימנו וניחשנו נכון
             </button>
@@ -128,13 +123,13 @@ export function GameCard({
           <button
             type="button"
             onClick={() => onComplete(1)}
-            className="flex items-center gap-2 rounded-full border border-[#DCCDB8] bg-white/60 px-10 py-4 text-lg text-[#6F6252] shadow-sm transition hover:bg-white/80"
+            className="flex items-center gap-2 rounded-[1.2rem] border border-[#DCCDB8] bg-[#FFF9EF]/65 px-9 py-3.5 text-base text-[#6F6252] shadow-[0_4px_12px_rgba(76,61,46,0.06)] transition hover:bg-white/80"
           >
             <Image
               src="/illustrations/family-time/icons/star-fill.webp"
               alt=""
-              width={22}
-              height={22}
+              width={20}
+              height={20}
               className="h-5 w-5 object-contain"
             />
             סיימנו
@@ -142,7 +137,7 @@ export function GameCard({
         </div>
       )}
 
-      <div className="mt-7 space-y-1 text-sm text-[#8A7A62]">
+      <div className="mt-5 space-y-1 text-sm text-[#8A7A62]">
         {duration && <p>משחק של {duration} דקות</p>}
         <p>{progressLabel}</p>
       </div>

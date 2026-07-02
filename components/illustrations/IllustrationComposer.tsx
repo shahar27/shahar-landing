@@ -25,13 +25,13 @@ export function IllustrationComposer({
   const config = screenIllustrations[screen];
 
   return (
-    <div className="relative mx-auto mb-8 h-44 w-full max-w-xl overflow-hidden rounded-[2rem] border border-[#D8C7AA]/80 bg-[#FFF9EF]/70 shadow-[0_14px_34px_rgba(76,61,46,0.08)]">
+    <div className="relative mx-auto mb-4 h-44 w-full max-w-xl overflow-visible rounded-[1.4rem]">
       <Image
         src={backgroundSrc(config.background)}
         alt=""
         fill
-        sizes="(max-width: 768px) 100vw, 620px"
-        className="object-cover opacity-95"
+        sizes="(max-width: 768px) 100vw, 560px"
+        className="rounded-[1.4rem] object-cover opacity-28 mix-blend-multiply"
         priority={screen === "welcome"}
       />
 
@@ -39,9 +39,9 @@ export function IllustrationComposer({
         <Image
           key={`${element.folder}-${element.name}-${index}`}
           src={assetSrc(element.folder, element.name)}
-          alt={element.alt ?? ""}
-          width={240}
-          height={240}
+          alt={element.alt ?? alt}
+          width={260}
+          height={260}
           className={element.className}
         />
       ))}
