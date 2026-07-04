@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-
+import { preloadAudio } from "@/lib/audio";
 import { ExperienceCard } from "@/components/experience/ExperienceCard";
 import { ExperienceShell } from "@/components/experience/ExperienceShell";
 
@@ -114,6 +114,9 @@ export default function FamilyTimeGamePage() {
           familyTimeGamePlans[session.duration].order
         )
       : "";
+  useEffect(() => {
+    preloadAudio();
+  }, []);
 
   useEffect(() => {
     const savedSession = loadGameSession();
