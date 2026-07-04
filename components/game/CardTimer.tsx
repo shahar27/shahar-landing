@@ -1,6 +1,6 @@
 "use client";
 
-import { playTimerEndSound, unlockTimerEndSound } from "@/lib/audio";
+import { playTimerEndSound } from "@/lib/audio";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { PrimaryButton } from "@/components/experience/PrimaryButton";
@@ -53,10 +53,10 @@ export function CardTimer({ seconds, onComplete }: CardTimerProps) {
 
       {!isRunning && !isDone && (
         <PrimaryButton
-          onClick={() => {
-            void unlockTimerEndSound();
-            setIsRunning(true);
-          }}
+        onClick={() => {
+          playTimerEndSound();
+          setIsRunning(true);
+        }}
         >
           התחל
         </PrimaryButton>
