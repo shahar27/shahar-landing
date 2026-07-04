@@ -1,8 +1,7 @@
 import type { CardCategory, TogetherCategory } from "@/types/games/family-time";
 
 const guessRuleText =
-  "בני המשפחה מנחשים מה תהיה התשובה. רק אחר כך מי שבחר בקלף עונה. אם לפחות אחד ניחש נכון, המשפחה מרוויחה כוכב נוסף.";
-
+  "בני המשפחה מנחשים מה תהיה התשובה. רק אחר כך מי שבחר בקלף עונה. אם לפחות אחד ניחש נכון, המשפחה מרוויחה כוכב נוסף. אחרי שהתשובה נחשפה, כל אחד אומר מה הכי הפתיע אותו.";
 export const familyTimeCategories: Record<CardCategory, TogetherCategory> = {
   release: {
     id: "release",
@@ -32,7 +31,7 @@ export const familyTimeCategories: Record<CardCategory, TogetherCategory> = {
     colorClass: "bg-[#BFD7C5]",
     illustrationFolder: "discover",
     introText:
-      "עכשיו ננסה לגלות משהו אמיתי על האדם שיושב מולנו. לא דרך פנטזיה, אלא דרך החיים עצמם.",
+      "עכשיו ננסה לגלות משהו אמיתי על האדם שיושב מולנו.",
     hasGuessRule: true,
     guessRuleText,
   },

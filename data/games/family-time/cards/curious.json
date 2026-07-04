@@ -7,7 +7,7 @@
     "title": "טירה סודית",
     "text": [
       "אם הייתה לך טירה משלך,",
-      "מה היה החדר הכי מיוחד בה?"
+      "מה היה החדר הכי מיוחד בו ומה עושים שם?"
     ],
     "completion": "manual",
     "illustrationId": "secret-castle",
@@ -59,6 +59,54 @@
     "minAge": 4
   },
   {
+    "id": "curious-world-rule",
+    "category": "curious",
+    "subcategory": "values",
+    "theme": "imagination",
+    "title": "חוק עולמי",
+    "text": [
+      "אם היית יכול להוסיף חוק אחד",
+      "שיהיה תקף בכל העולם,",
+      "איזה חוק היית מוסיף?"
+    ],
+    "completion": "manual",
+    "illustrationId": "new-land",
+    "variants": [],
+    "minAge": 4
+  },
+
+  {
+    "id": "curious-new-holiday",
+    "category": "curious",
+    "subcategory": "imagination",
+    "theme": "creativity",
+    "title": "חג חדש",
+    "text": [
+      "אם היית יכול להוסיף חג חדש ללוח השנה,",
+      "מה היו חוגגים בו?"
+    ],
+    "completion": "manual",
+    "illustrationId": "magical-day",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "curious-one-thing-all-day",
+    "category": "curious",
+    "subcategory": "preferences",
+    "theme": "joy",
+    "title": "רק דבר אחד",
+    "text": [
+      "אם היה מותר לעשות רק דבר אחד כל היום,",
+      "מה היית בוחר?"
+    ],
+    "completion": "manual",
+    "illustrationId": "perfect-day",
+    "variants": [],
+    "minAge": 4
+  },
+  
+  {
     "id": "curious-personal-guardian",
     "category": "curious",
     "subcategory": "symbols",
@@ -66,7 +114,7 @@
     "title": "שומר אישי",
     "text": [
       "אם היה לך שומר מיוחד שמלווה אותך לכל מקום,",
-      "איך הוא היה נראה?"
+      "איך הוא היה נראה ומה הוא היה עושה?"
     ],
     "completion": "manual",
     "illustrationId": "personal-guardian",
@@ -95,7 +143,8 @@
     "title": "חיית העל",
     "text": [
       "אם היית חיה,",
-      "איזו חיה היית?"
+      "איזו חיה היית?",
+      "ומה גורם לך לבחור דווקא בה?"
     ],
     "completion": "manual",
     "illustrationId": "super-animal",
@@ -140,7 +189,7 @@
     "title": "קופסת אוצר",
     "text": [
       "אם היית יכול לשמור שלושה דברים בקופסת אוצר,",
-      "מה היית בוחר?"
+      "איזה דברים היה לך הכי חשוב לשמור?"
     ],
     "completion": "manual",
     "illustrationId": "treasure-box",
@@ -154,7 +203,7 @@
     "theme": "future",
     "title": "חלון לעתיד",
     "text": [
-      "אם היית יכול לראות יום אחד מהעתיד שלך,",
+      "אם היית יכול לראות יום אחד בלבד מהעתיד שלך,",
       "באיזה יום היית בוחר?"
     ],
     "completion": "manual",
@@ -185,7 +234,7 @@
     "title": "חבר להרפתקה",
     "text": [
       "אם היית יוצא להרפתקה,",
-      "את מי היית בוחר לקחת איתך?"
+      "איזו תכונה היית רוצה שתהיה למי שיוצא איתך??"
     ],
     "completion": "manual",
     "illustrationId": "adventure-friend",
@@ -213,7 +262,8 @@
     "theme": "imagination",
     "title": "יום קסום",
     "text": [
-      "מה היה קורה ביום הכי משמח שאתה יכול לדמיין?"
+      "אם היית מתעורר ליום הכי שמח בעולם",
+      "מה הדבר הראשון שהיה קורה?"
     ],
     "completion": "manual",
     "illustrationId": "magical-day",

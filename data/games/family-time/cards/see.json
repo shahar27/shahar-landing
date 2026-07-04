@@ -34,7 +34,7 @@
     "theme": "gratitude",
     "title": "בזכותך",
     "text": [
-      "מה מישהו מהמשפחה עשה לאחרונה שעזר לך או שימח אותך?"
+      "מה מישהו מהמשפחה עשה, שעזר לך או שימח אותך?"
     ],
     "completion": "manual",
     "illustrationId": "because-of-you",
@@ -48,7 +48,7 @@
     "theme": "relationship",
     "title": "הכי כיף איתך",
     "text": [
-      "מה אתה הכי אוהב לעשות עם האדם שיושב מימינך?"
+      "מתי הכי כיף לך להיות עם האדם שיושב מימינך?"
     ],
     "completion": "manual",
     "illustrationId": "fun-with-you",
@@ -76,7 +76,7 @@
     "theme": "appreciation",
     "title": "רואה אותך",
     "text": [
-      "ספר על תכונה יפה שאתה רואה במי שבחר את הקלף."
+      "כל אחד משתף על רגע יפה שהוא ראה אצל מי שבחר בקלף"
     ],
     "completion": "manual",
     "illustrationId": "see-you",
@@ -146,7 +146,7 @@
     "theme": "appreciation",
     "title": "אני מעריך",
     "text": [
-      "מה אתה מעריך במי שיושב מולך?"
+      "מה אתה הכי אוהב בדרך שבה מי שמולך מתנהג?"
     ],
     "completion": "manual",
     "illustrationId": "i-appreciate",
@@ -174,7 +174,7 @@
     "theme": "appreciation",
     "title": "גאה בך",
     "text": [
-      "על מה היית אומר למישהו מהמשפחה: אני גאה בך?"
+      "על מה היית אומר למישהו מהמשפחה: אני גאה בך היום?"
     ],
     "completion": "manual",
     "illustrationId": "proud-of-you",
@@ -196,13 +196,91 @@
     "minAge": 4
   },
   {
+    "id": "see-effort",
+    "category": "see",
+    "subcategory": "appreciation",
+    "theme": "strengths",
+    "title": "לראות מאמץ",
+    "text": [
+      "ספר על משהו שמישהו במשפחה",
+      "ממש התאמץ בו לאחרונה."
+    ],
+    "completion": "manual",
+    "illustrationId": "proud-of-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-growth",
+    "category": "see",
+    "subcategory": "growth",
+    "theme": "strengths",
+    "title": "לראות שינוי",
+    "text": [
+      "במה מישהו במשפחה",
+      "השתפר השנה?"
+    ],
+    "completion": "manual",
+    "illustrationId": "proud-of-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-hard-moment",
+    "category": "see",
+    "subcategory": "empathy",
+    "theme": "understanding",
+    "title": "ראיתי שהיה לך קשה",
+    "text": [
+      "ספר על רגע שבו ראית",
+      "שמישהו במשפחה התמודד עם משהו",
+      "לא פשוט."
+    ],
+    "completion": "manual",
+    "illustrationId": "i-saw-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-didnt-give-up",
+    "category": "see",
+    "subcategory": "perseverance",
+    "theme": "strengths",
+    "title": "לא ויתרת",
+    "text": [
+      "על איזה רגע היית אומר",
+      "למישהו ממשפחתך:",
+      "\"ראיתי שלא ויתרת.\""
+    ],
+    "completion": "manual",
+    "illustrationId": "proud-of-you",
+    "variants": [],
+    "minAge": 4
+  },
+  {
+    "id": "see-understood-you",
+    "category": "see",
+    "subcategory": "understanding",
+    "theme": "perspective",
+    "title": "הבנתי אותך",
+    "text": [
+      "ספר על רגע שבו פתאום הבנת",
+      "למה מישהו במשפחה",
+      "התנהג כמו שהתנהג."
+    ],
+    "completion": "manual",
+    "illustrationId": "i-notice",
+    "variants": [],
+    "minAge": 5
+  },
+  {
     "id": "see-one-star",
     "category": "see",
     "subcategory": "appreciation",
     "theme": "appreciation",
     "title": "כוכב אחד",
     "text": [
-      "אם היית נותן היום כוכב למישהו במשפחה, למי היית נותן ולמה?"
+      "על איזה רגע שהיה היום היית נותן כוכב?"
     ],
     "completion": "manual",
     "illustrationId": "one-star",

@@ -6,7 +6,7 @@
     "theme": "identity",
     "title": "הכי אני",
     "text": [
-      "מתי אתה מרגיש הכי אתה?"
+      " מתי אתה הכי מצליח לשכוח מכל מה ומי שסביבך ופשוט נהנה"
     ],
     "completion": "manual",
     "illustrationId": "most-me",
@@ -34,7 +34,7 @@
     "theme": "emotion",
     "title": "הלב בוחר",
     "text": [
-      "מה תמיד מצליח לשמח אותך?"
+      "מה יכול לקרות שיהפוך לך יום רגיל ליום מדהים?"
     ],
     "completion": "manual",
     "illustrationId": "heart-chooses",
@@ -48,7 +48,7 @@
     "theme": "safety",
     "title": "מקום בטוח",
     "text": [
-      "איפה אתה מרגיש הכי רגוע?"
+      "איפה אתה מרגיש הכי רגוע בעולם?"
     ],
     "completion": "manual",
     "illustrationId": "safe-place",
@@ -90,7 +90,8 @@
     "theme": "identity",
     "title": "שלוש מילים",
     "text": [
-      "באילו שלוש מילים היית מתאר את עצמך?"
+      "אם היו צריכים להכיר אותך בלי לפגוש אותך,?",
+      "מה הדבר הראשון שהיה חשוב לך שיידעו עליך?"
     ],
     "completion": "manual",
     "illustrationId": "three-words",
@@ -132,7 +133,7 @@
     "theme": "memory",
     "title": "זיכרון מתוק",
     "text": [
-      "איזה זיכרון משפחתי אתה הכי אוהב?"
+      " איזה רגע משפחתי היית שמח לחוות שוב?"
     ],
     "completion": "manual",
     "illustrationId": "sweet-memory",
@@ -146,7 +147,7 @@
     "theme": "confidence",
     "title": "כישרון נסתר",
     "text": [
-      "במה אתה חושב שאתה ממש טוב?"
+      "איזה דבר בא לך בקלות, אבל לאחרים הוא נראה יותר קשה?"
     ],
     "completion": "manual",
     "illustrationId": "hidden-talent",
@@ -202,7 +203,8 @@
     "theme": "confidence",
     "title": "המתנה שלי",
     "text": [
-      "איזו תכונה שלך הכי עוזרת לאחרים?"
+      "איזו תכונה שלך הכי עוזרת לאחרים?",
+      "מתי לאחרונה התכונה הזאת עזרה למישהו?"
     ],
     "completion": "manual",
     "illustrationId": "my-gift",
