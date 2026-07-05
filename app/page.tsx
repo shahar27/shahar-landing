@@ -21,6 +21,9 @@ const WHATSAPP_NUMBER = "972525460444"; // TODO: להחליף למספר שלך 
 const PHONE_NUMBER = "052-5460444"; // TODO: להחליף לטלפון שלך
 const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל שלך
 const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
+
+const LINEN_BACKGROUND = "/illustrations/family-time/backgrounds/soft-linen.webp";
+
 const pageLinks = [
   {
     title: "וובינר להורים",
@@ -116,21 +119,30 @@ export default function ShaharLandingPage() {
   };
 
   return (
-    <main dir="rtl" className="min-h-screen bg-[#F8F3E8] text-[#4B3A2A] font-sans overflow-hidden">
+    <main
+      dir="rtl"
+      className="min-h-screen bg-[#F8F3E8] text-[#4B3A2A] font-sans overflow-hidden selection:bg-[#9C7A4B]/20"
+      style={{
+        backgroundImage: `linear-gradient(rgba(248, 243, 232, 0.88), rgba(248, 243, 232, 0.88)), url('${LINEN_BACKGROUND}')`,
+        backgroundRepeat: "repeat",
+        backgroundSize: "auto",
+        backgroundAttachment: "fixed",
+      }}
+    >
       {/* Floating WhatsApp */}
       <a
         href={`https://wa.me/${WHATSAPP_NUMBER}`}
-        className="fixed bottom-3 left-3 md:bottom-5 md:left-5 z-50 flex items-center gap-2 rounded-full bg-[#9C7A4B] px-5 py-3 text-[#F8F3E8] shadow-lg hover:scale-105 transition-transform"
+        className="fixed bottom-3 left-3 md:bottom-5 md:left-5 z-50 flex items-center gap-2 rounded-full bg-[#9C7A4B] px-5 py-3 text-[#F8F3E8] shadow-[0_14px_35px_rgba(75,58,42,0.18)] ring-1 ring-white/30 hover:scale-105 transition-transform"
       >
         <MessageCircle size={20} />
         שלחי הודעה
       </a>
 
       {/* Header */}
-      <header className="relative z-40 px-6 md:px-12 lg:px-20 pt-6">
-        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-5">
-          <a href="#top" className="shrink-0">
-            <div className="w-20 h-20 md:w-24 md:h-24 overflow-hidden">
+      <header className="relative z-40 px-5 md:px-12 lg:px-20 pt-5 md:pt-7">
+        <div className="mx-auto max-w-7xl flex flex-col items-center gap-4">
+          <a href="#top" className="shrink-0" aria-label="חזרה לראש העמוד">
+            <div className="w-20 h-20 md:w-24 md:h-24 overflow-hidden rounded-full bg-white/25 shadow-[0_18px_45px_rgba(75,58,42,0.08)] ring-1 ring-[#9C7A4B]/10">
               <img
                 src="/logo-placeholder.png"
                 alt="הלוגו של שחר"
@@ -139,16 +151,29 @@ export default function ShaharLandingPage() {
             </div>
           </a>
 
-          <nav className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
-            {pageLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="rounded-full border border-[#9C7A4B]/25 bg-white/25 px-4 py-2 text-sm md:text-base text-[#7A654D] shadow-sm backdrop-blur-sm transition hover:bg-white/45 hover:border-[#9C7A4B]/45 hover:text-[#4B3A2A]"
-              >
-                {link.title}
-              </a>
-            ))}
+          <nav
+            aria-label="ניווט לעמודים נוספים"
+            className="w-full max-w-3xl rounded-full border border-[#9C7A4B]/12 bg-[#F8F3E8]/45 px-4 py-3 shadow-[0_14px_40px_rgba(75,58,42,0.06)] backdrop-blur-md"
+          >
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-0 text-center">
+              {pageLinks.map((link, index) => (
+                <React.Fragment key={link.href}>
+                  <a
+                    href={link.href}
+                    className="group relative px-3 py-1.5 text-[0.92rem] md:text-[0.98rem] leading-6 text-[#7A654D] transition hover:text-[#3E3023]"
+                  >
+                    <span className="relative">
+                      {link.title}
+                      <span className="absolute -bottom-1 right-0 h-px w-0 bg-[#9C7A4B]/55 transition-all duration-300 group-hover:w-full" />
+                    </span>
+                  </a>
+
+                  {index < pageLinks.length - 1 && (
+                    <span className="hidden sm:block mx-2 text-[#9C7A4B]/30">·</span>
+                  )}
+                </React.Fragment>
+              ))}
+            </div>
           </nav>
         </div>
       </header>
@@ -156,11 +181,12 @@ export default function ShaharLandingPage() {
       {/* Hero */}
       <section
         id="top"
-        className="relative min-h-[calc(100vh-100px)] flex flex-col-reverse lg:flex-row items-center justify-between gap-14 px-6 md:px-10 lg:px-20 pt-8 md:pt-16 pb-20"
+        className="relative min-h-[calc(100vh-128px)] flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-14 px-6 md:px-10 lg:px-20 pt-8 md:pt-14 pb-18 md:pb-20"
       >
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-10 right-[-120px] w-[360px] h-[360px] rounded-full bg-white/35 blur-3xl" />
           <div className="absolute bottom-10 left-[-140px] w-[420px] h-[420px] rounded-full bg-[#9C7A4B]/10 blur-3xl" />
+          <div className="absolute right-[12%] top-[32%] h-px w-28 rotate-[-18deg] bg-[#9C7A4B]/10 hidden xl:block" />
         </div>
 
         <motion.div
@@ -215,7 +241,7 @@ export default function ShaharLandingPage() {
 
           <div className="mt-10 flex flex-col items-center lg:items-start gap-5">
             <a
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg hover:scale-[1.02] transition"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-[0_18px_40px_rgba(75,58,42,0.18)] ring-1 ring-white/30 hover:shadow-[0_22px_48px_rgba(75,58,42,0.2)] hover:scale-[1.02] transition"
               href="#contact"
             >
               אני רוצה להתחיל בשיחה <ArrowLeft size={18} />
@@ -236,7 +262,7 @@ export default function ShaharLandingPage() {
           transition={{ duration: 1 }}
           className="relative z-10 flex justify-center lg:justify-start lg:pl-4"
         >
-          <div className="relative w-full max-w-[350px] md:max-w-[450px] lg:max-w-[520px]">
+          <div className="relative w-full max-w-[330px] md:max-w-[450px] lg:max-w-[520px]">
             <div className="absolute -top-10 -right-10 w-[94%] h-[94%] rounded-[45%_55%_60%_40%/40%_40%_60%_60%] bg-[#9C7A4B]/10 blur-sm" />
             <div className="absolute -bottom-8 -left-8 w-[80%] h-[80%] rounded-[60%_40%_45%_55%/55%_60%_40%_45%] border border-[#9C7A4B]/20" />
 
@@ -245,20 +271,49 @@ export default function ShaharLandingPage() {
 
             <Leaf className="absolute -bottom-3 right-7 text-[#9C7A4B]/35" size={34} />
 
-            <div className="relative aspect-[3/4] overflow-hidden rounded-[3.2rem] border border-white/60 bg-white/40 shadow-2xl">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-[3.2rem] border border-white/70 bg-white/40 shadow-[0_30px_90px_rgba(75,58,42,0.18)]">
               <img
                 src="/shaharportrait.png"
                 alt="שחר טקו פישר"
                 className="w-full h-full object-cover object-center"
               />
+              <div className="absolute inset-0 ring-1 ring-inset ring-[#9C7A4B]/10 rounded-[3.2rem]" />
             </div>
           </div>
         </motion.div>
       </section>
 
+      {/* Page Links */}
+      <section className="px-6 md:px-14 lg:px-24 pb-10 md:pb-14">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <span className="h-px w-12 bg-[#9C7A4B]/20" />
+            <Leaf className="text-[#9C7A4B]/45" size={20} />
+            <span className="h-px w-12 bg-[#9C7A4B]/20" />
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-4">
+            {pageLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="group rounded-[2rem] border border-[#9C7A4B]/14 bg-white/35 px-7 py-6 text-center shadow-[0_16px_45px_rgba(75,58,42,0.06)] backdrop-blur-sm transition hover:-translate-y-1 hover:bg-white/48 hover:shadow-[0_20px_55px_rgba(75,58,42,0.09)]"
+              >
+                <span className="block text-xl font-serif text-[#3E3023]">
+                  {link.title}
+                </span>
+                <span className="mt-4 inline-flex items-center justify-center gap-2 text-sm text-[#9C7A4B]">
+                  מעבר לעמוד <ArrowLeft size={15} className="transition-transform group-hover:-translate-x-1" />
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Atmosphere Image */}
       <section className="px-6 md:px-14 lg:px-24 py-8">
-        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-[0_18px_55px_rgba(75,58,42,0.08)] border border-[#9C7A4B]/10 bg-[#F8F3E8]">
           <img
             src="/calm-space.jpg"
             alt=""
@@ -270,7 +325,7 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Mirror */}
-      <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
+      <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/30 backdrop-blur-[1px]">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
             זה לא עוזר לך להמשיך לקבל עצות מה נכון לעשות
@@ -286,7 +341,7 @@ export default function ShaharLandingPage() {
             {painCards.map((item, index) => (
               <div
                 key={index}
-                className="w-full rounded-[2rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-7 shadow-sm flex flex-col items-center justify-center gap-5 min-h-[170px]"
+                className="w-full rounded-[2rem] bg-[#F8F3E8]/78 border border-[#9C7A4B]/15 p-7 shadow-[0_16px_45px_rgba(75,58,42,0.05)] flex flex-col items-center justify-center gap-5 min-h-[170px] backdrop-blur-sm"
               >
                 <img
                   src="/brain-icon.png"
@@ -316,7 +371,7 @@ export default function ShaharLandingPage() {
             להתחיל לשחרר אותו מהמקום שבו הוא חי.
           </h2>
 
-          <div className="mt-10 rounded-[2.5rem] bg-white/40 border border-[#9C7A4B]/15 shadow-sm px-6 py-8 md:px-12 md:py-10 max-w-4xl mx-auto">
+          <div className="mt-10 rounded-[2.5rem] bg-white/38 border border-[#9C7A4B]/15 shadow-[0_18px_55px_rgba(75,58,42,0.06)] px-6 py-8 md:px-12 md:py-10 max-w-4xl mx-auto backdrop-blur-sm">
             <p className="text-lg md:text-xl leading-9 text-[#5F4A35]">
               שינוי אמיתי קורה כשהמערכת כולה מקבלת חוויה חדשה,
               לא רק הראש.
@@ -338,7 +393,7 @@ export default function ShaharLandingPage() {
 
         <div className="max-w-6xl mx-auto mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-5">
           {approachItems.map(({ icon: Icon, title, text }) => (
-            <div key={title} className="rounded-[2rem] bg-white/45 border border-[#9C7A4B]/15 p-7 shadow-sm">
+            <div key={title} className="rounded-[2rem] bg-white/36 border border-[#9C7A4B]/15 p-7 shadow-[0_16px_45px_rgba(75,58,42,0.05)] backdrop-blur-sm transition hover:-translate-y-1 hover:bg-white/45">
               <Icon className="text-[#9C7A4B] mb-5" size={30} />
               <h3 className="text-xl font-serif mb-3 text-[#3E3023]">{title}</h3>
               <p className="leading-8 text-[#5F4A35]">{text}</p>
@@ -349,7 +404,7 @@ export default function ShaharLandingPage() {
 
       {/* Atmosphere Image */}
       <section className="px-6 md:px-14 lg:px-24 py-8">
-        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-[0_18px_55px_rgba(75,58,42,0.08)] border border-[#9C7A4B]/10 bg-[#F8F3E8]">
           <img
             src="/soft-home.jpg"
             alt=""
@@ -380,9 +435,9 @@ export default function ShaharLandingPage() {
       </section>
 
      {/* About */}
-    <section id="about" className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
+    <section id="about" className="px-6 md:px-14 lg:px-24 py-24 bg-white/30 backdrop-blur-[1px]">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-[1.1fr_1fr] gap-14 items-start">
-        <div className="rounded-[3rem] bg-[#F8F3E8] border border-[#9C7A4B]/15 p-8 md:p-10 shadow-sm text-center">
+        <div className="rounded-[3rem] bg-[#F8F3E8]/76 border border-[#9C7A4B]/15 p-8 md:p-10 shadow-[0_18px_55px_rgba(75,58,42,0.06)] text-center backdrop-blur-sm">
           <Heart className="text-[#9C7A4B] mb-5 mx-auto" size={34} />
 
           <h2 className="text-3xl md:text-4xl font-serif text-[#3E3023] mb-10">
@@ -446,7 +501,7 @@ export default function ShaharLandingPage() {
               הכשרות ותחומי התמחות
             </h3>
 
-            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-5 pt-5">
+            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-5 pt-5 rounded-[2.4rem] bg-white/24 border border-[#9C7A4B]/10 p-6 md:p-7 shadow-[0_16px_45px_rgba(75,58,42,0.04)] backdrop-blur-sm">
               {credentials.map((item) => (
                 <div key={item} className="flex items-start gap-3 border-b border-[#9C7A4B]/15 pb-4 text-[#5F4A35]">
                   <GraduationCap className="text-[#9C7A4B] shrink-0 mt-1" size={20} />
@@ -478,11 +533,11 @@ export default function ShaharLandingPage() {
           <div className="space-y-12">
             {processSteps.map((step, index) => (
               <div key={step.title} className="relative pr-16">
-                <div className="absolute right-0 top-1 w-11 h-11 rounded-full bg-[#9C7A4B] text-[#F8F3E8] flex items-center justify-center shadow-sm">
+                <div className="absolute right-0 top-1 w-11 h-11 rounded-full bg-[#9C7A4B] text-[#F8F3E8] flex items-center justify-center shadow-[0_12px_30px_rgba(75,58,42,0.15)] ring-4 ring-[#F8F3E8]/70">
                   {index + 1}
                 </div>
 
-                <div className="rounded-[2rem] bg-white/35 border border-[#9C7A4B]/12 px-7 py-6 shadow-sm">
+                <div className="rounded-[2rem] bg-white/36 border border-[#9C7A4B]/12 px-7 py-6 shadow-[0_16px_45px_rgba(75,58,42,0.05)] backdrop-blur-sm">
                   <h3 className="text-2xl font-serif mb-4 text-[#3E3023]">{step.title}</h3>
                   <p className="text-lg leading-8 text-[#5F4A35]">{step.text}</p>
                 </div>
@@ -493,7 +548,7 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Gentle proof */}
-      <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/35">
+      <section className="px-6 md:px-14 lg:px-24 py-24 bg-white/30 backdrop-blur-[1px]">
         <div className="max-w-4xl mx-auto text-center">
           <ShieldCheck className="mx-auto text-[#9C7A4B] mb-6" size={38} />
           <h2 className="text-3xl md:text-5xl font-serif text-[#3E3023]">
@@ -511,7 +566,7 @@ export default function ShaharLandingPage() {
 
       {/* Atmosphere Image */}
       <section className="px-6 md:px-14 lg:px-24 py-8">
-        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-sm border border-[#9C7A4B]/10 bg-[#F8F3E8]">
+        <div className="relative overflow-hidden rounded-[2.5rem] h-[240px] md:h-[320px] shadow-[0_18px_55px_rgba(75,58,42,0.08)] border border-[#9C7A4B]/10 bg-[#F8F3E8]">
           <img
             src="/nature-light.jpg"
             alt=""
@@ -536,7 +591,7 @@ export default function ShaharLandingPage() {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={`https://wa.me/${WHATSAPP_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-[0_18px_40px_rgba(75,58,42,0.18)] ring-1 ring-white/30 hover:shadow-[0_22px_48px_rgba(75,58,42,0.2)] transition"
             >
               <MessageCircle size={20} />
               שלח/י לי הודעה בוואטסאפ
@@ -544,7 +599,7 @@ export default function ShaharLandingPage() {
 
             <a
               href={`tel:${PHONE_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-[#9C7A4B]/40 px-8 py-4 text-[#9C7A4B] hover:bg-white/40 transition"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-[#9C7A4B]/35 bg-white/20 px-8 py-4 text-[#9C7A4B] hover:bg-white/40 transition"
             >
               <Phone size={18} />
               התקשר/י אליי
@@ -553,31 +608,31 @@ export default function ShaharLandingPage() {
 
           <form
             onSubmit={handleContactSubmit}
-            className="mt-12 grid gap-4 text-right bg-white/45 border border-[#9C7A4B]/15 rounded-[2rem] p-6 md:p-8 shadow-sm"
+            className="mt-12 grid gap-4 text-right bg-white/42 border border-[#9C7A4B]/15 rounded-[2rem] p-6 md:p-8 shadow-[0_18px_55px_rgba(75,58,42,0.06)] backdrop-blur-sm"
           >
             <input
               name="name"
               required
-              className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]"
+              className="rounded-full px-5 py-4 bg-[#F8F3E8]/82 border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] focus:bg-[#F8F3E8] transition"
               placeholder="שם מלא"
             />
 
             <input
               name="phone"
               required
-              className="rounded-full px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B]"
+              className="rounded-full px-5 py-4 bg-[#F8F3E8]/82 border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] focus:bg-[#F8F3E8] transition"
               placeholder="טלפון"
             />
 
             <textarea
               name="message"
-              className="rounded-[1.5rem] px-5 py-4 bg-[#F8F3E8] border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] min-h-32"
+              className="rounded-[1.5rem] px-5 py-4 bg-[#F8F3E8]/82 border border-[#9C7A4B]/20 outline-none focus:border-[#9C7A4B] focus:bg-[#F8F3E8] min-h-32 transition"
               placeholder="מה חשוב לי שתדעי?"
             />
 
             <button
               type="submit"
-              className="rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
+              className="rounded-full bg-[#9C7A4B] px-7 py-4 text-[#F8F3E8] shadow-[0_18px_40px_rgba(75,58,42,0.16)] ring-1 ring-white/30 hover:shadow-[0_22px_48px_rgba(75,58,42,0.19)] transition"
             >
               שליחת פרטים בוואטסאפ
             </button>
@@ -619,7 +674,7 @@ export default function ShaharLandingPage() {
         </div>
       </section>
 
-      <footer className="px-6 md:px-14 lg:px-24 py-10 border-t border-[#9C7A4B]/15 text-center text-sm text-[#7A654D]">
+      <footer className="px-6 md:px-14 lg:px-24 py-10 border-t border-[#9C7A4B]/15 text-center text-sm text-[#7A654D] bg-[#F8F3E8]/35 backdrop-blur-sm">
         <p>© שחר טקו פישר · ליווי ואימון רגשי מיודע טראומה, גוף, מערכת עצבים והורות בפרט לילדים עם adhd odd </p>
       </footer>
     </main>
