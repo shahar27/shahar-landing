@@ -319,11 +319,11 @@ export default function ParentingWebinarPage() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-serif leading-[1.3]">
-            ערכת משחקים להדפסה
+            משחק משפחתי
           </h2>
 
           <p className="mt-8 text-xl leading-10 text-[#5F4A35]">
-            רעיונות פשוטים, נעימים וישימים
+            מצחיק, מקרב, מיוחד
             <br />
             לחיזוק הקשר והחיבור עם הילדים גם בתוך ימי החופש.
           </p>
