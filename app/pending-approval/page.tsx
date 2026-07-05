@@ -5,7 +5,7 @@ export default function PendingApprovalPage() {
         <h1 className="mb-4 text-3xl font-light">החשבון ממתין לאישור</h1>
 
         <p className="leading-8 text-[#6F6252]">
-          ההרשמה התקבלה. ברגע שהחשבון יאושר, תהיה לך גישה למשחקים.
+          ההרשמה התקבלה. בדקות הקרובות, במידה והחשבון יאושר, תישלח הודעה לגביי קבלת הגישה למשחקים.
         </p>
       </section>
     </main>

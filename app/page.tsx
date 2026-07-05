@@ -21,6 +21,20 @@ const WHATSAPP_NUMBER = "972525460444"; // TODO: להחליף למספר שלך 
 const PHONE_NUMBER = "052-5460444"; // TODO: להחליף לטלפון שלך
 const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל שלך
 const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
+const pageLinks = [
+  {
+    title: "וובינר להורים",
+    href: "/parenting-webinar",
+  },
+  {
+    title: "ערב מתחת למנגנוני ההגנה",
+    href: "/defense-patterns-evening",
+  },
+  {
+    title: "משחקים למשפחה",
+    href: "/games/family-time",
+  },
+];
 
 const painCards = [
   "אתם מתפקדים, אבל בפנים מרגישים שאין לכם אוויר.",
@@ -114,7 +128,7 @@ export default function ShaharLandingPage() {
 
       {/* Header */}
       <header className="relative z-40 px-6 md:px-12 lg:px-20 pt-6">
-        <div className="mx-auto max-w-7xl flex items-center justify-center md:justify-start">
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-5">
           <a href="#top" className="shrink-0">
             <div className="w-20 h-20 md:w-24 md:h-24 overflow-hidden">
               <img
@@ -124,6 +138,18 @@ export default function ShaharLandingPage() {
               />
             </div>
           </a>
+
+          <nav className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
+            {pageLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="rounded-full border border-[#9C7A4B]/25 bg-white/25 px-4 py-2 text-sm md:text-base text-[#7A654D] shadow-sm backdrop-blur-sm transition hover:bg-white/45 hover:border-[#9C7A4B]/45 hover:text-[#4B3A2A]"
+              >
+                {link.title}
+              </a>
+            ))}
+          </nav>
         </div>
       </header>
 
