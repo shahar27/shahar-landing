@@ -18,9 +18,9 @@
     "category": "see",
     "subcategory": "attention",
     "theme": "attention",
-    "title": "אני שם לב",
+    "title": "אני שמה לב",
     "text": [
-      "ספר על משהו קטן שמישהו במשפחה עשה לאחרונה ושמת לב אליו."
+      "ספרי על משהו קטן שמישהו במשפחה עשה לאחרונה ושמת לב אליו."
     ],
     "completion": "manual",
     "illustrationId": "i-notice",
@@ -116,7 +116,7 @@
     "category": "see",
     "subcategory": "connection",
     "theme": "connection",
-    "title": "אם רק היית יודע",
+    "title": "אם רק היית יודעת",
     "text": [
       "מה היית רוצה שמישהו מהמשפחה יידע עליך?"
     ],
@@ -144,9 +144,9 @@
     "category": "see",
     "subcategory": "appreciation",
     "theme": "appreciation",
-    "title": "אני מעריך",
+    "title": "אני מעריכה",
     "text": [
-      "מה אתה הכי אוהב בדרך שבה מי שמולך מתנהג?"
+      "מה את הכי אוהבת בדרך שבה מי שמולך מתנהג?"
     ],
     "completion": "manual",
     "illustrationId": "i-appreciate",
@@ -174,7 +174,7 @@
     "theme": "appreciation",
     "title": "גאה בך",
     "text": [
-      "על מה היית אומר למישהו מהמשפחה: אני גאה בך היום?"
+      "על מה היית אומרת למישהו מהמשפחה: אני גאה בך היום?"
     ],
     "completion": "manual",
     "illustrationId": "proud-of-you",
@@ -280,7 +280,7 @@
     "theme": "appreciation",
     "title": "כוכב אחד",
     "text": [
-      "על איזה רגע שהיה היום היית נותן כוכב?"
+      "על איזה רגע שהיה היום היית נותנת כוכב?"
     ],
     "completion": "manual",
     "illustrationId": "one-star",

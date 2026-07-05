@@ -7,7 +7,7 @@
     "title": "טירה סודית",
     "text": [
       "אם הייתה לך טירה משלך,",
-      "מה היה החדר הכי מיוחד בו ומה עושים שם?"
+      "מה היה החדר הכי מיוחד בה ומה עושים שם?"
     ],
     "completion": "manual",
     "illustrationId": "secret-castle",
@@ -21,7 +21,7 @@
     "theme": "inner",
     "title": "תיק שמספר עליך",
     "text": [
-      "אם היה לך תיק שמספר מי אתה,",
+      "אם היה לך תיק שמספר מי את,",
       "מה היו שלושת הדברים שבתוכו?"
     ],
     "completion": "manual",
@@ -74,7 +74,6 @@
     "variants": [],
     "minAge": 4
   },
-
   {
     "id": "curious-new-holiday",
     "category": "curious",
@@ -82,7 +81,7 @@
     "theme": "creativity",
     "title": "חג חדש",
     "text": [
-      "אם היית יכול להוסיף חג חדש ללוח השנה,",
+      "אם היית יכולה להוסיף חג חדש ללוח השנה,",
       "מה היו חוגגים בו?"
     ],
     "completion": "manual",
@@ -105,7 +104,6 @@
     "variants": [],
     "minAge": 4
   },
-  
   {
     "id": "curious-personal-guardian",
     "category": "curious",
@@ -173,8 +171,8 @@
     "theme": "choice",
     "title": "יכולת חדשה",
     "text": [
-      "אם היית יכול ללמוד כל דבר בעולם,",
-      "במה היית בוחר?"
+      "אם היית יכולה ללמוד כל דבר בעולם,",
+      "במה היית בוחרת?"
     ],
     "completion": "manual",
     "illustrationId": "new-skill",
@@ -203,8 +201,8 @@
     "theme": "future",
     "title": "חלון לעתיד",
     "text": [
-      "אם היית יכול לראות יום אחד בלבד מהעתיד שלך,",
-      "באיזה יום היית בוחר?"
+      "אם היית יכולה לראות יום אחד בלבד מהעתיד שלך,",
+      "באיזה יום היית בוחרת?"
     ],
     "completion": "manual",
     "illustrationId": "future-window",
@@ -219,7 +217,7 @@
     "title": "ארץ חדשה",
     "text": [
       "אם היית מגלה ארץ חדשה,",
-      "איך היית קורא לה?"
+      "איך היית קוראת לה?"
     ],
     "completion": "manual",
     "illustrationId": "new-land",
@@ -248,7 +246,7 @@
     "theme": "future",
     "title": "מכונת הזמן",
     "text": [
-      "לאיזו תקופה היית נוסע ליום אחד?"
+      "לאיזו תקופה היית נוסעת ליום אחד?"
     ],
     "completion": "manual",
     "illustrationId": "time-machine",

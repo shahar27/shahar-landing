@@ -6,7 +6,7 @@
     "theme": "identity",
     "title": "הכי אני",
     "text": [
-      " מתי אתה הכי מצליח לשכוח מכל מה ומי שסביבך ופשוט נהנה"
+      " מתי את הכי מצליחה לשכוח מכל מה ומי שסביבך ופשוט נהנית"
     ],
     "completion": "manual",
     "illustrationId": "most-me",
@@ -20,7 +20,7 @@
     "theme": "confidence",
     "title": "רגע של גאווה",
     "text": [
-      "על איזה רגע מהזמן האחרון אתה הכי גאה?"
+      "על איזה רגע מהזמן האחרון את הכי גאה?"
     ],
     "completion": "manual",
     "illustrationId": "proud-moment",
@@ -48,7 +48,7 @@
     "theme": "safety",
     "title": "מקום בטוח",
     "text": [
-      "איפה אתה מרגיש הכי רגוע בעולם?"
+      "איפה את מרגישה הכי רגועה בעולם?"
     ],
     "completion": "manual",
     "illustrationId": "safe-place",
