@@ -236,10 +236,10 @@ export const screenIllustrations: Record<
     background: "dusty-blue-paper",
     elements: [
       {
-        folder: "objects",
-        name: "magnifying-glass",
+        folder: "characters",
+        name: "child-explains-family-listens",
         className:
-          "absolute -bottom-3 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
+          "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
       },
       {
         folder: "decorations",
@@ -260,10 +260,10 @@ export const screenIllustrations: Record<
     background: "sage-paper",
     elements: [
       {
-        folder: "objects",
-        name: "map",
+        folder: "characters",
+        name: "parent-child",
         className:
-          "absolute -bottom-3 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
+          "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
       },
       {
         folder: "decorations",

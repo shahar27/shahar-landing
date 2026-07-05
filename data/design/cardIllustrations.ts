@@ -83,9 +83,9 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "human-maze": [
     {
       folder: "objects",
-      name: "bridge",
+      name: "family-dancing-nature",
       className:
-        "absolute -bottom-4 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
     {
       folder: "icons",
@@ -105,7 +105,7 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "invisible-ball": [
     {
       folder: "objects",
-      name: "balloon",
+      name: "ball",
       className:
         "absolute -bottom-2 left-1/2 h-44 w-44 -translate-x-1/2 object-contain",
     },
@@ -132,10 +132,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "new-walk": [
     {
-      folder: "nature",
-      name: "grass",
+      folder: "characters",
+      name: "family-funny-faces",
       className:
-        "absolute -bottom-4 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
     {
       folder: "icons",
@@ -147,7 +147,7 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "contagious-face": [
     {
       folder: "characters",
-      name: "family-laugh",
+      name: "family-funny-faces",
       className:
         "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
@@ -192,10 +192,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "aliens": [
     {
-      folder: "icons",
-      name: "magic",
+      folder: "characters",
+      name: "family-alien-doll-play",
       className:
-        "absolute bottom-2 left-1/2 h-40 w-40 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
     {
       folder: "decorations",
@@ -207,7 +207,7 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "mirror": [
     {
       folder: "characters",
-      name: "parent-child",
+      name: "family-dancing-nature",
       className:
         "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
@@ -228,10 +228,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "family-statue": [
     {
-      folder: "nature",
-      name: "tree",
+      folder: "characters",
+      name: "family-funny-faces",
       className:
-        "absolute -bottom-5 left-1/2 h-56 w-56 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
     {
       folder: "icons",
@@ -381,27 +381,27 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "magical-day": [
     {
-      folder: "icons",
-      name: "magic",
+      folder: "objects",
+      name: "holiday-symbol",
       className:
-        "absolute bottom-2 left-1/2 h-40 w-40 -translate-x-1/2 object-contain",
+        "absolute -bottom-3 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
     },
   ],
 
   "most-me": [
     {
-      folder: "icons",
-      name: "heart",
+      folder: "characters",
+      name: "family-talk",
       className:
-        "absolute bottom-2 left-1/2 h-40 w-40 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "proud-moment": [
     {
-      folder: "icons",
-      name: "star-fill",
+      folder: "characters",
+      name: "proud-children-family",
       className:
-        "absolute bottom-4 left-1/2 h-36 w-36 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "heart-chooses": [
@@ -470,10 +470,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "hidden-talent": [
     {
-      folder: "icons",
-      name: "sparkle",
+      folder: "characters",
+      name: "child-talent-family-clap",
       className:
-        "absolute bottom-3 left-1/2 h-36 w-36 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "i-would-like": [
@@ -486,10 +486,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "brave-moment": [
     {
-      folder: "icons",
-      name: "movement",
+      folder: "characters",
+      name: "child-family-attention",
       className:
-        "absolute bottom-3 left-1/2 h-36 w-36 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "heart-knows": [
@@ -511,18 +511,18 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
 
   "moment-for-you": [
     {
-      folder: "icons",
-      name: "heart",
+      folder: "characters",
+      name: "child-explains-family-listens",
       className:
-        "absolute bottom-2 left-1/2 h-40 w-40 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "i-notice": [
     {
-      folder: "icons",
-      name: "guess",
+      folder: "characters",
+      name: "proud-children-family",
       className:
-        "absolute bottom-3 left-1/2 h-36 w-36 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "because-of-you": [
@@ -551,10 +551,10 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "see-you": [
     {
-      folder: "icons",
-      name: "heart",
+      folder: "characters",
+      name: "child-family-attention",
       className:
-        "absolute bottom-2 left-1/2 h-40 w-40 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "never-forget": [
@@ -607,18 +607,18 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   ],
   "proud-of-you": [
     {
-      folder: "icons",
-      name: "star-fill",
+      folder: "characters",
+      name: "family-talk",
       className:
-        "absolute bottom-4 left-1/2 h-36 w-36 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "wish-we-would": [
     {
       folder: "characters",
-      name: "family-talk",
+      name: "family-play",
       className:
-        "absolute -bottom-8 left-1/2 h-56 w-56 -translate-x-1/2 object-contain",
+        "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
     },
   ],
   "one-star": [
