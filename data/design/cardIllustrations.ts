@@ -82,7 +82,7 @@ const categoryBaseElements: Record<CardCategory, CardIllustrationElement[]> = {
 export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "human-maze": [
     {
-      folder: "objects",
+      folder: "characters",
       name: "family-dancing-nature",
       className:
         "absolute -bottom-8 left-1/2 h-60 w-60 -translate-x-1/2 object-contain",
@@ -382,7 +382,7 @@ export const cardIllustrations: Record<string, CardIllustrationElement[]> = {
   "magical-day": [
     {
       folder: "objects",
-      name: "holiday-symbol",
+      name: "bridge",
       className:
         "absolute -bottom-3 left-1/2 h-48 w-48 -translate-x-1/2 object-contain",
     },

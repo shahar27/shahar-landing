@@ -10,7 +10,7 @@ export const familyTimeCategories: Record<CardCategory, TogetherCategory> = {
     colorClass: "bg-[#F3DF8F]",
     illustrationFolder: "release",
     introText:
-      "לפני שנכיר אחד את השני קצת יותר, נתחיל ברגע קטן של תנועה, צחוק ושחרור.",
+      "לפני שנכיר אחד את השניה קצת יותר, נתחיל ברגע קטן של תנועה, צחוק ושחרור.",
     hasGuessRule: false,
   },
   curious: {
