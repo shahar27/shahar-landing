@@ -98,8 +98,8 @@ export const screenIllustrations: Record<
     background: "sky-paper",
     elements: [
       {
-        folder: "objects",
-        name: "jar-stars",
+        folder: "decorations",
+        name: "little-stars",
         className:
           "absolute -bottom-2 left-1/2 h-44 w-44 -translate-x-1/2 object-contain",
       },
