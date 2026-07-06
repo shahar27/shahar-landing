@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { IllustrationComposer } from "@/components/illustrations/IllustrationComposer";
 import { PrimaryButton } from "../PrimaryButton";
 import { ExperienceEyebrow } from "../typography/ExperienceEyebrow";
@@ -6,18 +8,24 @@ import { ExperienceTitle } from "../typography/ExperienceTitle";
 const starIdeas = [
   {
     title: "שמיים על דף",
-    
+    image: "stars-on-page.webp",
     text: "הכינו שמיים חשוכים מכל חומר יצירה שמתחשק לכם ושאפשר להדביק עליו כוכבים זוהרים בחושך (שווה לרכוש, במידה ואין). בכל קלף שהשלמתם, הדביקו על הבריסטול כוכב זוהר, כשהוא מתמלא אפשר למסגר ולתלות בחדר הילדים.",
   },
   {
     title: "צנצנת כוכבים",
+    image: "jar-stars.webp",
     text: "גזרו כוכבים קטנים והכניסו כוכב בכל משימה שסיימתם, לתוך צנצנת שקישטתם. כשהצנצנת מתמלאת בכוכבים, צאו יחד לרכוש עציץ חדש לבית, הילדים אחראיים לטפל בו יחד אתכם.",
   },
   {
     title: "כוכבים מהבית",
+    image: "popsicle-house.webp",
     text: "עבור כל משימה שהצלחתם, הכניסו מקל ארטיק מקושט במדבקות כוכבים, לתוך קופסא שקישטתם יחד. בסוף המשחק, תבנו בית מהמקלות שצברתם",
   },
 ];
+
+function objectSrc(fileName: string) {
+  return `/illustrations/family-time/objects/${fileName}`;
+}
 
 type StarsIntroSceneProps = {
   onContinue: () => void;
@@ -33,13 +41,13 @@ export function StarsIntroScene({ onContinue }: StarsIntroSceneProps) {
       <ExperienceTitle>אוספים כוכבים של יחד</ExperienceTitle>
 
       <div className="mx-auto mb-6 max-w-xl rounded-[1.8rem] border border-[#DCCDB8]/80 bg-white/45 px-6 py-6 text-right text-lg leading-8 text-[#6F6252] shadow-sm">
-
         <p className="mb-3">
           הכוכבים הם לא ניקוד של ניצחון. הם דרך לראות כמה רגעים של יחד אספתם.
         </p>
 
         <p>
-          אם תרצו, אפשר להפוך את זה גם ליצירה פיזית בבית, כך שהמשחק לא יישאר רק על המסך אלא יהפוך למזכרת משפחתית. למטה כתובים רעיונות ליצירות שכאלו.
+          אם תרצו, אפשר להפוך את זה גם ליצירה פיזית בבית, כך שהמשחק לא יישאר רק
+          על המסך אלא יהפוך למזכרת משפחתית. למטה כתובים רעיונות ליצירות שכאלו.
         </p>
       </div>
 
@@ -49,17 +57,21 @@ export function StarsIntroScene({ onContinue }: StarsIntroSceneProps) {
             key={idea.title}
             className="rounded-[1.5rem] border border-[#DCCDB8] bg-[#FFF9EF]/70 px-4 py-5 text-right shadow-sm"
           >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#F3DF8F]/45 text-2xl text-[#A78C64]">
-              ☆
+            <div className="mb-3 flex h-20 w-full items-center justify-center rounded-[1.2rem] bg-[#F6EBD7]/55">
+              <Image
+                src={objectSrc(idea.image)}
+                alt=""
+                width={120}
+                height={120}
+                className="h-16 w-16 object-contain"
+              />
             </div>
 
             <h3 className="mb-2 text-lg font-light text-[#3F3428]">
               {idea.title}
             </h3>
 
-            <p className="text-sm leading-6 text-[#6F6252]">
-              {idea.text}
-            </p>
+            <p className="text-sm leading-6 text-[#6F6252]">{idea.text}</p>
           </div>
         ))}
       </div>
