@@ -57,7 +57,7 @@ export function StarsIntroScene({ onContinue }: StarsIntroSceneProps) {
             key={idea.title}
             className="rounded-[1.5rem] border border-[#DCCDB8] bg-[#FFF9EF]/70 px-4 py-5 text-right shadow-sm"
           >
-            <div className="mb-4 flex flex-row-reverse items-center justify-between gap-4">
+            <div className="mb-4 flex items-center justify-between gap-4">
               <h3 className="text-lg font-light text-[#3F3428]">
                 {idea.title}
               </h3>
