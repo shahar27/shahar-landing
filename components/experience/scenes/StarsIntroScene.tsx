@@ -53,29 +53,31 @@ export function StarsIntroScene({ onContinue }: StarsIntroSceneProps) {
         </p>
       </div>
 
-      <div className="mx-auto mb-8 grid max-w-xl gap-3 md:grid-cols-3">
+      <div className="mx-auto mb-8 grid max-w-xl gap-4 md:grid-cols-3">
         {starIdeas.map((idea) => (
           <div
             key={idea.title}
-            className="rounded-[1.5rem] border border-[#DCCDB8] bg-[#FFF9EF]/70 px-4 py-5 text-right shadow-sm"
+            className="overflow-hidden rounded-[1.8rem] border border-[#DCCDB8]/80 bg-[#FFF9EF]/75 text-right shadow-[0_10px_28px_rgba(76,61,46,0.08)]"
           >
-            <div className="mb-4 flex items-center justify-between gap-4">
-              <h3 className="text-lg font-light text-[#3F3428]">
+            <div className="flex justify-center bg-[#F8EEDC]/45 px-4 pt-5 pb-3">
+              <Image
+                src={objectSrc(idea.image)}
+                alt=""
+                width={150}
+                height={150}
+                className="h-24 w-24 object-contain opacity-95"
+              />
+            </div>
+
+            <div className="px-4 pb-5 pt-2">
+              <h3 className="mb-3 text-center text-lg font-light text-[#3F3428]">
                 {idea.title}
               </h3>
 
-              <div className="flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-[1.2rem] bg-[#F8EEDC]/70 shadow-[inset_0_1px_8px_rgba(76,61,46,0.05),0_6px_16px_rgba(76,61,46,0.08)]">
-                <Image
-                  src={objectSrc(idea.image)}
-                  alt=""
-                  width={96}
-                  height={96}
-                  className="h-16 w-16 object-contain opacity-95 mix-blend-multiply"
-                />
-              </div>
-              </div>
-
-            <p className="text-sm leading-6 text-[#6F6252]">{idea.text}</p>
+              <p className="text-sm leading-6 text-[#6F6252]">
+                {idea.text}
+              </p>
+            </div>
           </div>
         ))}
       </div>
