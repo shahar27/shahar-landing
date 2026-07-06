@@ -24,7 +24,7 @@ export function WelcomeScene({ onStart }: WelcomeSceneProps) {
           משחק משפחתי שמזמין אתכם להאט, לזוז, לצחוק, להסתקרן ולראות אחד את השני קצת אחרת.
         </p>
 
-        <p>מומלץ לשחק בלי טלפונים, למעט המסך איתו אתם משחקים.</p>
+        <p>מומלץ לשחק על טאבלט או טלפון עם מסך גדול ובלי טלפונים, למעט המסך איתו אתם משחקים.</p>
       </div>
 
       <PrimaryButton onClick={onStart}>מתחילים</PrimaryButton>
