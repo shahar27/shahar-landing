@@ -57,19 +57,19 @@ export function StarsIntroScene({ onContinue }: StarsIntroSceneProps) {
             key={idea.title}
             className="rounded-[1.5rem] border border-[#DCCDB8] bg-[#FFF9EF]/70 px-4 py-5 text-right shadow-sm"
           >
-            <div className="mb-3 flex h-20 w-full items-center justify-center rounded-[1.2rem] bg-[#F6EBD7]/55">
+            <div className="mb-4 flex flex-row-reverse items-center justify-between gap-4">
+              <h3 className="text-lg font-light text-[#3F3428]">
+                {idea.title}
+              </h3>
+
               <Image
                 src={objectSrc(idea.image)}
                 alt=""
-                width={120}
-                height={120}
-                className="h-16 w-16 object-contain"
+                width={72}
+                height={72}
+                className="h-16 w-16 flex-shrink-0 object-contain"
               />
             </div>
-
-            <h3 className="mb-2 text-lg font-light text-[#3F3428]">
-              {idea.title}
-            </h3>
 
             <p className="text-sm leading-6 text-[#6F6252]">{idea.text}</p>
           </div>
