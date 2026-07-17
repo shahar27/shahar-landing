@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FormEvent } from "react";
+import React, { SubmitEvent } from "react";
 
 import { motion } from "framer-motion";
 import {
@@ -17,18 +17,13 @@ import {
   Phone,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "972525460444"; // TODO: להחליף למספר שלך בפורמט בינלאומי, בלי + ובלי מקפים
-const PHONE_NUMBER = "052-5460444"; // TODO: להחליף לטלפון שלך
-const EMAIL = "ShaharTakoFisher8@gmail.com"; // TODO: להחליף למייל שלך
-const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr"; // TODO: להחליף לקישור האינסטגרם שלך
-
+const WHATSAPP_NUMBER = "972525460444";
+const PHONE_NUMBER = "052-5460444";
+const EMAIL = "ShaharTakoFisher8@gmail.com";
+const INSTAGRAM = "https://www.instagram.com/shahar_tako_fisher?igsh=cmgzdnozNTN4dTB3&utm_source=qr";
 const LINEN_BACKGROUND = "/illustrations/family-time/backgrounds/soft-linen.webp";
 
 const pageLinks = [
-  {
-    title: "וובינר להורים",
-    href: "/parenting-webinar",
-  },
   {
     title: "ערב מתחת למנגנוני ההגנה",
     href: "/defense-patterns-evening",
@@ -103,7 +98,7 @@ const processSteps = [
 ];
 
 export default function ShaharLandingPage() {
-  const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleContactSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
@@ -115,7 +110,15 @@ export default function ShaharLandingPage() {
       `היי שחר, אשמח לשוחח איתך.\n\nשם: ${name}\nטלפון: ${phone}\nמה חשוב לי שתדעי: ${message}`
     );
 
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`, "_blank");
+    const whatsappWindow = window.open(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
+
+    if (whatsappWindow) {
+      event.currentTarget.reset();
+    }
   };
 
   return (
@@ -273,7 +276,7 @@ export default function ShaharLandingPage() {
             <span className="h-px w-12 bg-[#9C7A4B]/20" />
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
             {pageLinks.map((link) => (
               <a
                 key={link.href}
@@ -340,7 +343,7 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Approach */}
-      <section id="approach" className="px-6 md:px-14 lg:px-24 py-20 md:py-20 md:py-[5.5rem]">
+      <section id="approach" className="px-6 md:px-14 lg:px-24 py-20 md:py-[5.5rem]">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-[#9C7A4B] mb-5 tracking-[0.18em] text-sm md:text-base">
             הגישה שלי
@@ -397,7 +400,7 @@ export default function ShaharLandingPage() {
       </section>
 
       {/* Breathing Moment */}
-      <section className="px-6 md:px-14 lg:px-24 py-20 md:py-20 md:py-[5.5rem]">
+      <section className="px-6 md:px-14 lg:px-24 py-20 md:py-[5.5rem]">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-4 mb-8">
             <span className="h-px w-14 bg-[#9C7A4B]/20" />

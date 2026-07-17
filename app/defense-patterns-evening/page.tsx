@@ -2,7 +2,11 @@ import Link from "next/link";
 
 const EVENT_DATE = "יום חמישי | 17.9.26";
 const EVENT_TIME = "19:00-21:30";
+const WHATSAPP_NUMBER = "972525460444";
 
+function createWhatsAppLink(message: string) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
 function BrainDivider() {
   return (
     <div className="my-10 flex items-center justify-center gap-5">
@@ -26,10 +30,11 @@ export default function DefensePatternsEveningPage() {
     <main dir="rtl" className="min-h-screen bg-[#F8F3E8] text-[#3E3023] overflow-hidden pb-24">
 
         <a
-          href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20לקבל%20פרטים%20ולשמור%20מקום%20לערב%20מתחת%20למנגנוני%20ההגנה"
+          href={createWhatsAppLink( "היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה"
+          )}
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:w-auto z-[9999] rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-3 text-center shadow-xl text-base hover:shadow-2xl transition"
+          className="fixed bottom-4 left-4 right-4 md:left-6 md:right-auto md:bottom-6 md:w-auto z-50 rounded-full bg-[#9C7A4B] text-[#F8F3E8] px-7 py-3 text-center shadow-xl text-base hover:shadow-2xl hover:-translate-y-0.5 transition"
         >
           פרטים נוספים/ שמירת מקום
         </a>
@@ -39,7 +44,7 @@ export default function DefensePatternsEveningPage() {
         <img src="/odem-house-hero.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-45" />
         <div className="absolute inset-0 bg-[#F8F3E8]/55" />
         <div className="absolute w-[650px] h-[650px] rounded-full bg-[#C8A86A]/10 blur-[140px]" />
-        <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/75 px-6 py-14 md:px-12 md:py-18 shadow-2xl backdrop-blur-[2px]">
+        <div className="relative z-10 w-full max-w-4xl rounded-t-[12rem] rounded-b-[2.5rem] border border-[#C8A86A]/30 bg-[#F8F3E8]/75 px-6 py-14 md:px-12 md:py-20 shadow-2xl backdrop-blur-[2px]">
           <img src="/logo-placeholder.png" alt="שחר טקו פישר" className="w-28 md:w-36 mx-auto mb-8" />
 
           <p className="text-[#9C7A4B] tracking-[0.28em] text-sm mb-6">
@@ -132,7 +137,7 @@ export default function DefensePatternsEveningPage() {
           <div className="min-h-[340px] md:min-h-[520px] rounded-t-[12rem] rounded-b-[2.5rem] overflow-hidden border border-[#9C7A4B]/15 shadow-lg">
             <img
               src="/odem-house-detail.jpg"
-              alt=""
+              alt="החלל העתיק והאינטימי של ODEM HOUSE ביפו"
               className="w-full h-full object-cover opacity-90"
             />
           </div>
@@ -152,7 +157,7 @@ export default function DefensePatternsEveningPage() {
       <section className="relative min-h-[620px] flex items-end justify-center text-center overflow-hidden">
         <img
           src="/odem-evening.jpg"
-          alt=""
+          alt="עיצוב חלל האירוח ב־ODEM HOUSE"
           className="absolute inset-0 w-full h-full object-cover"
         />  
 
@@ -256,6 +261,13 @@ export default function DefensePatternsEveningPage() {
           </div>
         </div>
       </section>
+
+      <a
+        href="#included"
+        className="mt-10 inline-flex rounded-full bg-[#9C7A4B] px-8 py-4 text-[#F8F3E8] shadow-md hover:shadow-lg transition"
+      >
+        לצפייה במחירים ולשמירת מקום
+      </a>
 
       {/* Curiosity */}
       <section className="px-6 py-24 bg-white/35">
@@ -462,49 +474,55 @@ export default function DefensePatternsEveningPage() {
             </p>
 
             <p className="text-3xl md:text-4xl font-serif text-[#3E3023]">
-              מחירי מכירה מוקדמת
+              מחירי הרשמה
             </p>
 
             <p className="mt-4 text-sm md:text-base text-[#9C7A4B]/80">
-              מספר המקומות במחיר זה מוגבל
+              מספר המקומות בערב מוגבל
             </p>
 
             <div className="mt-10 max-w-2xl mx-auto grid md:grid-cols-2 gap-5">
               <a
-                href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20להזמין%20כרטיס%20יחיד%20במכירה%20מוקדמת%20לערב%20מתחת%20למנגנוני%20ההגנה"
+                href={createWhatsAppLink( "היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה"
+                )}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block rounded-t-[4rem] rounded-b-[2rem] border border-[#C8A86A]/25 bg-white/40 p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
-                  לרכישת כרטיס יחיד
+                  כרטיס יחיד
                 </p>
 
                 <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
-                  220 ₪
+                  250 ₪
                 </p>
 
                 <p className="mt-4 text-sm text-[#9C7A4B]/80">
-                  במכירה מוקדמת
+                  לאדם אחד
                 </p>
               </a>
 
               <a
-                href="https://wa.me/972525460444?text=היי%20שחר,%20אשמח%20להזמין%20כרטיס%20זוגי%20במכירה%20מוקדמת%20לערב%20מתחת%20למנגנוני%20ההגנה"
+                href={createWhatsAppLink( "היי שחר, אשמח לקבל פרטים ולשמור מקום לערב מתחת למנגנוני ההגנה"
+                )}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block relative rounded-t-[4rem] rounded-b-[2rem] border-2 border-[#C8A86A]/40 bg-[#F8F3E8] p-8 shadow-lg md:scale-[1.02] transition hover:-translate-y-1 hover:shadow-xl"
               >
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#9C7A4B] px-4 py-1.5 text-xs text-[#F8F3E8] shadow-sm whitespace-nowrap">
+                  הבחירה המשתלמת
+                </div>
+
                 <p className="text-[#9C7A4B] tracking-[0.18em] text-sm mb-3">
-                  לרכישת כרטיס זוגי
+                  כרטיס זוגי
                 </p>
 
                 <p className="text-4xl md:text-5xl font-serif text-[#3E3023]">
-                  400 ₪
+                  450 ₪
                 </p>
 
                 <p className="mt-4 text-sm text-[#9C7A4B]/80">
-                  במכירה מוקדמת
+                  225 ₪ לאדם
                 </p>
               </a>
             </div>
@@ -611,7 +629,9 @@ export default function DefensePatternsEveningPage() {
           </p>
 
           <a
-            href="https://wa.me/972525460444?text=היי שחר, אשמח לקבל פרטים לגביי הערב מתחת למנגנוני ההגנה"
+            href={createWhatsAppLink(
+              "היי שחר, אשמח לקבל פרטים לגבי הערב מתחת למנגנוני ההגנה"
+            )}
             className="mt-10 inline-flex rounded-full bg-[#F8F3E8] px-10 py-4 text-[#9C7A4B] shadow-md hover:shadow-lg transition"
           >
             שמירת מקום
