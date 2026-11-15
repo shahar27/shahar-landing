@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const EVENT_DATE = "יום חמישי | 17.9.26";
+const EVENT_DATE = "יום חמישי | 26.11.2026";
 const EVENT_TIME = "19:00-21:30";
 const WHATSAPP_NUMBER = "972525460444";
 
