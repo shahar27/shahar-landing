@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const EVENT_DATE = "יום חמישי | 26.11.2026";
-const EVENT_TIME = "19:00-21:30";
+const EVENT_TIME = "20:00-23:00";
 const WHATSAPP_NUMBER = "972525460444";
 
 function createWhatsAppLink(message: string) {
@@ -73,7 +73,7 @@ export default function DefensePatternsEveningPage() {
             ODEM HOUSE | יפו
           </p>
           <p className="mt-4 text-xs md:text-sm text-[#9C7A4B]/80 tracking-[0.15em] uppercase">
-            שעתיים וחצי • יין ונשנושים • אירוח מפנק
+            שלוש שעות • יין ונשנושים • אירוח מפנק
           </p>
 
 
@@ -448,7 +448,7 @@ export default function DefensePatternsEveningPage() {
 
           <div className="grid md:grid-cols-2 gap-5 text-right">
             {[
-              "ערב בוטיק שאורך כשעתיים וחצי",
+              "ערב בוטיק שאורך כשלוש שעות",
               "מרחב יפואי ייחודי ואינטימי ב־ODEM HOUSE",
               "יין ונשנושים מפנקים וטריים כחלק מהחוויה",
               "תרגילי התבוננות ושאלות שימשיכו ללוות אתכם",
